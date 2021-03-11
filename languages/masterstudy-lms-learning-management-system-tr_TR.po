@@ -1,0 +1,2110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MasterStudy LMS Learning Management System\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-05 07:27+0000\n"
+"PO-Revision-Date: 2018-11-29 05:15+0000\n"
+"Language-Team: Turkish\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Last-Translator: StylemixThemes <timur@stylemix.net>\n"
+"Language: tr_TR\n"
+"X-Loco-Version: 2.2.0; wp-4.9.8"
+
+#: post_type/posts.php:154 post_type/posts.php:159
+#, php-format
+msgctxt " name"
+msgid "%s"
+msgstr "%s"
+
+#: lms/classes/instructors.php:205 lms/classes/instructors.php:250
+#, php-format
+msgctxt "\"1 Review\" or \"2 Reviews\""
+msgid "%s %s"
+msgstr "%s %s"
+
+#: lms/helpers.php:34
+#, php-format
+msgid "%s ago"
+msgstr "%s önce"
+
+#: lms/classes/user.php:142
+#, php-format
+msgid "%s field is required"
+msgstr "%s alanı gerekli"
+
+#: stm-lms-templates/courses/parts/meta.php:24
+#, php-format
+msgid "%s Lectures"
+msgstr "%s Dersler"
+
+#: stm-lms-templates/course/parts/tabs/curriculum.php:36
+#, php-format
+msgid "%s question"
+msgid_plural "%s questions"
+msgstr[0] "%s soru"
+msgstr[1] "%s soru"
+
+#: stm-lms-templates/course/parts/tabs/reviews.php:41
+#, php-format
+msgid "%s Ratings"
+msgstr "%s Yorumlar"
+
+#: lms/classes/comments.php:61 lms/classes/comments.php:126
+#, php-format
+msgid "%s reply"
+msgid_plural "%s replies"
+msgstr[0] "%s yanıt"
+msgstr[1] "%s yanıt"
+
+#: stm-lms-templates/course/parts/panel_info/rate.php:22
+#, php-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] "%s yorum"
+msgstr[1] "%s yorum"
+
+#: stm-lms-templates/course/parts/info.php:15
+#, php-format
+msgid "%s student"
+msgid_plural "%s students"
+msgstr[0] "%s öğrenci"
+msgstr[1] "%s öğrenci"
+
+#: lms/classes/user.php:293
+#, php-format
+msgid "%s%% Complete"
+msgstr "%s%% Tamamlama"
+
+#: lms/classes/lesson.php:95 lms/classes/lesson.php:98
+#, php-format
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#: lms/classes/cart.php:143
+#, php-format
+msgid "%s. Order key: %s"
+msgstr "%s. Sipariş anahtarı: %s"
+
+#: stm-lms-templates/global/buy-button.php:100
+#: stm-lms-templates/global/buy-button.php:109
+msgid "- Or -"
+msgstr "- Ya da-"
+
+#: post_type/metaboxes/metabox.php:194
+msgid "Accessibility"
+msgstr "Erişilebilirlik"
+
+#: stm-lms-templates/global/account-dropdown.php:25
+msgid "Account"
+msgstr "Hesap"
+
+#: lms/classes/cart.php:189
+msgid "Account Number"
+msgstr "Hesap Numarası"
+
+#: post_type/metaboxes/components_js/payments.php:29
+msgid "Account number"
+msgstr "Hesap numarası"
+
+#: post_type/metaboxes/components/image.php:8
+msgid "Add Certificate Image"
+msgstr "Sertifika Görseli Ekle"
+
+#: stm-lms-templates/lesson/comments.php:119
+msgid "Add Comment"
+msgstr "Yorum Ekle"
+
+#: post_type/metaboxes/components/stm-curriculum.php:32
+msgid "Add course data"
+msgstr "Kurs verisi ekle"
+
+#: post_type/taxonomy_meta/fields/image.php:11
+msgid "Add image"
+msgstr "Görsel ekleyin"
+
+#: post_type/metaboxes/components/multimedia.php:24
+msgid "Add media"
+msgstr "Medya ekle"
+
+#: post_type/posts.php:155
+#, php-format
+msgid "Add New %s"
+msgstr "Yeni %s Ekle"
+
+#: stm-lms-templates/account/private/instructor_parts/courses.php:18
+msgid "Add New course"
+msgstr "Yeni kurs ekle"
+
+#: post_type/taxonomies.php:38
+msgid "Add New Course category"
+msgstr "Yeni Kurs kategorisi ekle"
+
+#: post_type/metaboxes/components/faq.php:9
+msgid "Add new FAQ item"
+msgstr "Yeni SSS ekle"
+
+#: post_type/metaboxes/components/questions.php:87
+msgid "Add new question"
+msgstr "Yeni soru ekle"
+
+#: stm-lms-templates/course/parts/add_review.php:26
+msgid "Add review"
+msgstr "Yorum ekle"
+
+#: lms/classes/user.php:409 stm-lms-templates/global/wish-list.php:15
+#: stm-lms-templates/global/wish-list.php:25
+msgid "Add to Wishlist"
+msgstr "Favorilere Ekle"
+
+#: stm-lms-templates/account/private/edit_account/socials.php:6
+msgid ""
+"Add your social profiles links, they will be shown on your public profile."
+msgstr "Sosyal medya hesaplarınızı ekleyin, bunlar profilinizde gösterilecek."
+
+#: post_type/metaboxes/metabox.php:115 post_type/metaboxes/metabox.php:146
+#: stm-lms-templates/course/parts/info.php:46
+#: stm-lms-templates/courses/parts/meta.php:11
+msgid "Advanced"
+msgstr "İleri"
+
+#: post_type/taxonomies.php:33
+msgid "All Courses category"
+msgstr "Tüm Kurslar kategorisi"
+
+#: post_type/metaboxes/metabox.php:227 post_type/metaboxes/metabox.php:231
+#: stm-lms-templates/course/parts/tabs.php:9
+msgid "Announcement"
+msgstr "Duyuru"
+
+#: post_type/metaboxes/components/answers.php:15
+#: post_type/metaboxes/components/answers.php:36
+msgid "Answer explanation (Will be shown in \"Show Answers\" section)"
+msgstr "Açıklama ekle ( \"Yanıtı Göster\" bölümünde gösterilecek)"
+
+#: stm-lms-templates/quiz/timer.php:34
+#, php-format
+msgid "answered <strong>%s</strong>/%s"
+msgstr "cevaplandı <strong>%s</strong>/%s"
+
+#: stm-lms-templates/quiz/circle_result.php:25
+msgid "Answered correctly"
+msgstr "Doğru yanıtlandı"
+
+#: post_type/metaboxes/metabox.php:336
+msgid "Answers"
+msgstr "Yanıtlar"
+
+#: post_type/metaboxes/components_js/payments.php:97
+msgid "Australian dollar"
+msgstr "Avusturalya doları"
+
+#: settings/settings.php:281
+msgid "Available shortcodes: Username - {username}; Course name - {course};"
+msgstr ""
+"Kullanılabilir kısa kodlar: Kullanıcı Adı - {kullanıcı adı}; Kurs adı - "
+"{kurs};"
+
+#: post_type/metaboxes/metabox-display.php:55
+msgid "Available soon in <a href=\"#\">Pro Version</a>"
+msgstr "Yakında <a href=\"#\">Pro Version'da</a>"
+
+#: stm-lms-templates/quiz/quiz.php:64
+msgid "Back"
+msgstr "Geri"
+
+#: stm-lms-templates/lesson/header.php:42
+msgid "Back to Dashboard"
+msgstr "Dashboard'a geri dön"
+
+#: stm-lms-templates/lesson/comments.php:110
+msgid "Back to Q&A List"
+msgstr "Soru&Cevao Listesine Dönün"
+
+#: lms/classes/cart.php:191 post_type/metaboxes/components_js/payments.php:37
+msgid "Bank name"
+msgstr "Banka adı"
+
+#: stm-lms-templates/course/parts/tabs/reviews.php:101
+msgid "Be the first to add a review."
+msgstr "İlk yorumu yazan olun."
+
+#: stm-lms-templates/account/enterprise.php:4
+#: stm-lms-templates/account/become_instructor.php:4
+msgid "Become Instructor"
+msgstr "Öğretmen Ol"
+
+#: post_type/metaboxes/metabox.php:113 post_type/metaboxes/metabox.php:144
+#: stm-lms-templates/course/parts/info.php:44
+#: stm-lms-templates/courses/parts/meta.php:9
+msgid "Beginner"
+msgstr "Başlangıç"
+
+#: lms/classes/user.php:496
+#: stm-lms-templates/account/private/edit_account/bio.php:5
+#: stm-lms-templates/account/private/parts/bio.php:13
+msgid "Bio"
+msgstr "Özgeçmiş"
+
+#: post_type/metaboxes/components_js/payments.php:98
+msgid "Brazilian real"
+msgstr "Brezilya reali"
+
+#: post_type/metaboxes/components/multimedia.php:26
+msgid "Bulk upload"
+msgstr "Bulk yükleme"
+
+#: settings/settings.php:172
+msgid "Button"
+msgstr "Buton"
+
+#: stm-lms-templates/account/use_membership.php:28
+msgid "Buy Membership"
+msgstr "Üyelik Satın Al"
+
+#: post_type/metaboxes/components_js/payments.php:99
+msgid "Canadian dollar"
+msgstr "Kanada doları"
+
+#: stm-lms-templates/account/public/parts/messages_btn.php:31
+msgid "Cancel"
+msgstr "İptal"
+
+#: lms/classes/order.php:106
+msgid "Cancelled"
+msgstr "İptal Edildi"
+
+#: stm-lms-templates/checkout/empty-cart.php:2
+#, php-format
+msgid "Cart is empty, <a href=\"%s\">add Courses</a>"
+msgstr "Sepet boş, <a href=\"%s\">Kurs ekleyin</a>"
+
+#: post_type/taxonomy_meta/metaboxes.php:22
+msgid "Category Color"
+msgstr "Kategori Rengi"
+
+#: post_type/taxonomy_meta/metaboxes.php:18
+msgid "Category Icon"
+msgstr "Kategori İkonu"
+
+#: post_type/taxonomy_meta/metaboxes.php:14
+msgid "Category Image"
+msgstr "Kategori Görseli"
+
+#: stm-lms-templates/course/parts/panel_info/categories.php:11
+msgid "Category:"
+msgstr "Kategori:"
+
+#: settings/settings.php:158
+msgid "Center"
+msgstr "Orta"
+
+#: stm-lms-templates/stm-lms-certificates-generator.php:14
+msgid "Certificate"
+msgstr "Sertifika"
+
+#: settings/settings.php:263
+msgid "Certificate Image"
+msgstr "Sertifika Görseli"
+
+#: settings/settings.php:288
+msgid "Certificate Stamp"
+msgstr "Sertifika Pulu"
+
+#: settings/settings.php:280
+msgid "Certificate Text"
+msgstr "Sertifika Metni"
+
+#: settings/settings.php:268
+msgid "Certificate Title"
+msgstr "Sertifika Başlığı"
+
+#: settings/settings.php:274
+msgid "Certificate title color"
+msgstr "Sertifika başlık rengi"
+
+#: settings/settings.php:258
+msgid "Certificates"
+msgstr "Sertifikalar"
+
+#: settings/settings.php:194
+msgid "Certificates Base Url (Default /lms-certificates)"
+msgstr "Sertifika Taban Url ( Varsayılan/ Ims- sertifika)"
+
+#: settings/settings.php:204
+msgid "Chat Url (Default /lms-chats)"
+msgstr "Sohbet Url / (Varsayılan/Ims-sohbetler)"
+
+#: lms/classes/reviews.php:233
+#, php-format
+msgid "Check out new review on course %s by %s"
+msgstr "%s tarafından %s kursundaki yeni yoruma bakın"
+
+#: stm-lms-templates/checkout/items.php:18
+msgid "Checkout"
+msgstr "Ödeme Sayfası"
+
+#: settings/settings.php:214
+msgid "Checkout Url (Default /lms-checkout)"
+msgstr ""
+"Ödeme Url ( Varsayılan/ Ims- ödeme)\n"
+","
+
+#: settings/settings.php:63
+msgid "Choose Page"
+msgstr "Sayfa Seç"
+
+#: post_type/metaboxes/metabox.php:69
+msgid "Choose User"
+msgstr "Kullanıcı Seçin"
+
+#: lms/classes/quiz.php:158
+msgid "Close"
+msgstr "Kapat"
+
+#: stm-lms-templates/lesson/navigation.php:23
+msgid "Complete"
+msgstr "Tamamla"
+
+#: lms/classes/order.php:105 stm-lms-templates/lesson/navigation.php:23
+#: stm-lms-templates/lesson/navigation.php:34
+msgid "Completed"
+msgstr "Tamamlandı"
+
+#: stm-lms-templates/account/register.php:53
+msgid "Confirm password"
+msgstr "Şifrenizi onaylayın"
+
+#: stm-lms-templates/account/private/parts/tabs/my-courses.php:57
+msgid "Continue"
+msgstr "Devam Et"
+
+#: post_type/posts.php:45 stm-lms-templates/checkout/items.php:25
+#: stm-lms-templates/account/private/parts/tabs/my-quizzes.php:10
+msgid "Course"
+msgstr "Kurs"
+
+#: settings/settings.php:156
+msgid "Course Card Info"
+msgstr "Kurs Kart Bilgisi"
+
+#: post_type/taxonomies.php:40
+msgid "Course category"
+msgstr "Kurs kategorisi"
+
+#: post_type/metaboxes/metabox.php:33
+msgid "Course curriculum"
+msgstr "Kurs müfredatı"
+
+#: lms/classes/user.php:335
+msgid "Course Deleted"
+msgstr "Kurs Silindi"
+
+#: post_type/metaboxes/metabox.php:111
+msgid "Course Level"
+msgstr "Kurs Seviyesi"
+
+#: lms/classes/order.php:109
+msgid "Course name"
+msgstr "Kurs adı"
+
+#: lms/classes/order.php:110 stm-lms-templates/checkout/items.php:29
+msgid "Course price"
+msgstr "Kurs fiyatı"
+
+#: post_type/metaboxes/metabox.php:198
+msgid "Course Price (leave blank to make the course free)"
+msgstr "Kurs Fiyatı (kursu ücretsiz yapmak için boş bırakın)"
+
+#: post_type/metaboxes/metabox.php:360
+msgid "Course Reviewed"
+msgstr "Kurs Görüntülendi"
+
+#: stm-lms-templates/lesson/curriculum.php:13
+msgid "Course sections"
+msgstr "Kurs bölümleri"
+
+#: post_type/metaboxes/metabox.php:37
+msgid "Course Settings"
+msgstr "Kurs Ayarları"
+
+#: post_type/metaboxes/metabox.php:106
+msgid "Course Views"
+msgstr "Kurs Görünümü"
+
+#: settings/settings.php:252
+msgid "Course will have Pending status, until you approve it"
+msgstr "Kurs siz onaylayana kadar Beklemede durumunda olacaktır"
+
+#: settings/settings.php:133 post_type/posts.php:46
+#: lms/classes/templates.php:48
+#: stm-lms-templates/account/private/instructor_parts/courses.php:15
+msgid "Courses"
+msgstr "Kurslar"
+
+#: settings/settings.php:165
+msgid "Courses category parent slug"
+msgstr "Kurs kategorileri ebeveyn slug"
+
+#: settings/settings.php:137
+msgid "Courses Page"
+msgstr "Kurslar Sayfası"
+
+#: settings/settings.php:142
+msgid "Courses Page Layout"
+msgstr "Kurslar Sayfa Tasarımı"
+
+#: settings/settings.php:151
+msgid "Courses per page"
+msgstr "Sayfa başına ders sayısı"
+
+#. Description of the plugin
+msgid ""
+"Create brilliant lessons with videos, graphs, images, slides and any other "
+"attachments thanks to flexible and user-friendly lesson management tool "
+"powered by WYSIWYG editor."
+msgstr ""
+"WYSIWYG editörü tarafından desteklenen esnek ve kullanıcı dostu ders yönetim "
+"aracı sayesinde videolar, grafikler, resimler, slaytlar ve diğer eklerle "
+"etkin dersler oluşturun."
+
+#: post_type/metaboxes/components_js/payments.php:61
+msgid "Currency code"
+msgstr "Para birimi kodu"
+
+#: settings/settings.php:111
+msgid "Currency Position"
+msgstr "Para Birimi Pozisyonu"
+
+#: settings/settings.php:106
+msgid "Currency symbol"
+msgstr "Para birimi sembolü"
+
+#: post_type/metaboxes/metabox.php:120
+msgid "Current students"
+msgstr "Mevcut öğrenciler"
+
+#: post_type/metaboxes/metabox.php:91 stm-lms-templates/course/parts/tabs.php:7
+msgid "Curriculum"
+msgstr "Müfredat"
+
+#: post_type/metaboxes/components_js/payments.php:100
+msgid "Czech koruna"
+msgstr "Çek kronu"
+
+#: post_type/metaboxes/components_js/payments.php:101
+msgid "Danish krone"
+msgstr "Danimarka kronu"
+
+#: lms/classes/order.php:98
+msgid "Date"
+msgstr "Tarih"
+
+#: stm-lms-templates/quiz/timer.php:15
+#: post_type/metaboxes/fields/duration.php:26
+msgid "Days"
+msgstr "Günler"
+
+#: stm-lms-templates/account/register.php:62
+#: stm-lms-templates/account/become_instructor.php:10
+msgid "Degree"
+msgstr "Derece"
+
+#: lms/classes/cart.php:193 stm-lms-templates/course/parts/tabs.php:6
+msgid "Description"
+msgstr "Tanım"
+
+#: stm-lms-templates/course/parts/tabs/reviews.php:48
+msgid "Detailed Rating"
+msgstr "Detaylı Puanlar"
+
+#: post_type/metaboxes/components/stm-curriculum.php:16
+#: post_type/metaboxes/components/questions.php:19
+msgid "Do you really want to delete this item?"
+msgstr "Gerçekten bu ürünü silmek istiyor musunuz?"
+
+#: post_type/metaboxes/components/multimedia.php:16
+msgid "Do you really want to delete this media?"
+msgstr "Gerçekten bu medyayı silmek istiyor musunuz?"
+
+#: lms/classes/instructors.php:145
+msgid "Draft"
+msgid_plural "Reviews"
+msgstr[0] "Taslak"
+msgstr[1] "Yorumlar"
+
+#: stm-lms-templates/course/parts/info.php:21
+msgid "Duration"
+msgstr "Süre"
+
+#: post_type/metaboxes/metabox.php:133
+msgid "Duration info"
+msgstr "Süre bilgisi"
+
+#: lms/classes/user.php:124 stm-lms-templates/account/enterprise.php:19
+#: stm-lms-templates/account/register.php:25
+msgid "E-mail"
+msgstr "E-mail"
+
+#: stm-lms-templates/account/private/instructor_parts/courses.php:37
+msgid "Edit"
+msgstr "Düzenle"
+
+#: post_type/posts.php:157
+#, php-format
+msgid "Edit %s"
+msgstr "%s Düzenle"
+
+#: post_type/taxonomies.php:36
+msgid "Edit Course category"
+msgstr "Kurs kategorisini düzenle"
+
+#: stm-lms-templates/account/private/instructor_parts/edit_account.php:18
+#: stm-lms-templates/account/private/parts/edit_account.php:19
+msgid "Edit Profile"
+msgstr "Profili Düzenle"
+
+#: stm-lms-templates/account/private/parts/edit_profile_btn.php:10
+msgid "Edit profile"
+msgstr "Profili düzenle"
+
+#: settings/settings.php:251
+msgid "Enable Course Pre-moderation"
+msgstr "Kurs Moderasyonunu Etkinleştir"
+
+#: settings/settings.php:126
+msgid "Enable WooCommerce Checkout"
+msgstr "WooCommerce Ödeme Sayfasını Etkinleştir"
+
+#: stm-lms-templates/global/buy-button.php:28
+msgid "Enroll course"
+msgstr "Kursa kayıt ol"
+
+#: stm-lms-templates/global/buy-button.php:77
+msgid "Enroll now"
+msgstr ""
+
+#: stm-lms-templates/global/buy-button.php:106
+#: stm-lms-templates/global/buy-button.php:112
+msgid "Enroll with Membership"
+msgstr "Üyelik ile Kayıt Ol"
+
+#: stm-lms-templates/account/use_membership.php:21
+msgid "Enroll with membership"
+msgstr "Üyelikle kayıt olun"
+
+#: stm-lms-templates/course/parts/info.php:14
+msgid "Enrolled"
+msgstr "Kayıtlı"
+
+#: stm-lms-templates/account/become_instructor.php:15
+msgid "Enter degree"
+msgstr "Derece girin"
+
+#: stm-lms-templates/account/become_instructor.php:24
+msgid "Enter Expertise"
+msgstr "Yetkinlik Girin"
+
+#: post_type/metaboxes/components/faq.php:22
+msgid "Enter FAQ answer"
+msgstr "SSS yanıtı ekle"
+
+#: post_type/metaboxes/components/faq.php:21
+msgid "Enter FAQ question"
+msgstr "SSS sorusu ekle"
+
+#: stm-lms-templates/account/login.php:26
+#: stm-lms-templates/account/register.php:19
+msgid "Enter login"
+msgstr "Kullanıcı adı girin"
+
+#: post_type/metaboxes/components/answers.php:68
+msgid "Enter new Answer"
+msgstr "Yeni Yanıt ekle"
+
+#: post_type/metaboxes/components/stm-curriculum.php:57
+msgid "Enter new lesson title"
+msgstr "Yeni ders başlığı gir"
+
+#: post_type/metaboxes/components/stm-curriculum.php:70
+msgid "Enter new quiz title"
+msgstr "Yeni quiz başlığı ekle"
+
+#: post_type/metaboxes/components/stm-curriculum.php:42
+msgid "Enter new section title"
+msgstr "Yeni bölüm başlığı ekle"
+
+#: stm-lms-templates/account/login.php:37
+#: stm-lms-templates/account/register.php:43
+msgid "Enter password"
+msgstr "Şifre girin"
+
+#: post_type/metaboxes/components/questions.php:85
+msgid "Enter question title"
+msgstr "Soru başlığını gir"
+
+#: post_type/metaboxes/fields/duration.php:17
+msgid "Enter quiz duration"
+msgstr "Quiz süresi gir"
+
+#: stm-lms-templates/account/private/edit_account/bio.php:7
+msgid "Enter your BIO"
+msgstr "Özgeçmişinizi girin"
+
+#: stm-lms-templates/lesson/comments.php:64
+#: stm-lms-templates/lesson/comments.php:155
+msgid "Enter your comment"
+msgstr "Yorumlarınızı girin"
+
+#: stm-lms-templates/account/register.php:67
+msgid "Enter Your Degree"
+msgstr "Derecenizi Girin"
+
+#: stm-lms-templates/account/register.php:30
+msgid "Enter your E-mail"
+msgstr "E-mailinizi girin"
+
+#: stm-lms-templates/account/enterprise.php:24
+msgid "Enter Your Email"
+msgstr "Email adresinizi girin"
+
+#: stm-lms-templates/account/register.php:77
+msgid "Enter your Expertize"
+msgstr "Yetkinliğinizi girin"
+
+#: stm-lms-templates/account/private/edit_account/socials.php:21
+msgid "Enter your Facebook URL"
+msgstr "Facebook Profil URL'inizi girin"
+
+#: stm-lms-templates/account/private/edit_account/socials.php:31
+msgid "Enter your Google Plus URL"
+msgstr "Google Plus Profil URL'inizi girin"
+
+#: stm-lms-templates/account/private/edit_account/socials.php:55
+msgid "Enter your Instagram URL"
+msgstr "Instagram URL'inizi girin"
+
+#: stm-lms-templates/account/private/edit_account/name.php:17
+msgid "Enter your last name"
+msgstr "Soyadınızı girin"
+
+#: stm-lms-templates/account/enterprise.php:33
+msgid "Enter Your Message"
+msgstr "Mesajınızı Girin"
+
+#: stm-lms-templates/account/enterprise.php:15
+#: stm-lms-templates/account/private/edit_account/name.php:8
+msgid "Enter your name"
+msgstr "Ad soyad girin"
+
+#: stm-lms-templates/account/private/edit_account/position.php:8
+msgid "Enter your position"
+msgstr "Pozisyonunuzu girin"
+
+#: stm-lms-templates/account/private/edit_account/socials.php:45
+msgid "Enter your Twitter URL"
+msgstr "Twitter URL'inizi girin"
+
+#: lms/classes/user.php:627
+msgid "Enterprise Request"
+msgstr "Girişim Talebi"
+
+#: lms/classes/cart.php:160
+msgid "Error occurred. Please try again."
+msgstr "Bir hata oluştu. Yeniden deneyin."
+
+#: post_type/metaboxes/components_js/payments.php:102
+msgid "Euro"
+msgstr "Euro"
+
+#: stm-lms-templates/account/register.php:72
+#: stm-lms-templates/account/become_instructor.php:19
+msgid "Expertise"
+msgstr "Yetkinlik"
+
+#: lms/classes/user.php:471
+#: stm-lms-templates/account/private/edit_account/socials.php:17
+msgid "Facebook"
+msgstr "Facebook"
+
+#: lms/classes/order.php:102 lms/classes/user.php:334
+msgid "Failed"
+msgstr "Başarısız"
+
+#: post_type/metaboxes/components_js/answers.php:100
+msgid "False"
+msgstr "Yanlış"
+
+#: post_type/metaboxes/metabox.php:236 post_type/metaboxes/metabox.php:240
+#: stm-lms-templates/course/parts/tabs.php:8
+msgid "FAQ"
+msgstr "SSS"
+
+#: stm-lms-templates/global/wishlist-button.php:7
+msgid "Favorites"
+msgstr "Favoriler"
+
+#: lms/widgets/popular.widget.php:65 stm-lms-templates/global/price.php:10
+msgid "Free"
+msgstr "Ücretsiz"
+
+#: settings/settings.php:92
+msgid "General"
+msgstr "Genel"
+
+#: lms/classes/cart.php:46 lms/classes/cart.php:52
+msgid "Go to Cart"
+msgstr "Sepete git"
+
+#: settings/settings.php:229
+msgid "Google API"
+msgstr "Google API"
+
+#: lms/classes/user.php:483
+#: stm-lms-templates/account/private/edit_account/socials.php:27
+msgid "Google Plus"
+msgstr "Google+"
+
+#: settings/settings.php:144
+msgid "Grid"
+msgstr "Tablo Görünümü"
+
+#: stm-lms-templates/global/account-dropdown.php:19
+#, php-format
+msgid "Hey, %s"
+msgstr "Selam, %s"
+
+#: lms/classes/cart.php:190 post_type/metaboxes/components_js/payments.php:33
+msgid "Holder name"
+msgstr "Kart sahibi"
+
+#: post_type/metaboxes/components_js/payments.php:103
+msgid "Hong Kong dollar"
+msgstr "Hong Kong doları"
+
+#: lms/classes/course.php:202 post_type/metaboxes/metabox.php:158
+msgid "Hot"
+msgstr "Sıcak"
+
+#: stm-lms-templates/quiz/timer.php:16
+#: post_type/metaboxes/fields/duration.php:25
+msgid "Hours"
+msgstr "Saatler"
+
+#. URI of the plugin
+msgid "http://masterstudy.stylemixthemes.com/lms-plugin/"
+msgstr "http://masterstudy.stylemixthemes.com/lms-plugin/"
+
+#. Author URI of the plugin
+msgid "https://stylemixthemes.com/"
+msgstr "http://stylemixthemes.com/"
+
+#: post_type/metaboxes/components_js/payments.php:104
+msgid "Hungarian forint 1"
+msgstr "Macar lirası 1"
+
+#: post_type/metaboxes/components_js/payments.php:105
+msgid "Indian rupee"
+msgstr "Hint rupisi"
+
+#: settings/settings.php:173
+msgid "Infinite Scrolling"
+msgstr "Sonsuz Kaydırma"
+
+#: lms/classes/user.php:479
+#: stm-lms-templates/account/private/edit_account/socials.php:51
+msgid "Instagram"
+msgstr "Instagram"
+
+#: lms/helpers.php:70
+msgid "Instructor"
+msgstr "Öğretmen"
+
+#: settings/settings.php:242 lms/classes/templates.php:80
+msgid "Instructors"
+msgstr "Öğretmenler"
+
+#: settings/settings.php:246
+msgid "Instructors Archive Page"
+msgstr "Öğretmen Arşiv Sayfası"
+
+#: post_type/metaboxes/metabox.php:114
+#: stm-lms-templates/course/parts/info.php:45
+#: stm-lms-templates/courses/parts/meta.php:10
+msgid "Intermediate"
+msgstr "Orta"
+
+#: post_type/metaboxes/components_js/payments.php:106
+msgid "Israeli new shekel"
+msgstr "İsrail yeni shekeli"
+
+#: post_type/metaboxes/components_js/payments.php:107
+msgid "Japanese yen 1"
+msgstr "Japon yeni 1"
+
+#: lms/helpers.php:34
+msgid "just now"
+msgstr "sadece şimdi"
+
+#: lms/classes/lesson.php:94
+#, php-format
+msgid "Lecture %s"
+msgstr "Ders %s"
+
+#: stm-lms-templates/course/parts/info.php:29
+msgid "Lectures"
+msgstr "Dersler"
+
+#: settings/settings.php:114
+msgid "Left"
+msgstr "Sol"
+
+#: post_type/posts.php:70
+msgid "Lesson"
+msgstr "Ders"
+
+#: post_type/metaboxes/metabox.php:261
+msgid "Lesson duration"
+msgstr "Ders süresi"
+
+#: post_type/metaboxes/metabox.php:269
+msgid "Lesson Frontend description"
+msgstr "Ders Ön Yüz tanımı"
+
+#: post_type/metaboxes/metabox.php:265
+msgid "Lesson preview"
+msgstr "Ders önizleme"
+
+#: post_type/metaboxes/metabox.php:41 post_type/metaboxes/metabox.php:247
+msgid "Lesson Settings"
+msgstr "Ders Ayarları"
+
+#: post_type/metaboxes/metabox.php:251
+msgid "Lesson type"
+msgstr "Ders türü"
+
+#: post_type/posts.php:71
+msgid "Lessons"
+msgstr "Dersler"
+
+#: stm-lms-templates/course/parts/info.php:48
+msgid "Level"
+msgstr "Seviye"
+
+#: post_type/metaboxes/components_js/payments.php:125
+msgid "Live"
+msgstr "Canlı"
+
+#: settings/view/main.php:9
+msgid "LMS Settings"
+msgstr "LMS Ayarları"
+
+#: stm-lms-templates/lesson/comments.php:102
+msgid "Load More"
+msgstr "Daha Fazla Yükle"
+
+#: stm-lms-templates/courses/load_more.php:9
+#: stm-lms-templates/account/private/instructor_parts/courses.php:96
+msgid "Load more"
+msgstr "Daha fazla yükle"
+
+#: settings/settings.php:170
+msgid "Load More Type"
+msgstr "Daha Fazla Tür Yükle"
+
+#: lms/classes/user.php:120 stm-lms-templates/account/login.php:13
+#: stm-lms-templates/account/login.php:20
+#: stm-lms-templates/account/login.php:71
+#: stm-lms-templates/account/register.php:14
+msgid "Login"
+msgstr "Giriş"
+
+#: settings/settings.php:199
+msgid "Login Url (Default /lms-login)"
+msgstr "Giriş Url / varsayılan/ lms- giriş)"
+
+#: stm-lms-templates/global/account-dropdown.php:26
+msgid "Logout"
+msgstr "Çıkış"
+
+#: stm-lms-templates/account/login.php:63
+#: stm-lms-templates/account/login.php:64
+msgid "Lost Password"
+msgstr "Kayıp Şifre"
+
+#: settings/settings.php:96
+msgid "Main color"
+msgstr "Ana renk"
+
+#: post_type/metaboxes/components_js/payments.php:108
+msgid "Malaysian ringgit 2\t"
+msgstr "Malezya lirası 2 \t"
+
+#. Name of the plugin
+msgid "MasterStudy LMS Learning Management System"
+msgstr "MasterStudy LMS Öğrenme Yönetimi Sistemi"
+
+#: post_type/metaboxes/components/multimedia.php:7
+msgid "Media URL"
+msgstr "Medya URL"
+
+#: post_type/metaboxes/metabox.php:145
+msgid "Medium"
+msgstr "Medium"
+
+#: stm-lms-templates/account/use_membership.php:13
+#, php-format
+msgid "Membership quotas left: <strong>%s</strong>"
+msgstr "Üyelik kotası kaldı: <strong>%s</strong>"
+
+#: stm-lms-templates/account/enterprise.php:28
+#: stm-lms-templates/account/public/parts/messages_btn.php:20
+msgid "Message"
+msgstr "Mesaj"
+
+#: lms/classes/chat.php:38
+msgid "Message Sent"
+msgstr "Mesaj gönderildi"
+
+#: lms/classes/user.php:610
+msgid "Message sent."
+msgstr "Mesaj gönderildi."
+
+#: post_type/metaboxes/components_js/payments.php:109
+msgid "Mexican peso"
+msgstr "Meksika pesosu"
+
+#: post_type/metaboxes/fields/duration.php:24
+msgid "Minutes"
+msgstr "Dakikalar"
+
+#: post_type/metaboxes/metabox.php:329
+#: post_type/metaboxes/components/questions.php:40
+msgid "Multi choice"
+msgstr "Çoktan seçmeli"
+
+#: stm-lms-templates/account/private/parts/certificates.php:21
+msgid "My Certificates"
+msgstr "Sertifikalarım"
+
+#: stm-lms-templates/account/private/parts/tabs.php:10
+msgid "My Courses"
+msgstr "Kurslarım"
+
+#: stm-lms-templates/account/private/parts/tabs.php:15
+msgid "My Memberships"
+msgstr "Üyeliğim"
+
+#: stm-lms-templates/account/private/chat/main.php:12
+#: stm-lms-templates/account/private/parts/messages_btn.php:13
+msgid "My messages"
+msgstr "Mesajlarım"
+
+#: stm-lms-templates/account/private/parts/tabs.php:12
+msgid "My Orders"
+msgstr "Siparişlerim"
+
+#: stm-lms-templates/account/private/parts/tabs/my-orders.php:10
+msgid "My orders"
+msgstr "Siparişlerim"
+
+#: stm-lms-templates/lesson/comments.php:20
+msgid "My Question"
+msgstr "Sorularım"
+
+#: stm-lms-templates/account/private/parts/tabs.php:11
+msgid "My Quizzes"
+msgstr "Quizlerim"
+
+#: stm-lms-templates/account/private/parts/tabs/my-quizzes.php:5
+msgid "My quizzes"
+msgstr "Quizlerim"
+
+#: stm-lms-templates/account/private/not_logged/wishlist.php:1
+#: stm-lms-templates/account/private/parts/wishlist.php:21
+msgid "My Wishlist"
+msgstr "Favorilerim"
+
+#: lms/classes/instructors.php:264 lms/classes/instructors.php:265
+msgid "N/A"
+msgstr "Uygulanamıyor"
+
+#: lms/classes/user.php:499 lms/classes/user.php:502
+#: stm-lms-templates/account/enterprise.php:10
+#: stm-lms-templates/account/private/edit_account/name.php:5
+msgid "Name"
+msgstr "İsim"
+
+#: lms/classes/user.php:628
+#, php-format
+msgid "Name - %s; Email - %s; Message - %s"
+msgstr "İsim - %s; Email -%s; Mesaj- %s"
+
+#: lms/classes/course.php:203 post_type/metaboxes/metabox.php:159
+msgid "New"
+msgstr "Yeni"
+
+#: post_type/posts.php:156
+#, php-format
+msgid "New %s"
+msgstr "Yeni %s"
+
+#: post_type/taxonomies.php:39
+msgid "New Course category Name"
+msgstr "Yeni kurs kategori Adı"
+
+#: lms/classes/instructors.php:267
+msgid "New Instructor Application"
+msgstr "Yeni Öğretmen Başvurusu"
+
+#: lms/classes/reviews.php:231
+msgid "New Review"
+msgstr "Yeni Yorum"
+
+#: post_type/metaboxes/components_js/payments.php:110
+msgid "New Taiwan dollar 1"
+msgstr "Yeni Tayvan doları 1"
+
+#: post_type/metaboxes/components_js/payments.php:111
+msgid "New Zealand dollar"
+msgstr "Yeni Zelanda doları"
+
+#: post_type/posts.php:163
+#, php-format
+msgid "No %s found in Trash."
+msgstr "%s Çöp Kutusunda bulunamadı."
+
+#: post_type/posts.php:162
+#, php-format
+msgid "No %s found."
+msgstr "%s bulunamadı."
+
+#: stm-lms-templates/course/parts/tabs/announcement.php:9
+msgid "No announcements at this moment."
+msgstr "Şu an duyuru yok."
+
+#: stm-lms-templates/checkout/payment_methods.php:76
+msgid "No available Payment methods"
+msgstr "Mevcut Ödeme yöntemi yok"
+
+#: stm-lms-templates/courses/grid.php:143
+msgid "No courses found."
+msgstr "Kurs bulunamadı."
+
+#: stm-lms-templates/account/private/parts/tabs/my-courses.php:73
+msgid "No courses."
+msgstr "Kurs yok."
+
+#: stm-lms-templates/account/private/chat/contacts.php:30
+msgid "No messages yet."
+msgstr "Henüz mesaj yok."
+
+#: stm-lms-templates/account/private/parts/tabs/my-orders.php:43
+msgid "No orders."
+msgstr "Sipariş yok."
+
+#: stm-lms-templates/account/private/parts/tabs/my-quizzes.php:46
+msgid "No quizzes."
+msgstr "Quiz yok."
+
+#: post_type/metaboxes/metabox.php:143
+msgid "No skill required"
+msgstr "Özel bir yetenek gerektirmiyor"
+
+#: post_type/metaboxes/metabox.php:157
+msgid "No status"
+msgstr "Statü yok"
+
+#: post_type/metaboxes/components_js/payments.php:112
+msgid "Norwegian krone"
+msgstr "Norveç kronu"
+
+#: post_type/metaboxes/metabox.php:222
+msgid "Not included in membership"
+msgstr "Üyeliğe dahil değil"
+
+#: lms/classes/subscriptions.php:102
+msgid "Number of available courses in subscription"
+msgstr "Abone olunabilecek uygun kurs sayısı"
+
+#: lms/classes/cart.php:185
+msgid "Offline Payment"
+msgstr "Çevrimdışı Ödeme"
+
+#: post_type/metaboxes/components_js/payments.php:15
+msgid "Offline payment"
+msgstr "Çevrimdışı ödeme"
+
+#: lms/classes/order.php:103
+msgid "On hold"
+msgstr "Beklemede"
+
+#: post_type/posts.php:137 lms/classes/order.php:228
+#: post_type/metaboxes/metabox.php:384
+msgid "Order"
+msgstr "Sipariş"
+
+#: lms/classes/cart.php:173
+msgid "Order created, redirecting"
+msgstr "Sipariş oluşturuldu, yönlendiriliyor"
+
+#: lms/classes/cart.php:121
+msgid "Order created, redirecting to PayPal"
+msgstr "Sipariş oluşturuldu, PayPal'a yönlendiriliyor"
+
+#: lms/classes/cart.php:156
+msgid "Order created. Payment completed."
+msgstr "Sipariş oluşturuldu. Ödeme tamamlandı."
+
+#: lms/classes/cart.php:152
+msgid "Order created. Payment not completed."
+msgstr "Sipariş oluşturuldu. Ödeme tamamlanamadı."
+
+#: post_type/metaboxes/metabox.php:61
+msgid "Order info"
+msgstr "Sipariş bilgisi"
+
+#: lms/classes/order.php:108
+msgid "Order items"
+msgstr "Sipariş ürünü"
+
+#: lms/classes/order.php:229
+msgid "Order Key"
+msgstr "Sipariş Anahtarı"
+
+#: lms/classes/order.php:97
+msgid "Order key"
+msgstr "Sipariş anahtarı"
+
+#: lms/classes/order.php:230
+msgid "Order Status"
+msgstr "Sipariş Statüsü"
+
+#: post_type/posts.php:138
+msgid "Orders"
+msgstr "Siparişler"
+
+#: stm-lms-templates/course/parts/tabs/reviews.php:37
+#: stm-lms-templates/course/parts/panel_info/rate.php:15
+msgid "out of 5"
+msgstr "5 üzerinden"
+
+#: post_type/posts.php:161
+#, php-format
+msgid "Parent %s:"
+msgstr "%s Eşle:"
+
+#: post_type/taxonomies.php:34
+msgid "Parent Course category"
+msgstr "Ebeveyn Kurs kategorisi"
+
+#: post_type/taxonomies.php:35
+msgid "Parent Course category:"
+msgstr "Ebeveyn Kurs kategorisi:"
+
+#: lms/classes/user.php:334 stm-lms-templates/lesson/navigation.php:17
+msgid "Passed"
+msgstr "Geçti"
+
+#: post_type/metaboxes/metabox.php:311
+msgid "Passing grade (%)"
+msgstr "Geçer not (%)"
+
+#: stm-lms-templates/quiz/results.php:33
+#, php-format
+msgid "Passing grade - %s%%"
+msgstr "Geçer not - %s%%"
+
+#: lms/classes/user.php:128 stm-lms-templates/account/login.php:31
+#: stm-lms-templates/account/register.php:38
+msgid "Password"
+msgstr "Şifre"
+
+#: stm-lms-templates/account/register.php:48
+msgid "Password again"
+msgstr "Tekrar şifre"
+
+#: lms/classes/user.php:132
+msgid "Password confirm"
+msgstr "Şifre onay"
+
+#: lms/classes/user.php:165
+msgid "Passwords do not match"
+msgstr "Şifreler eşleşmiyor"
+
+#: post_type/metaboxes/components_js/payments.php:19
+#: post_type/metaboxes/components_js/payments.php:45
+#: post_type/metaboxes/components_js/payments.php:71
+#: post_type/metaboxes/components_js/payments.php:89
+msgid "Payment method description"
+msgstr "Ödeme yöntemi tanımı"
+
+#: settings/settings.php:220 settings/settings.php:224
+msgid "Payment Methods"
+msgstr "Ödeme Yöntemleri"
+
+#: lms/classes/cart.php:187 post_type/metaboxes/components_js/payments.php:51
+msgid "Paypal"
+msgstr "Paypal"
+
+#: post_type/metaboxes/components_js/payments.php:55
+msgid "PayPal Email"
+msgstr "Paypal Email"
+
+#: post_type/metaboxes/components_js/payments.php:67
+msgid "PayPal mode"
+msgstr "Paypal modu"
+
+#: lms/classes/order.php:100 lms/classes/instructors.php:142
+msgid "Pending"
+msgstr "Bekliyor"
+
+#: post_type/metaboxes/components_js/payments.php:113
+msgid "Philippine peso"
+msgstr "Filipinler pesosu"
+
+#: lms/classes/user.php:148
+#, php-format
+msgid "Please enter valid %s field"
+msgstr "Lütfen geçerli bir %s alanı girin"
+
+#: lms/classes/user.php:621
+msgid "Please fill al fields"
+msgstr "Lütfen tüm alanları doldurun"
+
+#: lms/classes/user.php:598
+msgid "Please fill all fields"
+msgstr "Lütfen tüm alanları doldurun"
+
+#: stm-lms-templates/checkout/not-logged-in.php:2
+#, php-format
+msgid "Please, <a href=\"%s\">log in</a>"
+msgstr "Lütfen, <a href=\"%s\">giriş yapın</a>"
+
+#: stm-lms-templates/course/parts/add_review.php:35
+#, php-format
+msgid "Please, <a href=\"%s\">login</a> to leave a review"
+msgstr "Lütfen <a href=\"%s\">giriş yapıp</a> yorum ekleyin"
+
+#: lms/classes/reviews.php:183
+msgid "Please, check rating"
+msgstr "Lütfen puanı kontrol edin"
+
+#: lms/classes/cart.php:98 lms/classes/cart.php:168
+msgid "Please, select payment method"
+msgstr "Lütfen bir ödeme yöntemi seçin"
+
+#: lms/classes/comments.php:33
+msgid "Please, write a comment."
+msgstr "Lütfen bir yorum girin."
+
+#: lms/classes/reviews.php:191
+msgid "Please, write review."
+msgstr "Lütfen yorum girin."
+
+#: post_type/metaboxes/metabox.php:315
+msgid "Points total cut after re-take (%)"
+msgstr "Tekrardan sonra düşülen toplam puan (%)"
+
+#: post_type/metaboxes/components_js/payments.php:114
+msgid "Polish złoty"
+msgstr "Polonya lirası"
+
+#: lms/classes/user.php:487
+#: stm-lms-templates/account/private/edit_account/position.php:5
+msgid "Position"
+msgstr "Pozisyon"
+
+#: post_type/posts.php:152
+#, php-format
+msgctxt "post type singular name"
+msgid "%s"
+msgstr "%s"
+
+#: post_type/metaboxes/components_js/payments.php:115
+msgid "Pound sterling"
+msgstr "Pound sterling"
+
+#: stm-lms-templates/course/parts/tabs/curriculum.php:83
+msgid "Preview"
+msgstr "Önizleme"
+
+#: stm-lms-templates/courses/parts/course_info.php:73
+msgid "Preview this course"
+msgstr "Kurs önizleme"
+
+#: stm-lms-templates/account/private/parts/tabs/my-orders.php:33
+msgid "Price"
+msgstr "Fiyat"
+
+#: lms/classes/order.php:101
+msgid "Processing"
+msgstr "İşleniyor"
+
+#: post_type/metaboxes/components_js/payments.php:81
+msgid "Publishable key"
+msgstr "Yayınlanabilir anahtar"
+
+#: lms/classes/instructors.php:139
+msgid "Published"
+msgstr "Yayımlandı"
+
+#: stm-lms-templates/checkout/payment.php:19
+msgid "Purchase"
+msgstr "Satın al"
+
+#: post_type/posts.php:110 post_type/metaboxes/components/faq.php:17
+msgid "Question"
+msgstr "Soru"
+
+#: stm-lms-templates/quiz/quiz.php:46
+#, php-format
+msgid "Question %s"
+msgstr "Sorular %s"
+
+#: post_type/metaboxes/metabox.php:345
+msgid "Question result explanation"
+msgstr "Soru sonuç açıklaması"
+
+#: post_type/metaboxes/metabox.php:53 post_type/metaboxes/metabox.php:322
+msgid "Question Settings"
+msgstr "Soru Ayarları"
+
+#: post_type/metaboxes/metabox.php:326
+msgid "Question type"
+msgstr "Soru tipi"
+
+#: post_type/posts.php:111 post_type/metaboxes/metabox.php:280
+#: post_type/metaboxes/metabox.php:284 stm-lms-templates/lesson/comments.php:18
+msgid "Questions"
+msgstr "Sorular"
+
+#: post_type/posts.php:90 stm-lms-templates/course/parts/tabs/curriculum.php:34
+#: stm-lms-templates/account/private/parts/tabs/my-quizzes.php:14
+msgid "Quiz"
+msgstr "Quiz"
+
+#: lms/classes/lesson.php:97
+#, php-format
+msgid "Quiz %s"
+msgstr "Quiz %s"
+
+#: post_type/metaboxes/metabox.php:300
+msgid "Quiz duration"
+msgstr "Quiz süresi"
+
+#: post_type/metaboxes/metabox.php:296
+msgid "Quiz Frontend description"
+msgstr "Quiz Ön Yüz tanımı"
+
+#: post_type/metaboxes/metabox.php:45
+msgid "Quiz Questions"
+msgstr "Quiz Soruları"
+
+#: post_type/metaboxes/metabox.php:49 post_type/metaboxes/metabox.php:292
+msgid "Quiz Settings"
+msgstr "Quiz Ayarları"
+
+#: post_type/posts.php:91
+msgid "Quizzes"
+msgstr "Quizler"
+
+#: stm-lms-templates/course/parts/tabs/reviews.php:34
+#: stm-lms-templates/course/parts/panel_info/rate.php:12
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "5 üzerinden %s oylandı"
+
+#: stm-lms-templates/quiz/results.php:22
+msgid "Re-take Quiz"
+msgstr "Quiz'i tekrar al"
+
+#: settings/settings.php:237
+msgid "Recaptcha Private Key"
+msgstr "Recaptcha Özel Anahtarı"
+
+#: settings/settings.php:233
+msgid "Recaptcha Site Key"
+msgstr "Recaptcha Site Anahtarı"
+
+#: lms/classes/order.php:104
+msgid "Refunded"
+msgstr "İade Edildi"
+
+#: stm-lms-templates/account/register.php:115
+msgid "Register"
+msgstr "Kayıt ol"
+
+#: stm-lms-templates/account/register.php:108
+msgid "Register as Instructor"
+msgstr "Öğretmen olarak Kayıt Ol"
+
+#: lms/classes/user.php:179
+msgid "Registration completed successfully."
+msgstr "Kayıt başarıyla tamamlandı."
+
+#: stm-lms-templates/account/login.php:60
+msgid "Remember me"
+msgstr "Beni hatırla"
+
+#: post_type/metaboxes/components/image.php:11
+msgid "Remove Image"
+msgstr "Görseli Kaldır"
+
+#: post_type/metaboxes/components/image.php:14
+msgid "Replace Image"
+msgstr "Görseli Değiştir"
+
+#: stm-lms-templates/account/private/chat/chat.php:36
+msgid "Reply to"
+msgstr "Yanıtla"
+
+#: stm-lms-templates/quiz/results.php:15
+msgid "Result"
+msgstr "Sonuç"
+
+#: post_type/metaboxes/metabox.php:151
+msgid "Retake Course"
+msgstr "Kursu Tekrar Al"
+
+#: post_type/posts.php:129 lms/classes/instructors.php:204
+#: lms/classes/instructors.php:249
+msgid "Review"
+msgstr "İnceleme"
+
+#: post_type/metaboxes/metabox.php:57 post_type/metaboxes/metabox.php:356
+msgid "Review info"
+msgstr "İnceleme bilgisi"
+
+#: lms/classes/reviews.php:205
+#, php-format
+msgid "Review on %s by %s"
+msgstr "%s tarafından %s yorumu"
+
+#: post_type/posts.php:130 stm-lms-templates/course/parts/tabs.php:10
+msgid "Reviews"
+msgstr "İncelemeler"
+
+#: settings/settings.php:115 settings/settings.php:159
+msgid "Right"
+msgstr "Sağ"
+
+#: settings/settings.php:180
+msgid "Routes"
+msgstr "Rotalar"
+
+#: post_type/metaboxes/components_js/payments.php:116
+msgid "Russian ruble"
+msgstr "Rus rublesi"
+
+#: post_type/metaboxes/metabox.php:203
+msgid "Sale Price"
+msgstr "Satış Fiyatı"
+
+#: post_type/metaboxes/metabox.php:208
+msgid "Sale Price Dates"
+msgstr "Satış Fiyatı Günleri"
+
+#: post_type/metaboxes/components_js/payments.php:124
+msgid "Sandbox"
+msgstr "Sandbox"
+
+#: stm-lms-templates/account/private/instructor_parts/edit_account.php:35
+#: stm-lms-templates/account/private/parts/edit_account.php:34
+msgid "Save changes"
+msgstr "Değişiklikleri kaydet"
+
+#: settings/view/main.php:28
+msgid "Save Settings"
+msgstr "Ayarları Kaydet"
+
+#: post_type/posts.php:160
+#, php-format
+msgid "Search %s"
+msgstr "%s Ara"
+
+#: post_type/taxonomies.php:32
+msgid "Search Courses category"
+msgstr "Kurs kategorilerini ara"
+
+#: post_type/metaboxes/components/stm-curriculum.php:24
+msgid "Search lesson or quiz"
+msgstr "Ders ya da quiz ara"
+
+#: stm-lms-templates/lesson/comments.php:29
+msgid "Search Questions"
+msgstr "Soruları Ara"
+
+#: post_type/metaboxes/components/questions.php:70
+msgid "Search questions"
+msgstr "Soruları ara"
+
+#: settings/settings.php:101
+msgid "Secondary color"
+msgstr "İkinci renk"
+
+#: post_type/metaboxes/components_js/payments.php:85
+msgid "Secret key"
+msgstr "Gizli anahtar"
+
+#: lms/classes/lesson.php:116 lms/classes/lesson.php:124
+#, php-format
+msgid "Section %s"
+msgstr "Bölüm %s"
+
+#: lms/classes/lesson.php:73
+msgid "Section 1"
+msgstr "Bölüm 1"
+
+#: post_type/metaboxes/components_js/payments.php:96
+msgid "Select Currency code"
+msgstr "Para birimi kodu seçin"
+
+#: stm-lms-templates/lesson/comments.php:71
+#: stm-lms-templates/lesson/comments.php:162
+#: stm-lms-templates/account/public/parts/messages_btn.php:27
+msgid "Send"
+msgstr "Gönder"
+
+#: stm-lms-templates/account/become_instructor.php:32
+msgid "Send Application"
+msgstr "Başvuruyu Gönder"
+
+#: stm-lms-templates/account/enterprise.php:41
+msgid "Send Enquiry"
+msgstr "Sorgu Gönder"
+
+#: stm-lms-templates/account/public/parts/messages_btn.php:13
+msgid "Send Message"
+msgstr "Mesaj Gönder"
+
+#: stm-lms-templates/account/private/chat/chat.php:42
+msgid "Send message"
+msgstr "Mesaj gönder"
+
+#: post_type/metaboxes/metabox.php:102
+#: stm-lms-templates/global/settings-button.php:2
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: stm-lms-templates/quiz/results.php:27
+msgid "Show answers"
+msgstr "Yanıtları göster"
+
+#: post_type/metaboxes/metabox.php:307
+msgid "Show correct answer"
+msgstr "Doğru yanıtı göster"
+
+#: stm-lms-templates/course/parts/tabs/reviews.php:96
+#: stm-lms-templates/account/private/parts/tabs/my-orders.php:48
+#: stm-lms-templates/account/private/parts/tabs/my-courses.php:79
+#: stm-lms-templates/account/private/parts/tabs/my-quizzes.php:51
+msgid "Show more"
+msgstr "Daha fazla göster"
+
+#: stm-lms-templates/account/register.php:8
+msgid "Sign Up"
+msgstr "Üye Ol"
+
+#: post_type/metaboxes/components_js/payments.php:117
+msgid "Singapore dollar"
+msgstr "Singapur doları"
+
+#: post_type/metaboxes/metabox.php:328
+#: post_type/metaboxes/components/questions.php:34
+msgid "Single choice"
+msgstr "Tek seçenekli"
+
+#: post_type/metaboxes/metabox.php:141
+msgid "Skill level"
+msgstr "Yetenek seviyesi"
+
+#: post_type/metaboxes/metabox.php:255
+msgid "Slide"
+msgstr "Slayt"
+
+#: stm-lms-templates/course/parts/tabs/curriculum.php:50
+msgid "Slides"
+msgstr "Slaytlar"
+
+#: stm-lms-templates/account/private/edit_account/socials.php:5
+msgid "Socials"
+msgstr "Topluluklar"
+
+#: lms/classes/course.php:204 post_type/metaboxes/metabox.php:160
+msgid "Special"
+msgstr "Özel"
+
+#: stm-lms-templates/course/parts/tabs/reviews.php:53
+#, php-format
+msgid "Stars %s"
+msgstr "Yıldız %s"
+
+#: stm-lms-templates/account/private/parts/tabs/my-courses.php:56
+msgid "Start Course"
+msgstr "Kursa Başla"
+
+#: stm-lms-templates/global/buy-button.php:36
+msgid "Start course"
+msgstr "Kursa başla"
+
+#: stm-lms-templates/quiz/quiz.php:39
+msgid "Start Quiz"
+msgstr "Quiz'i Başlat"
+
+#: lms/classes/user.php:295
+#, php-format
+msgid "Started %s"
+msgstr "Başladı %s"
+
+#: lms/classes/order.php:99 post_type/metaboxes/metabox.php:155
+#: stm-lms-templates/account/private/parts/tabs/my-quizzes.php:18
+msgid "Status"
+msgstr "Statü"
+
+#: post_type/metaboxes/metabox.php:165
+msgid "Status Dates"
+msgstr "Statü Tarihleri"
+
+#: lms/classes/subscriptions.php:98
+msgid "STM LMS Settings"
+msgstr "STM LMS Ayarları"
+
+#: lms/widgets/main.php:19
+msgid "STM LMS Sidebar"
+msgstr "STM LMS Kenar Çubuğu"
+
+#: lms/classes/cart.php:188 post_type/metaboxes/components_js/payments.php:77
+msgid "Stripe"
+msgstr "Stripe"
+
+#. Author of the plugin
+msgid "StylemixThemes"
+msgstr "StylemixThemes"
+
+#: stm-lms-templates/quiz/quiz.php:55
+msgid "Submit Quiz"
+msgstr "Quiz'i Gönder"
+
+#: lms/classes/user.php:95
+msgid "Successfully logged in. Redirecting..."
+msgstr "Başarıyla giriş yapıldı. Yönlendiriliyor..."
+
+#: lms/classes/user.php:563
+msgid "Successfully saved"
+msgstr "Başarıyla kaydedildi"
+
+#: stm-lms-templates/account/private/edit_account/name.php:14
+msgid "Surname"
+msgstr "Soyad"
+
+#: post_type/metaboxes/components_js/payments.php:118
+msgid "Swedish krona"
+msgstr "İsveç kronu"
+
+#: lms/classes/cart.php:192 post_type/metaboxes/components_js/payments.php:41
+msgid "Swift"
+msgstr "Swift"
+
+#: post_type/metaboxes/components_js/payments.php:119
+msgid "Swiss franc"
+msgstr "İsviçre frangı"
+
+#: post_type/taxonomies.php:30
+msgctxt "taxonomy general name"
+msgid "Courses category"
+msgstr "Kursların kategorileri"
+
+#: post_type/taxonomies.php:31
+msgctxt "taxonomy singular name"
+msgid "Course category"
+msgstr "Kurs kategorisi"
+
+#: stm-lms-templates/course/parts/panel_info/teacher.php:13
+msgid "Teacher"
+msgstr "Öğretmen"
+
+#: stm-lms-templates/account/public/instructor_parts/courses.php:16
+msgid "Teacher Courses"
+msgstr "Öğretmen Kursları"
+
+#: post_type/metaboxes/metabox.php:253
+msgid "Text"
+msgstr "Metin"
+
+#: stm-lms-templates/course/parts/tabs/curriculum.php:28
+msgid "Text Lesson"
+msgstr "Metin Dersi"
+
+#: post_type/metaboxes/components_js/payments.php:120
+msgid "Thai baht"
+msgstr "Tay bahtı"
+
+#: lms/classes/Validation.php:2158
+msgid "The {field} can only be one of the following: {param}"
+msgstr "{Alan} sadece şu olabilir: {param}"
+
+#: lms/classes/Validation.php:2168
+msgid ""
+"The {field} field can only have one of the following extensions: {param}"
+msgstr "{Alan} alanı sadece şu açılıma sahip olabilir: {param}"
+
+#: lms/classes/Validation.php:2160
+msgid "The {field} field contains a value that is not accepted"
+msgstr "{Alan} alanı geçerli olmayan bir değer içeriyor"
+
+#: lms/classes/Validation.php:2170
+msgid "The {field} field does not equal {param} field"
+msgstr "{Alan} alanı {param} alanına eşit değil"
+
+#: lms/classes/Validation.php:2150
+msgid "The {field} field has to be a URL"
+msgstr "{Alan} alanı bir URL olmalı"
+
+#: lms/classes/Validation.php:2148
+msgid "The {field} field has to be either true or false"
+msgstr "{Alan} alanı doğru veya yanlış olmalı"
+
+#: lms/classes/Validation.php:2166
+msgid "The {field} field is invalid"
+msgstr "{Alan} alanı geçersiz"
+
+#: lms/classes/Validation.php:2136 lms/classes/Validation.php:2169
+msgid "The {field} field is required"
+msgstr "{Alan} alanı gerekli"
+
+#: lms/classes/Validation.php:2141
+msgid "The {field} field may only contain letters"
+msgstr "{Alanı} alan yalnızca harf içerebilir"
+
+#: lms/classes/Validation.php:2144
+msgid "The {field} field may only contain letters and dashes"
+msgstr "{Alanı} alan yalnızca harf ve çizgi içerebilir"
+
+#: lms/classes/Validation.php:2142
+msgid "The {field} field may only contain letters and numbers"
+msgstr "{Alanı} alan yalnızca harf ve sayı içerebilir"
+
+#: lms/classes/Validation.php:2145
+msgid "The {field} field may only contain letters and spaces"
+msgstr "{Alanı} alan yalnızca harf ve boşluk içerebilir"
+
+#: lms/classes/Validation.php:2143
+msgid "The {field} field may only contain letters, numbers and spaces"
+msgstr "{Alanı} alan yalnızca harf, sayı ve boşluk içerebilir"
+
+#: lms/classes/Validation.php:2146
+msgid "The {field} field must be a number"
+msgstr "{Alan} alanını bir sayı olmalıdır"
+
+#: lms/classes/Validation.php:2149
+msgid "The {field} field must be a number with a decimal point (float)"
+msgstr "{Alan} alanı ondalık basamaklı bir sayı olmalıdır (yüzen)"
+
+#: lms/classes/Validation.php:2147
+msgid "The {field} field must be a number without a decimal"
+msgstr "{Alan} alanı ondalık olmayan bir sayı olmalıdır"
+
+#: lms/classes/Validation.php:2137
+msgid "The {field} field must be a valid email address"
+msgstr "{Alan} alanı geçerli bir email adresi olmalı"
+
+#: lms/classes/Validation.php:2163
+msgid ""
+"The {field} field needs to be a numeric value, equal to, or higher than "
+"{param}"
+msgstr ""
+"{Alanı} alan sayısal bir değer, eşit veya {param} daha yüksek olması gerekir"
+
+#: lms/classes/Validation.php:2164
+msgid ""
+"The {field} field needs to be a numeric value, equal to, or lower than "
+"{param}"
+msgstr ""
+"{Alanı} alan sayısal bir değer, eşit veya {param} daha düşük olması gerekir"
+
+#: lms/classes/Validation.php:2152
+msgid "The {field} field needs to be a valid IP address"
+msgstr "{Alan} alanının geçerli bir IP adresi olması gerekir"
+
+#: lms/classes/Validation.php:2172
+msgid "The {field} field needs to be a valid Phone Number"
+msgstr "{Alan} alanı geçerli bir Telefon Numarası olmalıdır"
+
+#: lms/classes/Validation.php:2161
+msgid "The {field} field needs to be a valid street address"
+msgstr "{Alan} alanı geçerli bir cadde adı olmalıdır"
+
+#: lms/classes/Validation.php:2139
+msgid "The {field} field needs to be at least {param} characters"
+msgstr "{Alan} alanı en azından {param} karakterlerinde olmalıdır"
+
+#: lms/classes/Validation.php:2140
+msgid "The {field} field needs to be exactly {param} characters"
+msgstr ""
+"{Alan} alanlarının, tam olarak {param} karakterlerinden oluşması gerekir"
+
+#: lms/classes/Validation.php:2138
+msgid "The {field} field needs to be {param} characters or less"
+msgstr ""
+"{Alan} alanlarının, {param} karakterleri veya daha düşük değerlerden "
+"oluşması gerekir"
+
+#: lms/classes/Validation.php:2155
+msgid "The {field} field needs to contain a valid GUID"
+msgstr "{Alan} alanının geçerli bir GUID içermesi gerekiyor"
+
+#: lms/classes/Validation.php:2171
+msgid "The {field} field needs to contain a valid IBAN"
+msgstr "{Alan} alanı geçerli bir IBAN olmalıdır"
+
+#: lms/classes/Validation.php:2153
+msgid "The {field} field needs to contain a valid IPv4 address"
+msgstr "{Alan} alanının geçerli bir IPv4 adresi içermesi gerekiyor"
+
+#: lms/classes/Validation.php:2154
+msgid "The {field} field needs to contain a valid IPv6 address"
+msgstr "{Alan} alanının geçerli bir IPv6 adresi içermesi gerekiyor"
+
+#: lms/classes/Validation.php:2174
+msgid "The {field} field needs to contain a valid JSON format string"
+msgstr "{Alanı} alanı için geçerli bir JSON biçim dizesi içeren gerekiyor"
+
+#: lms/classes/Validation.php:2173
+msgid "The {field} field needs to contain a value with valid format"
+msgstr "{Field} alanının geçerli formatlı bir değer içermesi gerekiyor"
+
+#: lms/classes/Validation.php:2165
+msgid "The {field} field needs to have an age greater than or equal to {param}"
+msgstr "{Alan} alanı {param} değerinde veya daha büyük olmalıdır"
+
+#: lms/classes/Validation.php:2167
+msgid "The {field} field needs to start with {param}"
+msgstr "{Alan} alanı {param} ile başlamalıdır"
+
+#: lms/classes/Validation.php:2177
+msgid "The {field} fields needs to be an array with a size equal to {param}"
+msgstr ""
+"{Field} alanlarının, {param} öğesine eşit büyüklükte bir dizi olması gerekir."
+
+#: lms/classes/Validation.php:2175
+msgid ""
+"The {field} fields needs to be an array with a size, equal to, or higher "
+"than {param}"
+msgstr ""
+"{Field} alanlarının, {param} boyutuna eşit veya daha büyük bir dizi olması "
+"gerekir."
+
+#: lms/classes/Validation.php:2176
+msgid ""
+"The {field} fields needs to be an array with a size, equal to, or lower than "
+"{param}"
+msgstr ""
+"{Field} alanlarının, {param} boyutuna eşit veya bu değerden küçük bir dizi "
+"olması gerekir."
+
+#: lms/classes/Validation.php:2156
+msgid "The {field} is not a valid credit card number"
+msgstr "{Alan} alanı geçerli bir kredi kartı değil"
+
+#: lms/classes/Validation.php:2159
+msgid "The {field} is not a valid option"
+msgstr "{Alan} alanı geçerli bir opsiyon değil"
+
+#: lms/classes/Validation.php:2183
+msgid "The {field} is not a valid twitter handle"
+msgstr "{Alan} alanı geçerli bir twitter alanı değildir"
+
+#: lms/classes/Validation.php:2162
+msgid "The {field} must be a valid date"
+msgstr "{Alan} alanı geçerli bir tarih olmalıdır"
+
+#: lms/classes/Validation.php:2157
+msgid "The {field} should be a full name"
+msgstr "{Alan} alanı ad soyad olmalı"
+
+#: lms/classes/Validation.php:2180
+msgid "The {field} should be a valid digit in Persian/Dari or Arabic format"
+msgstr "{Alan} alanı geçerli bir Farsça/ Darice veya Arapça formatı olmalıdır"
+
+#: lms/classes/Validation.php:2179
+msgid ""
+"The {field} should be a valid English, Persian/Dari/Pashtu or Arabic name"
+msgstr ""
+"{Alan} alanı İngilizce, Farsça/ Darice / Peştuca veya Arapça adı olmalıdır"
+
+#: lms/classes/Validation.php:2178
+msgid "The {field} should be a valid Persian/Dari or Arabic name"
+msgstr "{Alan} alanı geçerli bir Farsça/ Darice ve Arapça adı olmalı"
+
+#: lms/classes/Validation.php:2182
+msgid "The {field} should be a valid text in Pashtu format"
+msgstr "{Alan} alanı geçerli metni Peştuca formatında olmalıdır"
+
+#: lms/classes/Validation.php:2181
+msgid "The {field} should be a valid text in Persian/Dari or Arabic format"
+msgstr ""
+"{Alan} alanı geçerli metni Farsça/ Darice veya Arapça formatında olmalıdır"
+
+#: lms/classes/Validation.php:2151
+msgid "The {field} URL does not exist"
+msgstr "{Alan} URL'si mevcut değil"
+
+#: settings/settings.php:121
+msgid "Thousands Separator"
+msgstr "Bin Ayracı"
+
+#: stm-lms-templates/account/public/parts/messages_btn.php:17
+#, php-format
+msgid "To: <span>%s</span>"
+msgstr "Şuna: <span>%s</span>"
+
+#: lms/classes/order.php:111
+msgid "Total"
+msgstr "Toplam"
+
+#: stm-lms-templates/checkout/payment.php:13
+#, php-format
+msgid "Total: %s"
+msgstr "Toplam: %s"
+
+#: post_type/metaboxes/components_js/answers.php:96
+#: post_type/metaboxes/components_js/answers.php:105
+msgid "True"
+msgstr "Doğru"
+
+#: post_type/metaboxes/metabox.php:330
+#: post_type/metaboxes/components/questions.php:46
+msgid "True or False"
+msgstr "Doğru / Yanlış"
+
+#: lms/classes/user.php:475
+#: stm-lms-templates/account/private/edit_account/socials.php:41
+msgid "Twitter"
+msgstr "Twitter"
+
+#: post_type/metaboxes/components_js/payments.php:121
+msgid "United States dollar"
+msgstr "UBD doları"
+
+#: post_type/taxonomies.php:37
+msgid "Update Course category"
+msgstr "Kurs kategorisi güncelle"
+
+#: lms/classes/order.php:107
+msgid "User"
+msgstr "Kullanıcı"
+
+#: lms/classes/instructors.php:271
+#, php-format
+msgid ""
+"User %s with id - %s, wants to become an Instructor. Degree - %s. Expertize -"
+" %s"
+msgstr ""
+"%s ID'li kullanıcılar -%s , öğretmen olmak istiyor. Derece - %s. Yetkinlik -"
+"%s"
+
+#: lms/classes/subscriptions.php:105
+msgid "User can enroll several courses, after subscription"
+msgstr "Abonelikten sonra birçok kursa yazılabilirsiniz"
+
+#: settings/settings.php:184
+msgid "User Private Base Url (Default /lms-user)"
+msgstr "Kullanıcı Özel Taban Url ( Varsayılan / Ims- kullanıcı)"
+
+#: settings/settings.php:189
+msgid "User Public Base Url (Default /lms-user_profile)"
+msgstr "Kullanıcı Genel Taban Url (Varsayılan /Ims-kullanıcı_profili)"
+
+#: post_type/metaboxes/metabox.php:370
+msgid "User Review mark"
+msgstr "Kullanıcı Görüntüleme işareti"
+
+#: post_type/metaboxes/metabox.php:365
+msgid "User Reviewed"
+msgstr "Kullanıcı Görüntülendi"
+
+#: post_type/metaboxes/metabox.php:254
+#: stm-lms-templates/course/parts/info.php:36
+#: stm-lms-templates/course/parts/tabs/curriculum.php:55
+msgid "Video"
+msgstr "Video"
+
+#: post_type/metaboxes/metabox.php:137
+msgid "Video Duration"
+msgstr "Video Süresi"
+
+#: stm-lms-templates/account/private/instructor_parts/courses.php:38
+msgid "View"
+msgstr "Görüntüle"
+
+#: post_type/posts.php:158
+#, php-format
+msgid "View %s"
+msgstr "%s Görüntüle"
+
+#: lms/widgets/main.php:21
+msgid "Widgets in this area will be shown on STM LMS Pages."
+msgstr "Bu alandaki Widgetlar STM LMS Sayfalarında gösteriliyor."
+
+#: post_type/metaboxes/components_js/payments.php:25
+msgid "Wire Transfer"
+msgstr "Wire transferi"
+
+#: lms/classes/cart.php:186
+msgid "Wire transfer"
+msgstr "Wire transferi"
+
+#: stm-lms-templates/global/wishlist-button.php:6
+msgid "Wishlist"
+msgstr "Favoriler"
+
+#: stm-lms-templates/account/private/not_logged/wishlist.php:13
+#, php-format
+msgid "Wishlist is empty. <a href=\"%s\">View courses</a>"
+msgstr "Favoriler boş. <a href=\"%s\">Kursları görüntüleyin</a>"
+
+#: settings/settings.php:209
+msgid "Wishlist Url (Default /lms-wishlist)"
+msgstr "Favoriler Url ( Varsayılan/Ims-favori)"
+
+#: lms/classes/user.php:421 stm-lms-templates/global/wish-list.php:17
+#: stm-lms-templates/global/wish-list.php:22
+msgid "Wishlisted"
+msgstr "Favori"
+
+#: stm-lms-templates/lesson/comments.php:115
+msgid "Write your question here"
+msgstr "Sorunuzu buraya yazın"
+
+#: lms/classes/user.php:92
+msgid "Wrong Username or Password"
+msgstr "Yanlış Kullanıcı Adı veya Parola"
+
+#: lms/classes/reviews.php:175
+msgid "You already left review."
+msgstr "Zaten bir yorum eklediniz."
+
+#: lms/classes/user.php:583
+msgid "Your Application is under submission."
+msgstr "Başvurunuz alınmıştır."
+
+#: lms/classes/comments.php:26
+msgid "Your comment was added."
+msgstr "Yorumunuz eklendi."
+
+#: stm-lms-templates/account/use_membership.php:12
+#, php-format
+msgid "Your current membership is \"%s\""
+msgstr "Mevcut üyeliğiniz \"%s\""
+
+#: stm-lms-templates/account/private/chat/chat.php:37
+msgid "Your message"
+msgstr "Mesajınız"
+
+#: lms/classes/reviews.php:166
+msgid "Your review is moderating."
+msgstr "Yorumunuz inceleniyor."

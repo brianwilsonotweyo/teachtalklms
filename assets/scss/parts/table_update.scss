@@ -1,0 +1,26 @@
+.notice-lms-update-db {
+    padding: 5px 20px 12px;
+
+    span {
+        display: none;
+    }
+
+    a.button-primary {
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 36px;
+        line-height: 36px;
+    }
+
+    &.loading {
+
+        a {
+            display: none;
+        }
+
+        span {
+            display: block;
+        }
+    }
+
+}

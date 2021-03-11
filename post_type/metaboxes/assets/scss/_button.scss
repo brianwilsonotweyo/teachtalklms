@@ -1,0 +1,26 @@
+.stm_metaboxes_grid {
+    .stm_metaboxes_grid__inner {
+        label {
+            color: #23282d;
+            font-weight: 700;
+            font-size: 15px;
+        }
+        .button {
+            padding: 0 40px;
+            background-color: #195ec8 !important;
+            border-color: #195ec8 !important;
+            color: #fff !important;
+            font-size: 15px;
+            text-transform: uppercase;
+            height: 54px;
+            line-height: 49px;
+            border-radius: 60px;
+            transition: .3s ease;
+            span {
+                transition: none;
+            }
+            &:hover {
+            }
+        }
+    }
+}

@@ -1,0 +1,110 @@
+@import "../components/mixins";
+
+.stm_lms_btn_icon {
+    position: relative;
+    [type="button"] {
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 50px;
+        text-align: center;
+        background-color: transparent;
+        border: 0;
+    }
+    .form-control {
+        padding-right: 55px !important;
+    }
+}
+
+.stm-lms-buy-buttons {
+    .or {
+        display: block;
+        margin: 4px 0 6px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+    .btn:not(.start-course) {
+        background-color: #5cbc87 !important;
+        border-radius: 10px;
+        &.btn_big {
+            display: flex;
+            min-height: 60px;
+            margin-bottom: 8px;
+            padding: 20px 25px 19px 25px;
+            font-size: 18px;
+            width: 100%;
+            align-items: center;
+            color: #fff;
+            cursor: pointer;
+            &.loading {
+                min-height: 60px;
+            }
+            span {
+                position: relative;
+                top: 1px;
+                margin-right: 15px;
+            }
+            .btn-prices {
+                display: inline-block;
+                vertical-align: top;
+                margin-left: auto;
+                label {
+                    display: block;
+                    margin: 0;
+                    color: #fff;
+                    font-size: 20px;
+                    font-weight: 700;
+                    cursor: pointer;
+                    &.price {
+                        font-weight: 500;
+                    }
+                    &.sale_price {
+                        margin-bottom: 8px;
+                        opacity: 0.5;
+                        font-size: 15px;
+                        font-weight: 400;
+                        text-decoration: line-through;
+                    }
+                }
+            }
+        }
+        &.btn-outline {
+            width: 100%;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            color: $dark;
+            background-color: #fff !important;
+            border: 2px solid $green !important;
+            font-size: 13px;
+            text-align: center;
+            &:after {
+                background-color: $green !important;
+            }
+        }
+    }
+}
+
+@include breakpoint(tablet) {
+    .stm-lms-buy-buttons {
+        .btn.btn_big {
+            padding: 10px 15px 10px;
+            .btn-prices label.sale_price {
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
+
+@include breakpoint(tabletonly) {
+    .stm-lms-buy-buttons {
+        display: inline-block;
+        .btn.btn_big {
+            width: auto;
+            span {
+                margin-right: 15px;
+            }
+        }
+    }
+}

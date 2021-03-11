@@ -1,0 +1,390 @@
+@import "../components/colors";
+@import "../components/mixins";
+
+.stm_lms_udemy_course {
+    padding-top: 0;
+    padding-bottom: 70px;
+    background-color: #f0f2f5;
+    .container {
+        max-width: 1280px;
+    }
+    .stm_lms_course__content {
+        p {
+            margin-bottom: 20px;
+        }
+    }
+    .stm-curriculum-item__excerpt {
+        p {
+            margin-bottom: 10px;
+        }
+    }
+    .stm_lms_course__image {
+        margin: 0 -23px 48px;
+        img {
+            width: 100%;
+        }
+    }
+    .stm-lms-buy-buttons {
+        .btn.btn_big {
+            text-align: center;
+            justify-content: center;
+            padding: 30px 5%;
+            &.no-price {
+                justify-content: center;
+                span {
+                    margin: 0;
+                }
+            }
+            span {
+                display: inline-block;
+                margin-right: 0;
+                font-size: 16px;
+            }
+        }
+    }
+    .stm_lms_money_back {
+        margin: 25px 0 29px;
+        font-size: 14px;
+        color: #a3a3a3;
+        i {
+            margin-right: 5px;
+        }
+    }
+    .stm_breadcrumbs_unit {
+        margin: 0;
+        padding: 23px 0 22px;
+        background-color: #f0f2f5;
+        .navxtBreads > span {
+            margin: 0 5px;
+            color: #273044;
+            opacity: 0.7;
+            font-size: 14px;
+            text-transform: none;
+            &:first-child {
+                margin-left: 0;
+            }
+            a {
+                color: #273044;
+                font-size: 14px;
+                text-transform: none;
+            }
+        }
+    }
+    .stm_lms_udemy_bar {
+        position: relative;
+        padding: 19px 0 48px;
+        margin: 0 0 35px;
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: -9999px;
+            right: -9999px;
+            background: #273044;
+            z-index: 10;
+        }
+        > * {
+            position: relative;
+            z-index: 100;
+        }
+        .stm_lms_course__title {
+            margin-bottom: 23px;
+            color: #fff;
+            font-size: 38px;
+            line-height: 42px;
+        }
+        .stm_lms_udemy_headline {
+            margin: 0 0 43px;
+            color: #fff;
+            opacity: 0.7;
+            font-size: 24px;
+            line-height: 34px;
+            font-weight: 300;
+        }
+        .single_product_after_title {
+            margin: 0;
+            display: flex;
+            align-items: center;
+            .meta-unit {
+                margin-bottom: 0;
+                margin-right: 50px;
+                &.teacher {
+                    .h6 {
+                        color: #fff;
+                        &.label {
+                            display: block;
+                            margin: 5px 0 10px;
+                            text-align: left;
+                        }
+                        &.value {
+
+                        }
+                    }
+                }
+            }
+            .stm_lms_udemy_caption_languages,
+            .stm_lms_enrolled_num {
+                margin-right: 40px;
+                color: #fff;
+                i {
+                    position: relative;
+                    top: 3px;
+                    margin-right: 9px;
+                    font-size: 22px;
+                }
+                span {
+                    opacity: 0.7;
+                }
+            }
+            .stm_lms_udemy_caption_languages {
+                margin-right: 0;
+                color: #fff;
+            }
+        }
+        .average-rating-stars {
+            display: flex;
+            margin: 15px 0 34px;
+            &__av {
+                margin-right: 15px;
+                color: #fff;
+                font-weight: 600;
+            }
+            &__reviews {
+                color: rgba(255, 255, 255, 0.7);
+            }
+        }
+    }
+    .stm-lms-course__sidebar {
+        position: relative;
+        padding: 20px 35px 15px;
+        margin: 20px 0 0;
+        border-radius: 5px;
+        border: 1px solid #e1e2e4;
+        background: #fff;
+        z-index: 100;
+    }
+    .stm_lms_course_objectives {
+        padding: 46px 40px 50px;
+        margin: 0 0 30px;
+        border: 1px solid #e1e2e4;
+        background-color: #fff;
+        border-radius: 5px;
+        &__inner {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -25px;
+        }
+        &__single {
+            width: 50%;
+            padding: 0 25px;
+            margin: 0 0 35px;
+            font-size: 16px;
+            &_text {
+                position: relative;
+                padding-left: 48px;
+                i {
+                    position: absolute;
+                    left: 0;
+                    top: 4px;
+                    font-size: 27px;
+                }
+            }
+        }
+    }
+    .nav.nav-tabs {
+        margin: 0 0 30px;
+        > li a {
+            border-top: 0 !important;
+        }
+    }
+    .stm_lms_course__tabs {
+        background-color: #fff;
+        .nav-tabs > li a {
+            color: #fff;
+        }
+        .tab-pane {
+            padding: 0 30px 30px;
+        }
+    }
+    .stm_lms_udemy_includes {
+        h4 {
+            margin-bottom: 36px;
+            font-size: 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        .stm_lms_udemy_include {
+            position: relative;
+            padding: 5px 0 0 46px;
+            margin: 0 0 22px;
+            font-size: 16px;
+            i {
+                position: absolute;
+                top: 1px;
+                left: 0;
+                font-size: 26px;
+                margin-right: 20px;
+            }
+        }
+    }
+    .stm_lms_average__rating {
+        padding-bottom: 0;
+        border: 0;
+        margin: 0;
+    }
+    #stm_lms_faq {
+        &.panel-group {
+            margin-bottom: 0 !important;
+        }
+        .panel.panel-default {
+            border-bottom: 0;
+            border-left: 0;
+            border-right: 0;
+            margin-bottom: 0;
+            box-shadow: none !important;
+            &:first-child {
+                border-top: 0;
+            }
+            &:before {
+                display: none !important;
+            }
+            .panel-collapse {
+                &:before {
+                    display: none !important;
+                }
+            }
+            .panel-heading .panel-title a {
+                padding: 16px 30px;
+                i {
+                    top: 20px;
+                    left: 0;
+                }
+                &.collapsed {
+                    i {
+                        top: 20px;
+                    }
+                }
+            }
+            .panel-body {
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+        }
+    }
+    .stm-curriculum-item {
+        background-color: transparent;
+        border-bottom: 1px solid #eee;
+        border-top: 0 !important;
+        &.opened {
+            box-shadow: none;
+        }
+    }
+    .more_langs {
+        margin-left: 3px;
+        opacity: 0.3 !important;
+        i {
+            position: relative;
+            top: 1px !important;
+            font-size: 13px !important;
+        }
+    }
+    .stm-lms-dynamic_sidebar {
+        padding-left: 0;
+        border-left: 0;
+    }
+    #reviews {
+        @include breakpoint(400px) {
+            .detailed_rating {
+                .detail_rating_unit {
+                    tr {
+                        display: flex;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        max-width: 177px;
+                        margin: 0 auto;
+                        .bar {
+                            width: 100%;
+                            order: 1000;
+                        }
+                        .value {
+                            margin-left: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.single-stm-courses {
+    .categories-courses {
+        display: none;
+    }
+}
+
+@include breakpoint(920px) {
+    .stm_lms_udemy_course .stm-lms-course__sidebar .btn-prices {
+        .saves {
+            display: none;
+        }
+        .sale_price {
+            margin-right: 0;
+        }
+    }
+}
+
+@include breakpoint(1024px) {
+    .more_langs {
+        display: none;
+    }
+}
+
+@include breakpoint(tabletonly) {
+    .stm_lms_udemy_course {
+        .stm-lms-course__sidebar {
+            padding: 20px 15px 15px;
+            .stm_lms_course__image {
+                margin: 0 0 40px;
+            }
+            .stm-lms-buy-buttons {
+                display: block;
+                a.btn.btn_big {
+                    padding: 10px 3%;
+                }
+            }
+            .stm_lms_udemy_includes {
+                .stm_lms_udemy_include {
+                    i {
+                        top: 50%;
+                        margin-top: -13px;
+                    }
+                }
+            }
+        }
+        .stm_lms_course_objectives {
+            &__single {
+                width: 100%;
+            }
+        }
+        .nav.nav-tabs {
+            margin: 0 0 30px;
+        }
+        .stm_lms_course__tabs .tab-pane {
+            padding: 0 30px 30px;
+        }
+    }
+}
+
+@include breakpoint(mobile) {
+    .stm_lms_udemy_course .stm_lms_udemy_bar .single_product_after_title {
+        flex-wrap: wrap;
+        > * {
+            width: 100%;
+            margin: 0 0 30px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

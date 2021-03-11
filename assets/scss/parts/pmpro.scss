@@ -1,0 +1,574 @@
+@import "../components/colors";
+@import "../components/mixins";
+
+#pmpro_account-change {
+    margin-right: 10px;
+}
+
+.pmpro_btn, .pmpro_btn:link {
+    background-color: transparent;
+    border: 0;
+    color: inherit !important;
+    padding: 0;
+}
+
+.stm-lms-buy-buttons {
+    .btn {
+        margin: 0 10px 10px 0;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.stm-lms-user-memberships {
+    h3 {
+        margin: 0 0 30px;
+    }
+
+    #pmpro_account-membership {
+        margin: 0 0 40px;
+    }
+
+    table {
+        tr {
+            border: 1px solid #e1e2e4;
+
+            td, th {
+                &:last-child {
+                    text-align: right;
+                }
+            }
+        }
+
+        thead {
+            tr {
+                th {
+                    padding: 14px 20px;
+                    background-color: #eef1f7;
+                    font-size: 12px;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                }
+            }
+        }
+
+        tbody {
+            tr {
+                td {
+                    padding: 14px 20px;
+                }
+            }
+        }
+    }
+}
+
+.stm_lms_pmpro_title {
+    margin: 0 0 50px;
+}
+
+.stm_lms_plans {
+    display: flex;
+    margin: 0 0 90px;
+    flex-wrap: wrap;
+}
+
+.stm_lms_plan {
+    width: 33.3333%;
+    border-bottom: 1px solid #e5e5e5;
+
+    &__inner {
+        &_top {
+            padding: 21px 10px 20px;
+            min-height: 200px;
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        &_content {
+            font-weight: 600;
+
+            > div {
+                padding: 15px 30px;
+                text-align: center;
+                border-bottom: 1px solid #e5e5e5;
+            }
+        }
+    }
+
+    &__title {
+        h3 {
+            margin: 0 0 15px;
+        }
+    }
+
+    &__price {
+
+    }
+
+    &__with_btn {
+        display: flex;
+        margin: 0 0 15px;
+        align-items: center;
+        justify-content: space-evenly;
+
+        p.price {
+            margin: 0 15px 0 0;
+            color: $main_color;
+            font-size: 50px;
+            line-height: 70px;
+            font-weight: 600;
+
+            sup {
+                position: relative;
+                top: -15px;
+                margin-right: 5px;
+                font-size: 30px;
+                line-height: 30px;
+            }
+
+            &.price_free {
+            }
+        }
+    }
+
+    &__button {
+    }
+
+    &__period {
+        text-align: center;
+        color: $main_color !important;
+        font-size: 16px;
+        text-transform: lowercase;
+    }
+
+    &__odd {
+        background-color: #eef1f7;
+    }
+
+    &__description {
+        border-bottom: 0 !important;
+
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+
+            li {
+                margin: 0 -30px;
+                padding: 15px 30px;
+                border-bottom: 1px solid #e5e5e5;
+
+                &:first-child {
+                    padding-top: 0;
+                }
+
+                &:last-child {
+                    padding-bottom: 0;
+                    border-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+#pmpro_form {
+    .pmpro_checkout {
+        margin: 0 0 40px;
+
+        tr {
+            padding: 0;
+
+            td, th {
+                padding: 15px 30px;
+            }
+        }
+
+        .pmpro_thead-name {
+            margin: 0;
+        }
+
+        .lp-pmpro-name {
+            h4 {
+                margin-bottom: 10px;
+            }
+        }
+
+        .lp-pmpro-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 -15px;
+
+            .lp-pmpro-desc {
+                margin: 0 15px;
+                width: 20%;
+
+                label {
+                    display: inline-block;
+                    margin-bottom: 10px;
+                    margin-right: 5px;
+                    font-weight: 400;
+                    color: $dark;
+                }
+            }
+        }
+
+        h3.pmpro_thead-name {
+            padding-right: 60px;
+            overflow: hidden;
+        }
+
+        .pmpro_thead-msg {
+            a {
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+#pmpro_cancel,
+#pmpro_account-invoices,
+#pmpro_account-membership {
+    table {
+        tr {
+            th, td {
+                padding: 10px 20px;
+            }
+        }
+    }
+}
+
+#pmpro_invoices_table {
+    tr {
+        th, td {
+            padding: 10px 20px;
+        }
+    }
+}
+
+#nav-below {
+    &.navigation {
+        margin: 40px 0 30px;
+    }
+}
+
+#pmpro_account .pmpro_box {
+    border-top: 0;
+
+    h3 {
+        margin: 0 0 20px;
+    }
+
+    .pmpro_actionlinks {
+        font-size: 13px;
+    }
+}
+
+#pmpro_account-profile {
+    border-top: 1px solid #ccc !important;
+    border-bottom: 1px solid #ccc !important;;
+
+    ul {
+        padding-left: 20px;
+        margin: 0 0 20px !important;
+    }
+}
+
+#pmpro_payment_information_fields,
+#pmpro_billing_address_fields {
+    .pmpro_checkout-fields {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .pmpro_checkout-field {
+            width: 48%;
+
+            label {
+                width: 100%;
+                margin: 0 0 15px;
+                font-weight: 400;
+                color: $dark;
+            }
+
+            input {
+                display: block;
+                max-width: 100%;
+                width: 100%;
+            }
+
+            &-bcity_state_zip {
+                display: flex;
+                flex-wrap: wrap;
+
+                input {
+                    width: auto;
+                    margin-right: 15px;
+                    flex-grow: 1;
+
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+
+        .pmpro_payment-expiration {
+            .select2 {
+                display: inline-block;
+                width: 40% !important;
+                margin-right: 15px;
+
+                &:last-child {
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+}
+
+.stm_lms_billing_buttons {
+    .btn {
+        margin-right: 15px;
+    }
+}
+
+@include breakpoint(tablet) {
+    .stm_lms_plan__inner_top {
+        min-height: 250px;
+    }
+    .stm_lms_plan__with_btn {
+        flex-wrap: wrap;
+
+    }
+}
+
+@include breakpoint(mobile) {
+    .stm_lms_plan__inner_top {
+        min-height: auto;
+    }
+    .stm_lms_plan {
+        width: 100%;
+        margin: 0 0 40px;
+    }
+}
+
+#pmpro_user_fields {
+    .lp-pmpro-td {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+
+        .pmpro_asterisk {
+            display: none;
+        }
+
+        .lp-pmpro-desc {
+            width: 33.333%;
+            margin: 0 0 30px;
+
+            label {
+                margin: 0 0 15px;
+                font-weight: 400;
+            }
+
+            input {
+                width: 100%;
+            }
+        }
+    }
+}
+
+#pmpro_billing_address_fields {
+    tbody {
+        tr {
+            td {
+                .stm_lms_checkout_fields {
+                    display: flex;
+                    padding: 30px 0;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+
+                    > div {
+                        width: 24%;
+                        margin: 0 0 30px;
+
+                        label {
+                            margin: 0 0 15px;
+                            font-weight: 400;
+                        }
+
+                        input {
+                            width: 100%;
+                            max-width: 100%;
+                        }
+                    }
+
+                    .pmpro_asterisk {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#pmpro_payment_information_fields {
+    .stm_lms_pmpro_payment_info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .pmpro_asterisk {
+            display: none;
+        }
+
+        > div {
+            width: 24%;
+
+            label {
+                margin: 0 0 15px;
+                font-weight: 400;
+                vertical-align: top;
+            }
+
+            input {
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+
+        .pmpro_payment-expiration {
+            width: 50%;
+            flex-wrap: wrap;
+            vertical-align: top;
+
+            label {
+                width: 100%;
+            }
+
+            .select2 {
+                position: relative;
+                top: 0;
+                margin: 0 10px;
+                width: 40% !important;
+            }
+        }
+    }
+}
+
+@include breakpoint(mobile) {
+    #pmpro_user_fields .lp-pmpro-td .lp-pmpro-desc,
+    #pmpro_form .pmpro_checkout .lp-pmpro-content .lp-pmpro-desc {
+        width: 100%;
+    }
+    form.pmpro_form .input {
+        max-width: 100%;
+    }
+}
+
+
+/*GROUPS*/
+.stm_lms_pmpro_head {
+    display: flex;
+    flex-wrap: wrap;
+
+    .stm_lms_pmpro_title {
+        margin-right: 30px;
+        flex-grow: 1;
+    }
+}
+
+.stm_lms_pmpro_groups {
+    display: none;
+
+    &.has-groups {
+        display: block;
+
+        span {
+            display: inline-block;
+            padding: 15px 30px 15px;
+            background-color: #273044;
+            vertical-align: top;
+            font-size: 16px;
+            cursor: pointer;
+            color: #fff;
+            font-weight: 600;
+
+            &.active {
+                background-color: #2c75e4;
+            }
+        }
+    }
+}
+
+.stm_lms_plans {
+    &.has-groups {
+        .stm_lms_plan {
+            display: none;
+
+            &.active {
+                display: block;
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .stm_lms_pmpro_head .stm_lms_pmpro_title {
+        font-size: 40px;
+        line-height: 1.4;
+    }
+}
+
+.pmpro_actionlinks {
+    .pmpro_yeslink {
+        padding: 5px 15px;
+        border: 1px solid #2c75e4;
+        background-color: #2c75e4;
+        color: #fff !important;
+        margin-right: 30px;
+
+        &:hover {
+            background-color: transparent;
+            color: #000 !important;
+        }
+    }
+}
+
+
+/*Discount*/
+#pmpro_form .pmpro_checkout {
+    .lp-pmpro-td {
+        .lp-pmpro-content {
+            align-items: flex-start;
+            #pmpro_level_cost {
+                width: 50%;
+                margin: 0 15px;
+
+                p {
+                    margin-bottom: 15px;
+                }
+
+                .lp-pmpro-desc {
+                    margin-bottom: 20px;
+                    width: 100%;
+                    line-height: 1.3;
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                    label {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+
+            #other_discount_code_p {
+                order: 100;
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,67 @@
+@import "../components/colors";
+
+.stm-lms-user-courses {
+    .stm_lms_instructor_courses {
+        &__single {
+            &--title {
+                h5 {
+                    min-height: 40px;
+                    margin-bottom: 21px;
+                    padding: 0;
+                    border: 0;
+                }
+            }
+            &--progress {
+                margin: 0 0 20px;
+                &_top {
+                    display: flex;
+                    margin: 0 0 5px;
+                    color: #2a3045;
+                }
+                &_bar {
+                    margin: 0 0 20px;
+                    position: relative;
+                    height: 5px;
+                    background-color: #e0e0e0;
+                }
+                &_filled {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background-color: #17d292;
+                }
+            }
+            &--duration {
+                padding-right: 15px;
+                i {
+                    position: relative;
+                    margin-right: 2px;
+                    font-size: 15px;
+                }
+            }
+            &--completed {
+                margin-left: auto;
+                &:first-child {
+                    margin-left: 0;
+                }
+            }
+            &--started {
+                color: #aaaaaa;
+                text-align: center;
+                font-size: 13px;
+            }
+            &--enroll {
+                margin: 0 0 13px;
+                .btn {
+                    width: 100%;
+                    border-radius: 0;
+                    &.continue {
+                        background-color: #17d292;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,235 @@
+@import "../components/colors";
+
+div[data-container-open='.stm_lms_edit_account'] {
+    display: none;
+    padding-bottom: 50px;
+}
+
+.no-certificates-notice {
+    color: #aaa;
+}
+
+.stm-lms-user-avatar-edit {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 26px;
+    vertical-align: top;
+
+    .stm-lms-user_avatar {
+        position: relative;
+        margin-bottom: 0;
+
+        &:before {
+            content: '';
+            position: absolute;
+            top: 3px;
+            left: 3px;
+            right: 3px;
+            bottom: 3px;
+            background: rgba(0,0,0,0.25);
+            opacity: 0;
+            visibility: hidden;
+            transition: .3s ease;
+        }
+    }
+
+    input,
+    i.lnricons-pencil {
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        width: 60px;
+        height: 60px;
+        margin: -30px -30px 0 0;
+        cursor: pointer;
+        background-color: #385bce !important;
+
+        &:before {
+            content: '\e704';
+            font-size: 25px;
+        }
+    }
+
+    i.lnricons-cross {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        font-size: 23px;
+        width: 30px;
+        height: 30px;
+        margin: -5px -5px 0 0;
+        text-align: center;
+        line-height: 30px;
+        color: #fff;
+        border-radius: 50%;
+        z-index: 10;
+
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    i.lnricons-pencil {
+        top: 50%;
+        right: 50%;
+        width: 60px;
+        height: 60px;
+        margin: -30px -30px 0 0;
+        background-color: $green;
+        text-align: center;
+        line-height: 60px;
+        color: #fff;
+        border-radius: 50%;
+        z-index: 10;
+
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    i.lnricons-cross,
+    i.lnricons-pencil {
+        transition: .3s ease;
+    }
+
+    &:hover {
+        .stm-lms-user_avatar {
+            &:before {
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+        i.lnricons-cross,
+        i.lnricons-pencil {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
+    input {
+        opacity: 0;
+        z-index: 20;
+    }
+
+    &.loading-avatar {
+        input,
+        i.lnricons-pencil {
+            display: none;
+        }
+
+        &:after {
+            content: '';
+            position: absolute;
+            top: 3px;
+            left: 3px;
+            bottom: 3px;
+            right: 3px;
+            border-radius: 10px;
+            background-image: repeating-linear-gradient(
+                            -45deg,
+                            #2980b9,
+                            #2980b9 11px,
+                            #eee 10px,
+                            #eee 20px /* determines size */
+            );
+            background-size: 28px 28px;
+            animation: stm_lms_move .5s linear infinite;
+            opacity: 0.8;
+            z-index: 30;
+        }
+    }
+}
+
+.stm_lms_edit_account {
+    .stm_lms_user_info_top {
+        padding: 0 0 40px;
+        margin: 0 0 60px;
+    }
+
+    .form-group {
+        margin: 0 0 35px;
+
+        label {
+            margin: 0 0 10px;
+            text-transform: uppercase;
+            font-size: 12px;
+        }
+
+        textarea {
+            padding: 15px 20px !important;
+        }
+    }
+}
+
+.stm_lms_private_information {
+    padding-bottom: 50px;
+}
+
+.stm_lms_edit_socials {
+    margin: 50px 0 0;
+
+    h3 {
+        margin: 0 0 15px;
+    }
+
+    .form-group {
+        position: relative;
+
+        &-social {
+            position: relative;
+
+            input {
+                padding-left: 45px !important;
+                background-color: #fff;
+                border: 2px solid transparent;
+                border-radius: 2px;
+
+                &:focus {
+                    border-color: $main_color;
+
+                    + i {
+                        &.fa-facebook-f {
+                            color: #3b5998;
+                        }
+
+                        &.fa-twitter {
+                            color: #1da1f2;
+                        }
+
+                        &.fa-instagram {
+                            color: #fb3958;
+                        }
+
+                        &.fa-google-plus-g {
+                            color: #db4437;
+                        }
+                    }
+                }
+            }
+
+            i.fab,
+            i.fa-key {
+                position: absolute;
+                top: 14px;
+                left: 15px;
+                font-size: 18px;
+                color: #aaa;
+                transition: .3s ease;
+            }
+        }
+    }
+
+    &_list {
+        padding: 40px;
+        margin: 0 0 40px;
+        background-color: #eef1f7;
+    }
+}
+
+@keyframes stm_lms_move {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 28px 0;
+    }
+}

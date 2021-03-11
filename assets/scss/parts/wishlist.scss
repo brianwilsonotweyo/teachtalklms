@@ -1,0 +1,39 @@
+.stm-lms-wishlist {
+    margin: 0 0 30px;
+    cursor: pointer;
+    i {
+        display: inline-block;
+        vertical-align: top;
+        width: 30px;
+        height: 30px;
+        margin: 0 5px 0 0;
+        border: 1px solid #41495b;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 30px;
+        color: #ff1f59;
+        font-size: 16px;
+        opacity: 1;
+        transition: .3s ease;
+    }
+    span {
+        color: #41495b;
+        line-height: 29px;
+    }
+    &:hover {
+        i {
+            background-color: #41495b;
+            color: #fff;
+        }
+    }
+    &.loading {
+        min-height: inherit;
+        i {
+            opacity: 0;
+        }
+        &:before {
+            top: 0;
+            left: 15px;
+        }
+    }
+}

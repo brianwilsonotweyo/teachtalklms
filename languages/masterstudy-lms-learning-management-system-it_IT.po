@@ -1,0 +1,2113 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MasterStudy LMS Learning Management System\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-05 07:27+0000\n"
+"PO-Revision-Date: 2018-11-29 05:16+0000\n"
+"Language-Team: Italian\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Last-Translator: StylemixThemes <timur@stylemix.net>\n"
+"Language: it_IT\n"
+"X-Loco-Version: 2.2.0; wp-4.9.8"
+
+#: post_type/posts.php:154 post_type/posts.php:159
+#, php-format
+msgctxt " name"
+msgid "%s"
+msgstr "%s"
+
+#: lms/classes/instructors.php:205 lms/classes/instructors.php:250
+#, php-format
+msgctxt "\"1 Review\" or \"2 Reviews\""
+msgid "%s %s"
+msgstr "%s %s"
+
+#: lms/helpers.php:34
+#, php-format
+msgid "%s ago"
+msgstr "%s fa"
+
+#: lms/classes/user.php:142
+#, php-format
+msgid "%s field is required"
+msgstr "Il campo %s è obbligatorio"
+
+#: stm-lms-templates/courses/parts/meta.php:24
+#, php-format
+msgid "%s Lectures"
+msgstr "%s lezioni"
+
+#: stm-lms-templates/course/parts/tabs/curriculum.php:36
+#, php-format
+msgid "%s question"
+msgid_plural "%s questions"
+msgstr[0] "%s domanda"
+msgstr[1] "%s domande"
+
+#: stm-lms-templates/course/parts/tabs/reviews.php:41
+#, php-format
+msgid "%s Ratings"
+msgstr "%s valutazioni"
+
+#: lms/classes/comments.php:61 lms/classes/comments.php:126
+#, php-format
+msgid "%s reply"
+msgid_plural "%s replies"
+msgstr[0] "%s risposta"
+msgstr[1] "%s risposte"
+
+#: stm-lms-templates/course/parts/panel_info/rate.php:22
+#, php-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] "%s recensione"
+msgstr[1] "%s recensioni"
+
+#: stm-lms-templates/course/parts/info.php:15
+#, php-format
+msgid "%s student"
+msgid_plural "%s students"
+msgstr[0] "%s studente"
+msgstr[1] "%s studenti"
+
+#: lms/classes/user.php:293
+#, php-format
+msgid "%s%% Complete"
+msgstr "%s%% Completo"
+
+#: lms/classes/lesson.php:95 lms/classes/lesson.php:98
+#, php-format
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#: lms/classes/cart.php:143
+#, php-format
+msgid "%s. Order key: %s"
+msgstr "%s. Chiave ordine: %s"
+
+#: stm-lms-templates/global/buy-button.php:100
+#: stm-lms-templates/global/buy-button.php:109
+msgid "- Or -"
+msgstr "- Oppure - "
+
+#: post_type/metaboxes/metabox.php:194
+msgid "Accessibility"
+msgstr "Accessibilità"
+
+#: stm-lms-templates/global/account-dropdown.php:25
+msgid "Account"
+msgstr "Account"
+
+#: lms/classes/cart.php:189
+msgid "Account Number"
+msgstr "Numero conto"
+
+#: post_type/metaboxes/components_js/payments.php:29
+msgid "Account number"
+msgstr "Numero conto"
+
+#: post_type/metaboxes/components/image.php:8
+msgid "Add Certificate Image"
+msgstr "Aggiungi immagine certificato"
+
+#: stm-lms-templates/lesson/comments.php:119
+msgid "Add Comment"
+msgstr "Aggiungi commento"
+
+#: post_type/metaboxes/components/stm-curriculum.php:32
+msgid "Add course data"
+msgstr "Aggiungi dati corso"
+
+#: post_type/taxonomy_meta/fields/image.php:11
+msgid "Add image"
+msgstr "Aggiungi immagine"
+
+#: post_type/metaboxes/components/multimedia.php:24
+msgid "Add media"
+msgstr "Aggiungi media"
+
+#: post_type/posts.php:155
+#, php-format
+msgid "Add New %s"
+msgstr "Aggiungi nuovo %s"
+
+#: stm-lms-templates/account/private/instructor_parts/courses.php:18
+msgid "Add New course"
+msgstr "Aggiungi nuovo corso"
+
+#: post_type/taxonomies.php:38
+msgid "Add New Course category"
+msgstr "Aggiungi nuova categoria corsi"
+
+#: post_type/metaboxes/components/faq.php:9
+msgid "Add new FAQ item"
+msgstr "Aggiungi nuovo elemento FAQ"
+
+#: post_type/metaboxes/components/questions.php:87
+msgid "Add new question"
+msgstr "Aggiungi nuova domanda"
+
+#: stm-lms-templates/course/parts/add_review.php:26
+msgid "Add review"
+msgstr "Aggiungi recensione"
+
+#: lms/classes/user.php:409 stm-lms-templates/global/wish-list.php:15
+#: stm-lms-templates/global/wish-list.php:25
+msgid "Add to Wishlist"
+msgstr "Aggiungi a lista desideri"
+
+#: stm-lms-templates/account/private/edit_account/socials.php:6
+msgid ""
+"Add your social profiles links, they will be shown on your public profile."
+msgstr ""
+"Aggiungi link ai tuoi profili social, verranno mostrati sul tuo profilo "
+"pubblico."
+
+#: post_type/metaboxes/metabox.php:115 post_type/metaboxes/metabox.php:146
+#: stm-lms-templates/course/parts/info.php:46
+#: stm-lms-templates/courses/parts/meta.php:11
+msgid "Advanced"
+msgstr "Avanzato"
+
+#: post_type/taxonomies.php:33
+msgid "All Courses category"
+msgstr "Tutte le categorie corsi"
+
+#: post_type/metaboxes/metabox.php:227 post_type/metaboxes/metabox.php:231
+#: stm-lms-templates/course/parts/tabs.php:9
+msgid "Announcement"
+msgstr "Comunicazione"
+
+#: post_type/metaboxes/components/answers.php:15
+#: post_type/metaboxes/components/answers.php:36
+msgid "Answer explanation (Will be shown in \"Show Answers\" section)"
+msgstr ""
+"Spiegazione risposta (verrà mostrata nella sezione \"Mostra risposte\")"
+
+#: stm-lms-templates/quiz/timer.php:34
+#, php-format
+msgid "answered <strong>%s</strong>/%s"
+msgstr "risposte <strong>%s</strong>/%s"
+
+#: stm-lms-templates/quiz/circle_result.php:25
+msgid "Answered correctly"
+msgstr "Risposte correttamente"
+
+#: post_type/metaboxes/metabox.php:336
+msgid "Answers"
+msgstr "Risposte"
+
+#: post_type/metaboxes/components_js/payments.php:97
+msgid "Australian dollar"
+msgstr "Dollaro australiano "
+
+#: settings/settings.php:281
+msgid "Available shortcodes: Username - {username}; Course name - {course};"
+msgstr "Shortcode disponibili: Username - {username}; Nome corso - {course};"
+
+#: post_type/metaboxes/metabox-display.php:55
+msgid "Available soon in <a href=\"#\">Pro Version</a>"
+msgstr "Presto disponibile nella <a href=\"#\">Versione Pro</a>"
+
+#: stm-lms-templates/quiz/quiz.php:64
+msgid "Back"
+msgstr "Indietro"
+
+#: stm-lms-templates/lesson/header.php:42
+msgid "Back to Dashboard"
+msgstr "Ritorna alla dashboard"
+
+#: stm-lms-templates/lesson/comments.php:110
+msgid "Back to Q&A List"
+msgstr "Torna alla lista domande & risposte"
+
+#: lms/classes/cart.php:191 post_type/metaboxes/components_js/payments.php:37
+msgid "Bank name"
+msgstr "Nome banca"
+
+#: stm-lms-templates/course/parts/tabs/reviews.php:101
+msgid "Be the first to add a review."
+msgstr "Scrivi una recensione per primo."
+
+#: stm-lms-templates/account/enterprise.php:4
+#: stm-lms-templates/account/become_instructor.php:4
+msgid "Become Instructor"
+msgstr "Diventa insegnante"
+
+#: post_type/metaboxes/metabox.php:113 post_type/metaboxes/metabox.php:144
+#: stm-lms-templates/course/parts/info.php:44
+#: stm-lms-templates/courses/parts/meta.php:9
+msgid "Beginner"
+msgstr "Principiante"
+
+#: lms/classes/user.php:496
+#: stm-lms-templates/account/private/edit_account/bio.php:5
+#: stm-lms-templates/account/private/parts/bio.php:13
+msgid "Bio"
+msgstr "Biografia"
+
+#: post_type/metaboxes/components_js/payments.php:98
+msgid "Brazilian real"
+msgstr "Real brasiliano"
+
+#: post_type/metaboxes/components/multimedia.php:26
+msgid "Bulk upload"
+msgstr "Carica in massa"
+
+#: settings/settings.php:172
+msgid "Button"
+msgstr "Pulsante"
+
+#: stm-lms-templates/account/use_membership.php:28
+msgid "Buy Membership"
+msgstr "Acquista abbonamento"
+
+#: post_type/metaboxes/components_js/payments.php:99
+msgid "Canadian dollar"
+msgstr "Dollaro canadese"
+
+#: stm-lms-templates/account/public/parts/messages_btn.php:31
+msgid "Cancel"
+msgstr "Annulla"
+
+#: lms/classes/order.php:106
+msgid "Cancelled"
+msgstr "Annullato"
+
+#: stm-lms-templates/checkout/empty-cart.php:2
+#, php-format
+msgid "Cart is empty, <a href=\"%s\">add Courses</a>"
+msgstr "Il carrello è vuoto, <a href=\"%s\">aggiungi Corsi</a>"
+
+#: post_type/taxonomy_meta/metaboxes.php:22
+msgid "Category Color"
+msgstr "Colore categoria"
+
+#: post_type/taxonomy_meta/metaboxes.php:18
+msgid "Category Icon"
+msgstr "Icona categoria"
+
+#: post_type/taxonomy_meta/metaboxes.php:14
+msgid "Category Image"
+msgstr "Immagine categoria"
+
+#: stm-lms-templates/course/parts/panel_info/categories.php:11
+msgid "Category:"
+msgstr "Categoria:"
+
+#: settings/settings.php:158
+msgid "Center"
+msgstr "Centro"
+
+#: stm-lms-templates/stm-lms-certificates-generator.php:14
+msgid "Certificate"
+msgstr "Certificato"
+
+#: settings/settings.php:263
+msgid "Certificate Image"
+msgstr "Immagine certificato"
+
+#: settings/settings.php:288
+msgid "Certificate Stamp"
+msgstr "Timbro certificato"
+
+#: settings/settings.php:280
+msgid "Certificate Text"
+msgstr "Testo certificato"
+
+#: settings/settings.php:268
+msgid "Certificate Title"
+msgstr "Titolo certificato"
+
+#: settings/settings.php:274
+msgid "Certificate title color"
+msgstr "Colore titolo certificato"
+
+#: settings/settings.php:258
+msgid "Certificates"
+msgstr "Certificati"
+
+#: settings/settings.php:194
+msgid "Certificates Base Url (Default /lms-certificates)"
+msgstr "Url di base certificati (Default /lms-certificates)"
+
+#: settings/settings.php:204
+msgid "Chat Url (Default /lms-chats)"
+msgstr "Url chat (Default /lms-chats)"
+
+#: lms/classes/reviews.php:233
+#, php-format
+msgid "Check out new review on course %s by %s"
+msgstr "Guarda nuova recensione sul corso %s di %s"
+
+#: stm-lms-templates/checkout/items.php:18
+msgid "Checkout"
+msgstr "Procedi all’acquisto"
+
+#: settings/settings.php:214
+msgid "Checkout Url (Default /lms-checkout)"
+msgstr "Url pagamento (Default /lms-checkout)"
+
+#: settings/settings.php:63
+msgid "Choose Page"
+msgstr "Scegli pagina"
+
+#: post_type/metaboxes/metabox.php:69
+msgid "Choose User"
+msgstr "Scegli utente"
+
+#: lms/classes/quiz.php:158
+msgid "Close"
+msgstr "Chiudi"
+
+#: stm-lms-templates/lesson/navigation.php:23
+msgid "Complete"
+msgstr "Completa"
+
+#: lms/classes/order.php:105 stm-lms-templates/lesson/navigation.php:23
+#: stm-lms-templates/lesson/navigation.php:34
+msgid "Completed"
+msgstr "Completato"
+
+#: stm-lms-templates/account/register.php:53
+msgid "Confirm password"
+msgstr "Conferma password"
+
+#: stm-lms-templates/account/private/parts/tabs/my-courses.php:57
+msgid "Continue"
+msgstr "Prosegui"
+
+#: post_type/posts.php:45 stm-lms-templates/checkout/items.php:25
+#: stm-lms-templates/account/private/parts/tabs/my-quizzes.php:10
+msgid "Course"
+msgstr "Corso"
+
+#: settings/settings.php:156
+msgid "Course Card Info"
+msgstr "Info card corso"
+
+#: post_type/taxonomies.php:40
+msgid "Course category"
+msgstr "Categoria corsi"
+
+#: post_type/metaboxes/metabox.php:33
+msgid "Course curriculum"
+msgstr "Curriculum corso"
+
+#: lms/classes/user.php:335
+msgid "Course Deleted"
+msgstr "Corso cancellato"
+
+#: post_type/metaboxes/metabox.php:111
+msgid "Course Level"
+msgstr "Livello corso"
+
+#: lms/classes/order.php:109
+msgid "Course name"
+msgstr "Nome corso"
+
+#: lms/classes/order.php:110 stm-lms-templates/checkout/items.php:29
+msgid "Course price"
+msgstr "Prezzo corso"
+
+#: post_type/metaboxes/metabox.php:198
+msgid "Course Price (leave blank to make the course free)"
+msgstr "Prezzo corso (lascia vuoto per rendere il corso gratuito)"
+
+#: post_type/metaboxes/metabox.php:360
+msgid "Course Reviewed"
+msgstr "Corso recensito"
+
+#: stm-lms-templates/lesson/curriculum.php:13
+msgid "Course sections"
+msgstr "Sezioni corso"
+
+#: post_type/metaboxes/metabox.php:37
+msgid "Course Settings"
+msgstr "Impostazioni corso"
+
+#: post_type/metaboxes/metabox.php:106
+msgid "Course Views"
+msgstr "Visualizzazioni corso"
+
+#: settings/settings.php:252
+msgid "Course will have Pending status, until you approve it"
+msgstr "Il corso avrà stato in sospeso finché non lo approverai"
+
+#: settings/settings.php:133 post_type/posts.php:46
+#: lms/classes/templates.php:48
+#: stm-lms-templates/account/private/instructor_parts/courses.php:15
+msgid "Courses"
+msgstr "Corsi"
+
+#: settings/settings.php:165
+msgid "Courses category parent slug"
+msgstr "Parent slug categoria corsi"
+
+#: settings/settings.php:137
+msgid "Courses Page"
+msgstr "Pagina corsi"
+
+#: settings/settings.php:142
+msgid "Courses Page Layout"
+msgstr "Layout pagina corsi"
+
+#: settings/settings.php:151
+msgid "Courses per page"
+msgstr "Corsi per pagina"
+
+#. Description of the plugin
+msgid ""
+"Create brilliant lessons with videos, graphs, images, slides and any other "
+"attachments thanks to flexible and user-friendly lesson management tool "
+"powered by WYSIWYG editor."
+msgstr ""
+"Crea geniali lezioni con video, grafici, immagini, slide e altri allegati "
+"grazie ad uno strumento di gestione delle lezioni flessibile ed user-"
+"friendly dotato di editor WYSIWYG."
+
+#: post_type/metaboxes/components_js/payments.php:61
+msgid "Currency code"
+msgstr "Codice valuta"
+
+#: settings/settings.php:111
+msgid "Currency Position"
+msgstr "Posizione valuta"
+
+#: settings/settings.php:106
+msgid "Currency symbol"
+msgstr "Simbolo valuta"
+
+#: post_type/metaboxes/metabox.php:120
+msgid "Current students"
+msgstr "Studenti attuali"
+
+#: post_type/metaboxes/metabox.php:91 stm-lms-templates/course/parts/tabs.php:7
+msgid "Curriculum"
+msgstr "Curriculum"
+
+#: post_type/metaboxes/components_js/payments.php:100
+msgid "Czech koruna"
+msgstr "Corona ceca"
+
+#: post_type/metaboxes/components_js/payments.php:101
+msgid "Danish krone"
+msgstr "Corona danese"
+
+#: lms/classes/order.php:98
+msgid "Date"
+msgstr "Data"
+
+#: stm-lms-templates/quiz/timer.php:15
+#: post_type/metaboxes/fields/duration.php:26
+msgid "Days"
+msgstr "Giorni"
+
+#: stm-lms-templates/account/register.php:62
+#: stm-lms-templates/account/become_instructor.php:10
+msgid "Degree"
+msgstr "Laurea"
+
+#: lms/classes/cart.php:193 stm-lms-templates/course/parts/tabs.php:6
+msgid "Description"
+msgstr "Descrizione"
+
+#: stm-lms-templates/course/parts/tabs/reviews.php:48
+msgid "Detailed Rating"
+msgstr "Valutazione dettagliata"
+
+#: post_type/metaboxes/components/stm-curriculum.php:16
+#: post_type/metaboxes/components/questions.php:19
+msgid "Do you really want to delete this item?"
+msgstr "Vuoi davvero eliminare questo elemento?"
+
+#: post_type/metaboxes/components/multimedia.php:16
+msgid "Do you really want to delete this media?"
+msgstr "Vuoi davvero eliminare questo media?"
+
+#: lms/classes/instructors.php:145
+msgid "Draft"
+msgid_plural "Reviews"
+msgstr[0] "Bozza"
+msgstr[1] "Bozze"
+
+#: stm-lms-templates/course/parts/info.php:21
+msgid "Duration"
+msgstr "Durata"
+
+#: post_type/metaboxes/metabox.php:133
+msgid "Duration info"
+msgstr "Info durata"
+
+#: lms/classes/user.php:124 stm-lms-templates/account/enterprise.php:19
+#: stm-lms-templates/account/register.php:25
+msgid "E-mail"
+msgstr "E-mail"
+
+#: stm-lms-templates/account/private/instructor_parts/courses.php:37
+msgid "Edit"
+msgstr "Modifica"
+
+#: post_type/posts.php:157
+#, php-format
+msgid "Edit %s"
+msgstr "Modifica %s"
+
+#: post_type/taxonomies.php:36
+msgid "Edit Course category"
+msgstr "Modifica categoria corso"
+
+#: stm-lms-templates/account/private/instructor_parts/edit_account.php:18
+#: stm-lms-templates/account/private/parts/edit_account.php:19
+msgid "Edit Profile"
+msgstr "Modifica profilo"
+
+#: stm-lms-templates/account/private/parts/edit_profile_btn.php:10
+msgid "Edit profile"
+msgstr "Modifica profilo"
+
+#: settings/settings.php:251
+msgid "Enable Course Pre-moderation"
+msgstr "Attiva pre-moderazione corso"
+
+#: settings/settings.php:126
+msgid "Enable WooCommerce Checkout"
+msgstr "Abilita il checkout di WooCommerce"
+
+#: stm-lms-templates/global/buy-button.php:28
+msgid "Enroll course"
+msgstr "Iscriviti al corso"
+
+#: stm-lms-templates/global/buy-button.php:77
+msgid "Enroll now"
+msgstr ""
+
+#: stm-lms-templates/global/buy-button.php:106
+#: stm-lms-templates/global/buy-button.php:112
+msgid "Enroll with Membership"
+msgstr "Iscriviti con abbonamento"
+
+#: stm-lms-templates/account/use_membership.php:21
+msgid "Enroll with membership"
+msgstr "Iscriviti con abbonamento"
+
+#: stm-lms-templates/course/parts/info.php:14
+msgid "Enrolled"
+msgstr "Iscritti"
+
+#: stm-lms-templates/account/become_instructor.php:15
+msgid "Enter degree"
+msgstr "Inserisci laurea"
+
+#: stm-lms-templates/account/become_instructor.php:24
+msgid "Enter Expertise"
+msgstr "Inserisci esperienza"
+
+#: post_type/metaboxes/components/faq.php:22
+msgid "Enter FAQ answer"
+msgstr "Inserisci risposta FAQ"
+
+#: post_type/metaboxes/components/faq.php:21
+msgid "Enter FAQ question"
+msgstr "Inserisci domanda FAQ"
+
+#: stm-lms-templates/account/login.php:26
+#: stm-lms-templates/account/register.php:19
+msgid "Enter login"
+msgstr "Inserisci login"
+
+#: post_type/metaboxes/components/answers.php:68
+msgid "Enter new Answer"
+msgstr "Inserisci nuova risposta"
+
+#: post_type/metaboxes/components/stm-curriculum.php:57
+msgid "Enter new lesson title"
+msgstr "Inserisci nuovo titolo lezione"
+
+#: post_type/metaboxes/components/stm-curriculum.php:70
+msgid "Enter new quiz title"
+msgstr "Inserisci nuovo titolo quiz"
+
+#: post_type/metaboxes/components/stm-curriculum.php:42
+msgid "Enter new section title"
+msgstr "Inserisci nuovo titolo sezione"
+
+#: stm-lms-templates/account/login.php:37
+#: stm-lms-templates/account/register.php:43
+msgid "Enter password"
+msgstr "Inserisci password"
+
+#: post_type/metaboxes/components/questions.php:85
+msgid "Enter question title"
+msgstr "Inserisci titolo domanda"
+
+#: post_type/metaboxes/fields/duration.php:17
+msgid "Enter quiz duration"
+msgstr "Inserisci durata quiz"
+
+#: stm-lms-templates/account/private/edit_account/bio.php:7
+msgid "Enter your BIO"
+msgstr "Inserisci la tua biografia"
+
+#: stm-lms-templates/lesson/comments.php:64
+#: stm-lms-templates/lesson/comments.php:155
+msgid "Enter your comment"
+msgstr "Inserisci il tuo commento"
+
+#: stm-lms-templates/account/register.php:67
+msgid "Enter Your Degree"
+msgstr "Inserisci la tua laurea"
+
+#: stm-lms-templates/account/register.php:30
+msgid "Enter your E-mail"
+msgstr "Inserisci il tuo indirizzo e-mail"
+
+#: stm-lms-templates/account/enterprise.php:24
+msgid "Enter Your Email"
+msgstr "Inserisci il tuo indirizzo e-mail"
+
+#: stm-lms-templates/account/register.php:77
+msgid "Enter your Expertize"
+msgstr "Inserisci la tua esperienza "
+
+#: stm-lms-templates/account/private/edit_account/socials.php:21
+msgid "Enter your Facebook URL"
+msgstr "Inserisci l'URL del tuo profilo Facebook"
+
+#: stm-lms-templates/account/private/edit_account/socials.php:31
+msgid "Enter your Google Plus URL"
+msgstr "Inserisci l'URL del tuo profilo Google+"
+
+#: stm-lms-templates/account/private/edit_account/socials.php:55
+msgid "Enter your Instagram URL"
+msgstr "Inserisci l'URL del tuo profilo Instagram"
+
+#: stm-lms-templates/account/private/edit_account/name.php:17
+msgid "Enter your last name"
+msgstr "Inserisci il tuo cognome"
+
+#: stm-lms-templates/account/enterprise.php:33
+msgid "Enter Your Message"
+msgstr "Inserisci il tuo messaggio"
+
+#: stm-lms-templates/account/enterprise.php:15
+#: stm-lms-templates/account/private/edit_account/name.php:8
+msgid "Enter your name"
+msgstr "Inserisci il tuo nome"
+
+#: stm-lms-templates/account/private/edit_account/position.php:8
+msgid "Enter your position"
+msgstr "Inserisci la tua posizione"
+
+#: stm-lms-templates/account/private/edit_account/socials.php:45
+msgid "Enter your Twitter URL"
+msgstr "Inserisci l'URL del tuo profilo Twitter"
+
+#: lms/classes/user.php:627
+msgid "Enterprise Request"
+msgstr "Richiesta azienda"
+
+#: lms/classes/cart.php:160
+msgid "Error occurred. Please try again."
+msgstr "Si è verificato un errore. Ti preghiamo di riprovare."
+
+#: post_type/metaboxes/components_js/payments.php:102
+msgid "Euro"
+msgstr "Euro"
+
+#: stm-lms-templates/account/register.php:72
+#: stm-lms-templates/account/become_instructor.php:19
+msgid "Expertise"
+msgstr "Esperienza"
+
+#: lms/classes/user.php:471
+#: stm-lms-templates/account/private/edit_account/socials.php:17
+msgid "Facebook"
+msgstr "Facebook"
+
+#: lms/classes/order.php:102 lms/classes/user.php:334
+msgid "Failed"
+msgstr "Non riuscito"
+
+#: post_type/metaboxes/components_js/answers.php:100
+msgid "False"
+msgstr "Falso"
+
+#: post_type/metaboxes/metabox.php:236 post_type/metaboxes/metabox.php:240
+#: stm-lms-templates/course/parts/tabs.php:8
+msgid "FAQ"
+msgstr "FAQ"
+
+#: stm-lms-templates/global/wishlist-button.php:7
+msgid "Favorites"
+msgstr "Preferiti"
+
+#: lms/widgets/popular.widget.php:65 stm-lms-templates/global/price.php:10
+msgid "Free"
+msgstr "Gratis"
+
+#: settings/settings.php:92
+msgid "General"
+msgstr "Generale"
+
+#: lms/classes/cart.php:46 lms/classes/cart.php:52
+msgid "Go to Cart"
+msgstr "Vai al carrello"
+
+#: settings/settings.php:229
+msgid "Google API"
+msgstr "API Google"
+
+#: lms/classes/user.php:483
+#: stm-lms-templates/account/private/edit_account/socials.php:27
+msgid "Google Plus"
+msgstr "Google+"
+
+#: settings/settings.php:144
+msgid "Grid"
+msgstr "Griglia"
+
+#: stm-lms-templates/global/account-dropdown.php:19
+#, php-format
+msgid "Hey, %s"
+msgstr "Hey, %s"
+
+#: lms/classes/cart.php:190 post_type/metaboxes/components_js/payments.php:33
+msgid "Holder name"
+msgstr "Nome titolare"
+
+#: post_type/metaboxes/components_js/payments.php:103
+msgid "Hong Kong dollar"
+msgstr "Dollaro di Hong Kong"
+
+#: lms/classes/course.php:202 post_type/metaboxes/metabox.php:158
+msgid "Hot"
+msgstr "Popolari"
+
+#: stm-lms-templates/quiz/timer.php:16
+#: post_type/metaboxes/fields/duration.php:25
+msgid "Hours"
+msgstr "Ore"
+
+#. URI of the plugin
+msgid "http://masterstudy.stylemixthemes.com/lms-plugin/"
+msgstr "http://masterstudy.stylemixthemes.com/lms-plugin/"
+
+#. Author URI of the plugin
+msgid "https://stylemixthemes.com/"
+msgstr "https://stylemixthemes.com/"
+
+#: post_type/metaboxes/components_js/payments.php:104
+msgid "Hungarian forint 1"
+msgstr "Fiorino ungherese 1"
+
+#: post_type/metaboxes/components_js/payments.php:105
+msgid "Indian rupee"
+msgstr "Rupia indiana"
+
+#: settings/settings.php:173
+msgid "Infinite Scrolling"
+msgstr "Scorrimento Infinito"
+
+#: lms/classes/user.php:479
+#: stm-lms-templates/account/private/edit_account/socials.php:51
+msgid "Instagram"
+msgstr "Instagram"
+
+#: lms/helpers.php:70
+msgid "Instructor"
+msgstr "Insegnante"
+
+#: settings/settings.php:242 lms/classes/templates.php:80
+msgid "Instructors"
+msgstr "Insegnanti"
+
+#: settings/settings.php:246
+msgid "Instructors Archive Page"
+msgstr "Pagina archivio insegnanti"
+
+#: post_type/metaboxes/metabox.php:114
+#: stm-lms-templates/course/parts/info.php:45
+#: stm-lms-templates/courses/parts/meta.php:10
+msgid "Intermediate"
+msgstr "Intermedio"
+
+#: post_type/metaboxes/components_js/payments.php:106
+msgid "Israeli new shekel"
+msgstr "Shekel israeliano"
+
+#: post_type/metaboxes/components_js/payments.php:107
+msgid "Japanese yen 1"
+msgstr "Yen giapponese 1"
+
+#: lms/helpers.php:34
+msgid "just now"
+msgstr "ora"
+
+#: lms/classes/lesson.php:94
+#, php-format
+msgid "Lecture %s"
+msgstr "Lezione %s"
+
+#: stm-lms-templates/course/parts/info.php:29
+msgid "Lectures"
+msgstr "Lezioni"
+
+#: settings/settings.php:114
+msgid "Left"
+msgstr "Sinistra"
+
+#: post_type/posts.php:70
+msgid "Lesson"
+msgstr "Lezione"
+
+#: post_type/metaboxes/metabox.php:261
+msgid "Lesson duration"
+msgstr "Durata lezione"
+
+#: post_type/metaboxes/metabox.php:269
+msgid "Lesson Frontend description"
+msgstr "Descrizione interfaccia lezione"
+
+#: post_type/metaboxes/metabox.php:265
+msgid "Lesson preview"
+msgstr "Anteprima lezione"
+
+#: post_type/metaboxes/metabox.php:41 post_type/metaboxes/metabox.php:247
+msgid "Lesson Settings"
+msgstr "Impostazioni lezione"
+
+#: post_type/metaboxes/metabox.php:251
+msgid "Lesson type"
+msgstr "Tipo di lezione"
+
+#: post_type/posts.php:71
+msgid "Lessons"
+msgstr "Lezioni"
+
+#: stm-lms-templates/course/parts/info.php:48
+msgid "Level"
+msgstr "Livello"
+
+#: post_type/metaboxes/components_js/payments.php:125
+msgid "Live"
+msgstr "Live"
+
+#: settings/view/main.php:9
+msgid "LMS Settings"
+msgstr "Impostazioni LMS"
+
+#: stm-lms-templates/lesson/comments.php:102
+msgid "Load More"
+msgstr "Carica altro"
+
+#: stm-lms-templates/courses/load_more.php:9
+#: stm-lms-templates/account/private/instructor_parts/courses.php:96
+msgid "Load more"
+msgstr "Carica altro"
+
+#: settings/settings.php:170
+msgid "Load More Type"
+msgstr "Carica altri tipi"
+
+#: lms/classes/user.php:120 stm-lms-templates/account/login.php:13
+#: stm-lms-templates/account/login.php:20
+#: stm-lms-templates/account/login.php:71
+#: stm-lms-templates/account/register.php:14
+msgid "Login"
+msgstr "Login "
+
+#: settings/settings.php:199
+msgid "Login Url (Default /lms-login)"
+msgstr "Url login (Default /lms-login)"
+
+#: stm-lms-templates/global/account-dropdown.php:26
+msgid "Logout"
+msgstr "Esci"
+
+#: stm-lms-templates/account/login.php:63
+#: stm-lms-templates/account/login.php:64
+msgid "Lost Password"
+msgstr "Ho perso la password"
+
+#: settings/settings.php:96
+msgid "Main color"
+msgstr "Colore principale"
+
+#: post_type/metaboxes/components_js/payments.php:108
+msgid "Malaysian ringgit 2\t"
+msgstr "Ringgit malaysiano 2\t"
+
+#. Name of the plugin
+msgid "MasterStudy LMS Learning Management System"
+msgstr "MasterStudy LMS Learning Management System"
+
+#: post_type/metaboxes/components/multimedia.php:7
+msgid "Media URL"
+msgstr "URL Media"
+
+#: post_type/metaboxes/metabox.php:145
+msgid "Medium"
+msgstr "Medio"
+
+#: stm-lms-templates/account/use_membership.php:13
+#, php-format
+msgid "Membership quotas left: <strong>%s</strong>"
+msgstr "Quote di iscrizione rimaste: <strong>%s</strong>"
+
+#: stm-lms-templates/account/enterprise.php:28
+#: stm-lms-templates/account/public/parts/messages_btn.php:20
+msgid "Message"
+msgstr "Messaggio"
+
+#: lms/classes/chat.php:38
+msgid "Message Sent"
+msgstr "Messaggio inviato"
+
+#: lms/classes/user.php:610
+msgid "Message sent."
+msgstr "Messaggio inviato."
+
+#: post_type/metaboxes/components_js/payments.php:109
+msgid "Mexican peso"
+msgstr "Peso messicano"
+
+#: post_type/metaboxes/fields/duration.php:24
+msgid "Minutes"
+msgstr "Minuti"
+
+#: post_type/metaboxes/metabox.php:329
+#: post_type/metaboxes/components/questions.php:40
+msgid "Multi choice"
+msgstr "Risposta multipla"
+
+#: stm-lms-templates/account/private/parts/certificates.php:21
+msgid "My Certificates"
+msgstr "I miei certificati"
+
+#: stm-lms-templates/account/private/parts/tabs.php:10
+msgid "My Courses"
+msgstr "I miei corsi"
+
+#: stm-lms-templates/account/private/parts/tabs.php:15
+msgid "My Memberships"
+msgstr "I miei abbonamenti"
+
+#: stm-lms-templates/account/private/chat/main.php:12
+#: stm-lms-templates/account/private/parts/messages_btn.php:13
+msgid "My messages"
+msgstr "I miei messaggi"
+
+#: stm-lms-templates/account/private/parts/tabs.php:12
+msgid "My Orders"
+msgstr "I miei ordini "
+
+#: stm-lms-templates/account/private/parts/tabs/my-orders.php:10
+msgid "My orders"
+msgstr "I miei ordini "
+
+#: stm-lms-templates/lesson/comments.php:20
+msgid "My Question"
+msgstr "La mia domanda"
+
+#: stm-lms-templates/account/private/parts/tabs.php:11
+msgid "My Quizzes"
+msgstr "I miei quiz"
+
+#: stm-lms-templates/account/private/parts/tabs/my-quizzes.php:5
+msgid "My quizzes"
+msgstr "I miei quiz"
+
+#: stm-lms-templates/account/private/not_logged/wishlist.php:1
+#: stm-lms-templates/account/private/parts/wishlist.php:21
+msgid "My Wishlist"
+msgstr "La mia lista desideri"
+
+#: lms/classes/instructors.php:264 lms/classes/instructors.php:265
+msgid "N/A"
+msgstr "N/A"
+
+#: lms/classes/user.php:499 lms/classes/user.php:502
+#: stm-lms-templates/account/enterprise.php:10
+#: stm-lms-templates/account/private/edit_account/name.php:5
+msgid "Name"
+msgstr "Nome"
+
+#: lms/classes/user.php:628
+#, php-format
+msgid "Name - %s; Email - %s; Message - %s"
+msgstr "Nome - %s; E-mail - %s; Messaggio - %s"
+
+#: lms/classes/course.php:203 post_type/metaboxes/metabox.php:159
+msgid "New"
+msgstr "Nuovi"
+
+#: post_type/posts.php:156
+#, php-format
+msgid "New %s"
+msgstr "Nuovo %s"
+
+#: post_type/taxonomies.php:39
+msgid "New Course category Name"
+msgstr "Nome nuova categoria corsi"
+
+#: lms/classes/instructors.php:267
+msgid "New Instructor Application"
+msgstr "Candidatura nuovo insegnante"
+
+#: lms/classes/reviews.php:231
+msgid "New Review"
+msgstr "Nuova recensione"
+
+#: post_type/metaboxes/components_js/payments.php:110
+msgid "New Taiwan dollar 1"
+msgstr "Nuovo dollaro taiwanese 1"
+
+#: post_type/metaboxes/components_js/payments.php:111
+msgid "New Zealand dollar"
+msgstr "Dollaro neozelandese"
+
+#: post_type/posts.php:163
+#, php-format
+msgid "No %s found in Trash."
+msgstr "Nessun %s trovato nel cestino."
+
+#: post_type/posts.php:162
+#, php-format
+msgid "No %s found."
+msgstr "Nessun %s trovato."
+
+#: stm-lms-templates/course/parts/tabs/announcement.php:9
+msgid "No announcements at this moment."
+msgstr "Nessun annuncio in questo momento."
+
+#: stm-lms-templates/checkout/payment_methods.php:76
+msgid "No available Payment methods"
+msgstr "Nessun metodo di pagamento disponibile"
+
+#: stm-lms-templates/courses/grid.php:143
+msgid "No courses found."
+msgstr "Nessun corso trovato."
+
+#: stm-lms-templates/account/private/parts/tabs/my-courses.php:73
+msgid "No courses."
+msgstr "Nessun corso."
+
+#: stm-lms-templates/account/private/chat/contacts.php:30
+msgid "No messages yet."
+msgstr "Ancora nessun messaggio."
+
+#: stm-lms-templates/account/private/parts/tabs/my-orders.php:43
+msgid "No orders."
+msgstr "Nessun ordine."
+
+#: stm-lms-templates/account/private/parts/tabs/my-quizzes.php:46
+msgid "No quizzes."
+msgstr "Nessun quiz."
+
+#: post_type/metaboxes/metabox.php:143
+msgid "No skill required"
+msgstr "Nessuna abilità richiesta"
+
+#: post_type/metaboxes/metabox.php:157
+msgid "No status"
+msgstr "Nessuno stato"
+
+#: post_type/metaboxes/components_js/payments.php:112
+msgid "Norwegian krone"
+msgstr "Corona norvegese"
+
+#: post_type/metaboxes/metabox.php:222
+msgid "Not included in membership"
+msgstr "Non incluso nell'iscrizione"
+
+#: lms/classes/subscriptions.php:102
+msgid "Number of available courses in subscription"
+msgstr "Numero di corsi disponibili nell'abbonamento"
+
+#: lms/classes/cart.php:185
+msgid "Offline Payment"
+msgstr "Pagamento offline"
+
+#: post_type/metaboxes/components_js/payments.php:15
+msgid "Offline payment"
+msgstr "Pagamento offline"
+
+#: lms/classes/order.php:103
+msgid "On hold"
+msgstr "In attesa"
+
+#: post_type/posts.php:137 lms/classes/order.php:228
+#: post_type/metaboxes/metabox.php:384
+msgid "Order"
+msgstr "Ordine"
+
+#: lms/classes/cart.php:173
+msgid "Order created, redirecting"
+msgstr "Ordine creato, ti stiamo reindirizzando"
+
+#: lms/classes/cart.php:121
+msgid "Order created, redirecting to PayPal"
+msgstr "Ordine creato, ti stiamo reindirizzando a PayPal"
+
+#: lms/classes/cart.php:156
+msgid "Order created. Payment completed."
+msgstr "Ordine creato. Pagamento completato. "
+
+#: lms/classes/cart.php:152
+msgid "Order created. Payment not completed."
+msgstr "Ordine creato. Pagamento non completato."
+
+#: post_type/metaboxes/metabox.php:61
+msgid "Order info"
+msgstr "Info ordine"
+
+#: lms/classes/order.php:108
+msgid "Order items"
+msgstr "Elementi dell'ordine"
+
+#: lms/classes/order.php:229
+msgid "Order Key"
+msgstr "Chiave ordine"
+
+#: lms/classes/order.php:97
+msgid "Order key"
+msgstr "Chiave ordine"
+
+#: lms/classes/order.php:230
+msgid "Order Status"
+msgstr "Stato ordine"
+
+#: post_type/posts.php:138
+msgid "Orders"
+msgstr "Ordini"
+
+#: stm-lms-templates/course/parts/tabs/reviews.php:37
+#: stm-lms-templates/course/parts/panel_info/rate.php:15
+msgid "out of 5"
+msgstr "di 5"
+
+#: post_type/posts.php:161
+#, php-format
+msgid "Parent %s:"
+msgstr "Principale %s:"
+
+#: post_type/taxonomies.php:34
+msgid "Parent Course category"
+msgstr "Categoria corso principale"
+
+#: post_type/taxonomies.php:35
+msgid "Parent Course category:"
+msgstr "Categoria corso principale:"
+
+#: lms/classes/user.php:334 stm-lms-templates/lesson/navigation.php:17
+msgid "Passed"
+msgstr "Superato"
+
+#: post_type/metaboxes/metabox.php:311
+msgid "Passing grade (%)"
+msgstr "Sufficienza (%)"
+
+#: stm-lms-templates/quiz/results.php:33
+#, php-format
+msgid "Passing grade - %s%%"
+msgstr "Sufficienza - %s%%"
+
+#: lms/classes/user.php:128 stm-lms-templates/account/login.php:31
+#: stm-lms-templates/account/register.php:38
+msgid "Password"
+msgstr "Password"
+
+#: stm-lms-templates/account/register.php:48
+msgid "Password again"
+msgstr "Inserisci di nuovo la password"
+
+#: lms/classes/user.php:132
+msgid "Password confirm"
+msgstr "Conferma password"
+
+#: lms/classes/user.php:165
+msgid "Passwords do not match"
+msgstr "Le password non coincidono"
+
+#: post_type/metaboxes/components_js/payments.php:19
+#: post_type/metaboxes/components_js/payments.php:45
+#: post_type/metaboxes/components_js/payments.php:71
+#: post_type/metaboxes/components_js/payments.php:89
+msgid "Payment method description"
+msgstr "Descrizione metodo di pagamento"
+
+#: settings/settings.php:220 settings/settings.php:224
+msgid "Payment Methods"
+msgstr "Metodi di pagamento"
+
+#: lms/classes/cart.php:187 post_type/metaboxes/components_js/payments.php:51
+msgid "Paypal"
+msgstr "PayPal"
+
+#: post_type/metaboxes/components_js/payments.php:55
+msgid "PayPal Email"
+msgstr "E-mail Paypal"
+
+#: post_type/metaboxes/components_js/payments.php:67
+msgid "PayPal mode"
+msgstr "Modalità Paypal"
+
+#: lms/classes/order.php:100 lms/classes/instructors.php:142
+msgid "Pending"
+msgstr "In sospeso"
+
+#: post_type/metaboxes/components_js/payments.php:113
+msgid "Philippine peso"
+msgstr "Peso filippino"
+
+#: lms/classes/user.php:148
+#, php-format
+msgid "Please enter valid %s field"
+msgstr "Ti preghiamo di inserire un campo %s valido"
+
+#: lms/classes/user.php:621
+msgid "Please fill al fields"
+msgstr "Per favore compila tutti i campi"
+
+#: lms/classes/user.php:598
+msgid "Please fill all fields"
+msgstr "Per favore compila tutti i campi"
+
+#: stm-lms-templates/checkout/not-logged-in.php:2
+#, php-format
+msgid "Please, <a href=\"%s\">log in</a>"
+msgstr "Per favore, <a href=\"%s\">effettua il login</a>"
+
+#: stm-lms-templates/course/parts/add_review.php:35
+#, php-format
+msgid "Please, <a href=\"%s\">login</a> to leave a review"
+msgstr "Per favore, <a href=\"%s\">accedi</a> per lasciare una recensione"
+
+#: lms/classes/reviews.php:183
+msgid "Please, check rating"
+msgstr "Ti preghiamo di verificare la valutazione"
+
+#: lms/classes/cart.php:98 lms/classes/cart.php:168
+msgid "Please, select payment method"
+msgstr "Per favore, seleziona un metodo di pagamento"
+
+#: lms/classes/comments.php:33
+msgid "Please, write a comment."
+msgstr "Ti preghiamo di scrivere un commento. "
+
+#: lms/classes/reviews.php:191
+msgid "Please, write review."
+msgstr "Ti preghiamo di scrivere una recensione."
+
+#: post_type/metaboxes/metabox.php:315
+msgid "Points total cut after re-take (%)"
+msgstr "Punti totali ridotti dopo la ripetizione (%)"
+
+#: post_type/metaboxes/components_js/payments.php:114
+msgid "Polish złoty"
+msgstr "Zloty polacco"
+
+#: lms/classes/user.php:487
+#: stm-lms-templates/account/private/edit_account/position.php:5
+msgid "Position"
+msgstr "Posizione"
+
+#: post_type/posts.php:152
+#, php-format
+msgctxt "post type singular name"
+msgid "%s"
+msgstr "%s"
+
+#: post_type/metaboxes/components_js/payments.php:115
+msgid "Pound sterling"
+msgstr "Sterlina britannica"
+
+#: stm-lms-templates/course/parts/tabs/curriculum.php:83
+msgid "Preview"
+msgstr "Anteprima"
+
+#: stm-lms-templates/courses/parts/course_info.php:73
+msgid "Preview this course"
+msgstr "Vedi un'anteprima di questo corso"
+
+#: stm-lms-templates/account/private/parts/tabs/my-orders.php:33
+msgid "Price"
+msgstr "Prezzo"
+
+#: lms/classes/order.php:101
+msgid "Processing"
+msgstr "In elaborazione"
+
+#: post_type/metaboxes/components_js/payments.php:81
+msgid "Publishable key"
+msgstr "Chiave pubblicabile"
+
+#: lms/classes/instructors.php:139
+msgid "Published"
+msgstr "Pubblicato"
+
+#: stm-lms-templates/checkout/payment.php:19
+msgid "Purchase"
+msgstr "Acquista"
+
+#: post_type/posts.php:110 post_type/metaboxes/components/faq.php:17
+msgid "Question"
+msgstr "Domanda"
+
+#: stm-lms-templates/quiz/quiz.php:46
+#, php-format
+msgid "Question %s"
+msgstr "Domanda %s"
+
+#: post_type/metaboxes/metabox.php:345
+msgid "Question result explanation"
+msgstr "Spiegazione risultato domanda"
+
+#: post_type/metaboxes/metabox.php:53 post_type/metaboxes/metabox.php:322
+msgid "Question Settings"
+msgstr "Impostazioni domanda"
+
+#: post_type/metaboxes/metabox.php:326
+msgid "Question type"
+msgstr "Tipo di domanda"
+
+#: post_type/posts.php:111 post_type/metaboxes/metabox.php:280
+#: post_type/metaboxes/metabox.php:284 stm-lms-templates/lesson/comments.php:18
+msgid "Questions"
+msgstr "Domande"
+
+#: post_type/posts.php:90 stm-lms-templates/course/parts/tabs/curriculum.php:34
+#: stm-lms-templates/account/private/parts/tabs/my-quizzes.php:14
+msgid "Quiz"
+msgstr "Quiz"
+
+#: lms/classes/lesson.php:97
+#, php-format
+msgid "Quiz %s"
+msgstr "Quiz %s"
+
+#: post_type/metaboxes/metabox.php:300
+msgid "Quiz duration"
+msgstr "Durata quiz"
+
+#: post_type/metaboxes/metabox.php:296
+msgid "Quiz Frontend description"
+msgstr "Descrizione interfaccia quiz"
+
+#: post_type/metaboxes/metabox.php:45
+msgid "Quiz Questions"
+msgstr "Domande quiz"
+
+#: post_type/metaboxes/metabox.php:49 post_type/metaboxes/metabox.php:292
+msgid "Quiz Settings"
+msgstr "Impostazioni quiz"
+
+#: post_type/posts.php:91
+msgid "Quizzes"
+msgstr "Quiz"
+
+#: stm-lms-templates/course/parts/tabs/reviews.php:34
+#: stm-lms-templates/course/parts/panel_info/rate.php:12
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Valutati %s di 5"
+
+#: stm-lms-templates/quiz/results.php:22
+msgid "Re-take Quiz"
+msgstr "Rifai il quiz"
+
+#: settings/settings.php:237
+msgid "Recaptcha Private Key"
+msgstr "Recaptcha chiave privata"
+
+#: settings/settings.php:233
+msgid "Recaptcha Site Key"
+msgstr "Recaptcha chiave sito"
+
+#: lms/classes/order.php:104
+msgid "Refunded"
+msgstr "Rimborsato"
+
+#: stm-lms-templates/account/register.php:115
+msgid "Register"
+msgstr "Registrati"
+
+#: stm-lms-templates/account/register.php:108
+msgid "Register as Instructor"
+msgstr "Registrati come insegnante"
+
+#: lms/classes/user.php:179
+msgid "Registration completed successfully."
+msgstr "Registrazione completata con successo."
+
+#: stm-lms-templates/account/login.php:60
+msgid "Remember me"
+msgstr "Ricordami"
+
+#: post_type/metaboxes/components/image.php:11
+msgid "Remove Image"
+msgstr "Rimuovi immagine"
+
+#: post_type/metaboxes/components/image.php:14
+msgid "Replace Image"
+msgstr "Sostituisci immagine"
+
+#: stm-lms-templates/account/private/chat/chat.php:36
+msgid "Reply to"
+msgstr "Rispondi a"
+
+#: stm-lms-templates/quiz/results.php:15
+msgid "Result"
+msgstr "Risultato"
+
+#: post_type/metaboxes/metabox.php:151
+msgid "Retake Course"
+msgstr "Riprendi corso"
+
+#: post_type/posts.php:129 lms/classes/instructors.php:204
+#: lms/classes/instructors.php:249
+msgid "Review"
+msgstr "Recensione"
+
+#: post_type/metaboxes/metabox.php:57 post_type/metaboxes/metabox.php:356
+msgid "Review info"
+msgstr "Info recensione"
+
+#: lms/classes/reviews.php:205
+#, php-format
+msgid "Review on %s by %s"
+msgstr "Recensione su %s di %s"
+
+#: post_type/posts.php:130 stm-lms-templates/course/parts/tabs.php:10
+msgid "Reviews"
+msgstr "Recensioni"
+
+#: settings/settings.php:115 settings/settings.php:159
+msgid "Right"
+msgstr "Destra"
+
+#: settings/settings.php:180
+msgid "Routes"
+msgstr "Percorsi"
+
+#: post_type/metaboxes/components_js/payments.php:116
+msgid "Russian ruble"
+msgstr "Rublo russo"
+
+#: post_type/metaboxes/metabox.php:203
+msgid "Sale Price"
+msgstr "Prezzo di vendita"
+
+#: post_type/metaboxes/metabox.php:208
+msgid "Sale Price Dates"
+msgstr "Date prezzo di vendita"
+
+#: post_type/metaboxes/components_js/payments.php:124
+msgid "Sandbox"
+msgstr "Sandbox"
+
+#: stm-lms-templates/account/private/instructor_parts/edit_account.php:35
+#: stm-lms-templates/account/private/parts/edit_account.php:34
+msgid "Save changes"
+msgstr "Salva modifiche"
+
+#: settings/view/main.php:28
+msgid "Save Settings"
+msgstr "Salva impostazioni"
+
+#: post_type/posts.php:160
+#, php-format
+msgid "Search %s"
+msgstr "Cerca %s"
+
+#: post_type/taxonomies.php:32
+msgid "Search Courses category"
+msgstr "Cerca categoria corsi"
+
+#: post_type/metaboxes/components/stm-curriculum.php:24
+msgid "Search lesson or quiz"
+msgstr "Invia lezione o quiz"
+
+#: stm-lms-templates/lesson/comments.php:29
+msgid "Search Questions"
+msgstr "Cerca domande"
+
+#: post_type/metaboxes/components/questions.php:70
+msgid "Search questions"
+msgstr "Cerca domande"
+
+#: settings/settings.php:101
+msgid "Secondary color"
+msgstr "Colore secondario"
+
+#: post_type/metaboxes/components_js/payments.php:85
+msgid "Secret key"
+msgstr "Chiave segreta"
+
+#: lms/classes/lesson.php:116 lms/classes/lesson.php:124
+#, php-format
+msgid "Section %s"
+msgstr "Sezione %s"
+
+#: lms/classes/lesson.php:73
+msgid "Section 1"
+msgstr "Sezione 1"
+
+#: post_type/metaboxes/components_js/payments.php:96
+msgid "Select Currency code"
+msgstr "Seleziona codice valuta"
+
+#: stm-lms-templates/lesson/comments.php:71
+#: stm-lms-templates/lesson/comments.php:162
+#: stm-lms-templates/account/public/parts/messages_btn.php:27
+msgid "Send"
+msgstr "Invia"
+
+#: stm-lms-templates/account/become_instructor.php:32
+msgid "Send Application"
+msgstr "Invia candidatura"
+
+#: stm-lms-templates/account/enterprise.php:41
+msgid "Send Enquiry"
+msgstr "invia richiesta"
+
+#: stm-lms-templates/account/public/parts/messages_btn.php:13
+msgid "Send Message"
+msgstr "Invia messaggio"
+
+#: stm-lms-templates/account/private/chat/chat.php:42
+msgid "Send message"
+msgstr "Invia messaggio"
+
+#: post_type/metaboxes/metabox.php:102
+#: stm-lms-templates/global/settings-button.php:2
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: stm-lms-templates/quiz/results.php:27
+msgid "Show answers"
+msgstr "Mostra risposte"
+
+#: post_type/metaboxes/metabox.php:307
+msgid "Show correct answer"
+msgstr "Mostra risposta corretta"
+
+#: stm-lms-templates/course/parts/tabs/reviews.php:96
+#: stm-lms-templates/account/private/parts/tabs/my-orders.php:48
+#: stm-lms-templates/account/private/parts/tabs/my-courses.php:79
+#: stm-lms-templates/account/private/parts/tabs/my-quizzes.php:51
+msgid "Show more"
+msgstr "Mostra altro"
+
+#: stm-lms-templates/account/register.php:8
+msgid "Sign Up"
+msgstr "Iscriviti"
+
+#: post_type/metaboxes/components_js/payments.php:117
+msgid "Singapore dollar"
+msgstr "Dollaro di Singapore"
+
+#: post_type/metaboxes/metabox.php:328
+#: post_type/metaboxes/components/questions.php:34
+msgid "Single choice"
+msgstr "Risposta singola"
+
+#: post_type/metaboxes/metabox.php:141
+msgid "Skill level"
+msgstr "Livello abilità"
+
+#: post_type/metaboxes/metabox.php:255
+msgid "Slide"
+msgstr "Slide"
+
+#: stm-lms-templates/course/parts/tabs/curriculum.php:50
+msgid "Slides"
+msgstr "Slide"
+
+#: stm-lms-templates/account/private/edit_account/socials.php:5
+msgid "Socials"
+msgstr "Social"
+
+#: lms/classes/course.php:204 post_type/metaboxes/metabox.php:160
+msgid "Special"
+msgstr "Speciali"
+
+#: stm-lms-templates/course/parts/tabs/reviews.php:53
+#, php-format
+msgid "Stars %s"
+msgstr "Stelle %s"
+
+#: stm-lms-templates/account/private/parts/tabs/my-courses.php:56
+msgid "Start Course"
+msgstr "Inizia corso"
+
+#: stm-lms-templates/global/buy-button.php:36
+msgid "Start course"
+msgstr "Inizia corso"
+
+#: stm-lms-templates/quiz/quiz.php:39
+msgid "Start Quiz"
+msgstr "Inizia quiz"
+
+#: lms/classes/user.php:295
+#, php-format
+msgid "Started %s"
+msgstr "%s iniziato"
+
+#: lms/classes/order.php:99 post_type/metaboxes/metabox.php:155
+#: stm-lms-templates/account/private/parts/tabs/my-quizzes.php:18
+msgid "Status"
+msgstr "Stato"
+
+#: post_type/metaboxes/metabox.php:165
+msgid "Status Dates"
+msgstr "Date stato"
+
+#: lms/classes/subscriptions.php:98
+msgid "STM LMS Settings"
+msgstr "STM Impostazioni LMS"
+
+#: lms/widgets/main.php:19
+msgid "STM LMS Sidebar"
+msgstr "STM LMS Barra laterale"
+
+#: lms/classes/cart.php:188 post_type/metaboxes/components_js/payments.php:77
+msgid "Stripe"
+msgstr "Stripe"
+
+#. Author of the plugin
+msgid "StylemixThemes"
+msgstr "StylemixThemes"
+
+#: stm-lms-templates/quiz/quiz.php:55
+msgid "Submit Quiz"
+msgstr "Invia quiz"
+
+#: lms/classes/user.php:95
+msgid "Successfully logged in. Redirecting..."
+msgstr "Accesso riuscito. Reindirizzamento..."
+
+#: lms/classes/user.php:563
+msgid "Successfully saved"
+msgstr "Salvato con successo"
+
+#: stm-lms-templates/account/private/edit_account/name.php:14
+msgid "Surname"
+msgstr "Cognome"
+
+#: post_type/metaboxes/components_js/payments.php:118
+msgid "Swedish krona"
+msgstr "Corona svedese"
+
+#: lms/classes/cart.php:192 post_type/metaboxes/components_js/payments.php:41
+msgid "Swift"
+msgstr "Swift"
+
+#: post_type/metaboxes/components_js/payments.php:119
+msgid "Swiss franc"
+msgstr "Franco svizzero"
+
+#: post_type/taxonomies.php:30
+msgctxt "taxonomy general name"
+msgid "Courses category"
+msgstr "Categoria corsi"
+
+#: post_type/taxonomies.php:31
+msgctxt "taxonomy singular name"
+msgid "Course category"
+msgstr "Categoria corso"
+
+#: stm-lms-templates/course/parts/panel_info/teacher.php:13
+msgid "Teacher"
+msgstr "Insegnante"
+
+#: stm-lms-templates/account/public/instructor_parts/courses.php:16
+msgid "Teacher Courses"
+msgstr "Corsi dell'insegnante"
+
+#: post_type/metaboxes/metabox.php:253
+msgid "Text"
+msgstr "Testo"
+
+#: stm-lms-templates/course/parts/tabs/curriculum.php:28
+msgid "Text Lesson"
+msgstr "Lezione testo"
+
+#: post_type/metaboxes/components_js/payments.php:120
+msgid "Thai baht"
+msgstr "Baht thailandese"
+
+#: lms/classes/Validation.php:2158
+msgid "The {field} can only be one of the following: {param}"
+msgstr "Il campo {field} può contenere soltanto uno dei seguenti: {param}"
+
+#: lms/classes/Validation.php:2168
+msgid ""
+"The {field} field can only have one of the following extensions: {param}"
+msgstr ""
+"Il campo {field} può avere soltanto una delle seguenti estensioni: {param}"
+
+#: lms/classes/Validation.php:2160
+msgid "The {field} field contains a value that is not accepted"
+msgstr "Il campo {field} contiene un valore non accettato"
+
+#: lms/classes/Validation.php:2170
+msgid "The {field} field does not equal {param} field"
+msgstr "Il campo {field} non corrisponde al campo {param}"
+
+#: lms/classes/Validation.php:2150
+msgid "The {field} field has to be a URL"
+msgstr "Il campo {field} deve contenere un URL"
+
+#: lms/classes/Validation.php:2148
+msgid "The {field} field has to be either true or false"
+msgstr "Il campo {field} deve essere vero o falso"
+
+#: lms/classes/Validation.php:2166
+msgid "The {field} field is invalid"
+msgstr "Il campo {field} non è valido"
+
+#: lms/classes/Validation.php:2136 lms/classes/Validation.php:2169
+msgid "The {field} field is required"
+msgstr "Il campo {field} è obbligatorio"
+
+#: lms/classes/Validation.php:2141
+msgid "The {field} field may only contain letters"
+msgstr "Il campo {field} può contenere soltanto lettere"
+
+#: lms/classes/Validation.php:2144
+msgid "The {field} field may only contain letters and dashes"
+msgstr "Il campo {field} può contenere soltanto lettere e trattini"
+
+#: lms/classes/Validation.php:2142
+msgid "The {field} field may only contain letters and numbers"
+msgstr "Il campo {field} può contenere soltanto lettere e numeri "
+
+#: lms/classes/Validation.php:2145
+msgid "The {field} field may only contain letters and spaces"
+msgstr "Il campo {field} può contenere soltanto lettere e spazi"
+
+#: lms/classes/Validation.php:2143
+msgid "The {field} field may only contain letters, numbers and spaces"
+msgstr "Il campo {field} può contenere soltanto lettere, numeri e spazi"
+
+#: lms/classes/Validation.php:2146
+msgid "The {field} field must be a number"
+msgstr "Il campo {field} deve contenere un numero"
+
+#: lms/classes/Validation.php:2149
+msgid "The {field} field must be a number with a decimal point (float)"
+msgstr "Il campo {field} deve contenere un numero decimale in virgola mobile"
+
+#: lms/classes/Validation.php:2147
+msgid "The {field} field must be a number without a decimal"
+msgstr "Il campo {field} deve contenere un numero senza decimali"
+
+#: lms/classes/Validation.php:2137
+msgid "The {field} field must be a valid email address"
+msgstr "Il campo {field} deve contenere un indirizzo e-mail valido"
+
+#: lms/classes/Validation.php:2163
+msgid ""
+"The {field} field needs to be a numeric value, equal to, or higher than "
+"{param}"
+msgstr ""
+"Il campo {field} deve contenere un valore numerico pari a, o maggiore di, "
+"{param}"
+
+#: lms/classes/Validation.php:2164
+msgid ""
+"The {field} field needs to be a numeric value, equal to, or lower than "
+"{param}"
+msgstr ""
+"Il campo {field} deve contenere un valore numerico uguale a o minore di "
+"{param}"
+
+#: lms/classes/Validation.php:2152
+msgid "The {field} field needs to be a valid IP address"
+msgstr "Il campo {field} deve contenere un indirizzo IP valido"
+
+#: lms/classes/Validation.php:2172
+msgid "The {field} field needs to be a valid Phone Number"
+msgstr "Il campo {field} deve contenere un numero di telefono valido"
+
+#: lms/classes/Validation.php:2161
+msgid "The {field} field needs to be a valid street address"
+msgstr "Il campo {field} deve contenere un indirizzo valido"
+
+#: lms/classes/Validation.php:2139
+msgid "The {field} field needs to be at least {param} characters"
+msgstr "Il campo {field} deve contenere almeno {param} caratteri"
+
+#: lms/classes/Validation.php:2140
+msgid "The {field} field needs to be exactly {param} characters"
+msgstr "Il campo {field} deve contenere esattamente {param} caratteri"
+
+#: lms/classes/Validation.php:2138
+msgid "The {field} field needs to be {param} characters or less"
+msgstr "Il campo {field} deve contenere {param} caratteri o meno"
+
+#: lms/classes/Validation.php:2155
+msgid "The {field} field needs to contain a valid GUID"
+msgstr "Il campo {field} deve contenere un GUID valido"
+
+#: lms/classes/Validation.php:2171
+msgid "The {field} field needs to contain a valid IBAN"
+msgstr "Il campo {field} deve contenere un IBAN valido"
+
+#: lms/classes/Validation.php:2153
+msgid "The {field} field needs to contain a valid IPv4 address"
+msgstr "Il campo {field} deve contenere un indirizzo IPv4 valido"
+
+#: lms/classes/Validation.php:2154
+msgid "The {field} field needs to contain a valid IPv6 address"
+msgstr "Il campo {field} deve contenere un indirizzo IPv6 valido"
+
+#: lms/classes/Validation.php:2174
+msgid "The {field} field needs to contain a valid JSON format string"
+msgstr "Il campo {field} deve contenere una stringa formato JSON valida"
+
+#: lms/classes/Validation.php:2173
+msgid "The {field} field needs to contain a value with valid format"
+msgstr "Il campo {field} deve contenere un valore con un formato valido"
+
+#: lms/classes/Validation.php:2165
+msgid "The {field} field needs to have an age greater than or equal to {param}"
+msgstr "Il campo {field} deve contenere un'età maggiore o uguale a {param}"
+
+#: lms/classes/Validation.php:2167
+msgid "The {field} field needs to start with {param}"
+msgstr "Il campo {field} deve iniziare con {param}"
+
+#: lms/classes/Validation.php:2177
+msgid "The {field} fields needs to be an array with a size equal to {param}"
+msgstr ""
+"Il campo {field} deve contenere una serie con dimensioni uguali a {param}"
+
+#: lms/classes/Validation.php:2175
+msgid ""
+"The {field} fields needs to be an array with a size, equal to, or higher "
+"than {param}"
+msgstr ""
+"Il campo {field} deve essere una serie con dimensioni uguali a, o maggiori "
+"di, {param}"
+
+#: lms/classes/Validation.php:2176
+msgid ""
+"The {field} fields needs to be an array with a size, equal to, or lower than "
+"{param}"
+msgstr ""
+"Il campo {field} deve contenere una serie con dimensioni uguali a, o minori "
+"di, {param}"
+
+#: lms/classes/Validation.php:2156
+msgid "The {field} is not a valid credit card number"
+msgstr "Il campo {field} non contiene un numero di carta di credito valido"
+
+#: lms/classes/Validation.php:2159
+msgid "The {field} is not a valid option"
+msgstr "Il campo {field} non è un'opzione valida"
+
+#: lms/classes/Validation.php:2183
+msgid "The {field} is not a valid twitter handle"
+msgstr "Il campo {field} non contiene un profilo Twitter valido"
+
+#: lms/classes/Validation.php:2162
+msgid "The {field} must be a valid date"
+msgstr "Il campo {field} deve contenere una data valida"
+
+#: lms/classes/Validation.php:2157
+msgid "The {field} should be a full name"
+msgstr "Il campo {field} deve contenere un nome completo"
+
+#: lms/classes/Validation.php:2180
+msgid "The {field} should be a valid digit in Persian/Dari or Arabic format"
+msgstr ""
+"Il campo {field} deve contenere una cifra valida in formato persiano/dari o "
+"arabo"
+
+#: lms/classes/Validation.php:2179
+msgid ""
+"The {field} should be a valid English, Persian/Dari/Pashtu or Arabic name"
+msgstr ""
+"Il campo {field} deve contenere un valido nome inglese, persiano/dari/pashtu "
+"o arabo"
+
+#: lms/classes/Validation.php:2178
+msgid "The {field} should be a valid Persian/Dari or Arabic name"
+msgstr "Il campo {field} deve contenere un valido nome persiano/dari o arabo"
+
+#: lms/classes/Validation.php:2182
+msgid "The {field} should be a valid text in Pashtu format"
+msgstr "Il campo {field} deve contenere un testo valido in formato pashtu"
+
+#: lms/classes/Validation.php:2181
+msgid "The {field} should be a valid text in Persian/Dari or Arabic format"
+msgstr ""
+"Il campo {field} deve contenere un testo valido in formato persiano/dari o "
+"arabo"
+
+#: lms/classes/Validation.php:2151
+msgid "The {field} URL does not exist"
+msgstr "L'URL di {field} non esiste"
+
+#: settings/settings.php:121
+msgid "Thousands Separator"
+msgstr "Separatore di migliaia"
+
+#: stm-lms-templates/account/public/parts/messages_btn.php:17
+#, php-format
+msgid "To: <span>%s</span>"
+msgstr "A: <span>%s</span>"
+
+#: lms/classes/order.php:111
+msgid "Total"
+msgstr "Totale"
+
+#: stm-lms-templates/checkout/payment.php:13
+#, php-format
+msgid "Total: %s"
+msgstr "Totale: %s"
+
+#: post_type/metaboxes/components_js/answers.php:96
+#: post_type/metaboxes/components_js/answers.php:105
+msgid "True"
+msgstr "Vero"
+
+#: post_type/metaboxes/metabox.php:330
+#: post_type/metaboxes/components/questions.php:46
+msgid "True or False"
+msgstr "Vero o falso"
+
+#: lms/classes/user.php:475
+#: stm-lms-templates/account/private/edit_account/socials.php:41
+msgid "Twitter"
+msgstr "Twitter"
+
+#: post_type/metaboxes/components_js/payments.php:121
+msgid "United States dollar"
+msgstr "Dollaro americano"
+
+#: post_type/taxonomies.php:37
+msgid "Update Course category"
+msgstr "Aggiorna categoria corso"
+
+#: lms/classes/order.php:107
+msgid "User"
+msgstr "Utente"
+
+#: lms/classes/instructors.php:271
+#, php-format
+msgid ""
+"User %s with id - %s, wants to become an Instructor. Degree - %s. Expertize -"
+" %s"
+msgstr ""
+"L'utente %s con ID - %s, desidera diventare insegnante. Laurea - %s. "
+"Esperienza - %s"
+
+#: lms/classes/subscriptions.php:105
+msgid "User can enroll several courses, after subscription"
+msgstr "L'utente può iscriversi a diversi corsi, dopo l'iscrizione"
+
+#: settings/settings.php:184
+msgid "User Private Base Url (Default /lms-user)"
+msgstr "Url di base utente privato (Default /lms-user)"
+
+#: settings/settings.php:189
+msgid "User Public Base Url (Default /lms-user_profile)"
+msgstr "Url di base utente pubblico (Default /lms-user_profile)"
+
+#: post_type/metaboxes/metabox.php:370
+msgid "User Review mark"
+msgstr "Contrassegno recensione utente"
+
+#: post_type/metaboxes/metabox.php:365
+msgid "User Reviewed"
+msgstr "Utente recensito"
+
+#: post_type/metaboxes/metabox.php:254
+#: stm-lms-templates/course/parts/info.php:36
+#: stm-lms-templates/course/parts/tabs/curriculum.php:55
+msgid "Video"
+msgstr "Video"
+
+#: post_type/metaboxes/metabox.php:137
+msgid "Video Duration"
+msgstr "Durata video"
+
+#: stm-lms-templates/account/private/instructor_parts/courses.php:38
+msgid "View"
+msgstr "Visualizza"
+
+#: post_type/posts.php:158
+#, php-format
+msgid "View %s"
+msgstr "Visualizza %s"
+
+#: lms/widgets/main.php:21
+msgid "Widgets in this area will be shown on STM LMS Pages."
+msgstr "I widget in questa area saranno mostrati sulle pagine STM LMS."
+
+#: post_type/metaboxes/components_js/payments.php:25
+msgid "Wire Transfer"
+msgstr "Bonifico"
+
+#: lms/classes/cart.php:186
+msgid "Wire transfer"
+msgstr "Bonifico"
+
+#: stm-lms-templates/global/wishlist-button.php:6
+msgid "Wishlist"
+msgstr "Lista desideri"
+
+#: stm-lms-templates/account/private/not_logged/wishlist.php:13
+#, php-format
+msgid "Wishlist is empty. <a href=\"%s\">View courses</a>"
+msgstr "La lista desideri è vuota. <a href=\"%s\">Vedi corsi</a>"
+
+#: settings/settings.php:209
+msgid "Wishlist Url (Default /lms-wishlist)"
+msgstr "Url lista desideri (Default /lms-wishlist)"
+
+#: lms/classes/user.php:421 stm-lms-templates/global/wish-list.php:17
+#: stm-lms-templates/global/wish-list.php:22
+msgid "Wishlisted"
+msgstr "Inserito in lista desideri"
+
+#: stm-lms-templates/lesson/comments.php:115
+msgid "Write your question here"
+msgstr "Scrivi qui la tua domanda"
+
+#: lms/classes/user.php:92
+msgid "Wrong Username or Password"
+msgstr "Nome utente o password errati"
+
+#: lms/classes/reviews.php:175
+msgid "You already left review."
+msgstr "Hai già lasciato una recensione."
+
+#: lms/classes/user.php:583
+msgid "Your Application is under submission."
+msgstr "La tua richiesta è in fase di presentazione."
+
+#: lms/classes/comments.php:26
+msgid "Your comment was added."
+msgstr "Il tuo commento è stato aggiunto."
+
+#: stm-lms-templates/account/use_membership.php:12
+#, php-format
+msgid "Your current membership is \"%s\""
+msgstr "Il tuo attuale abbonamento è \"%s\""
+
+#: stm-lms-templates/account/private/chat/chat.php:37
+msgid "Your message"
+msgstr "Il tuo messaggio"
+
+#: lms/classes/reviews.php:166
+msgid "Your review is moderating."
+msgstr "La tua recensione è in fase di moderazione."

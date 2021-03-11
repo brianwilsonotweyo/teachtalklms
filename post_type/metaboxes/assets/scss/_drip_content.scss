@@ -1,0 +1,71 @@
+.stm-lms-autocomplete-drips-list {
+    list-style: none !important;
+    border: 1px solid #ccc;
+
+    .stm-lms-autocomplete-drips {
+        margin-bottom: 0 !important;
+        border-bottom: 1px solid #ccc;
+
+        &--title {
+            padding: 10px 15px;
+            background-color: #f1f1f1;
+            font-weight: 600;
+            font-size: 16px;
+            cursor: pointer;
+            i {
+                float: right;
+                position: relative;
+                top: 2px;
+                display: inline-block;
+                margin-left: 15px;
+                color: red;
+                cursor: pointer;
+            }
+        }
+
+        &--content {
+            display: none;
+            padding: 15px 15px;
+            .dropdown,
+            .form-control {
+                margin-bottom: 0 !important;
+            }
+        }
+
+        &.active {
+            .stm-lms-autocomplete-drips--content {
+                display: block;
+            }
+        }
+
+        &:last-child {
+            border-bottom: 0;
+        }
+
+
+
+        /*PARENTS*/
+        &--parents {
+            margin: 0 0 20px;
+        }
+        &--parent {
+            margin: 0 0 10px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        &--childs {
+            padding-left: 15px;
+        }
+        &--child {
+            margin-bottom: 5px;
+            i {
+                position: relative;
+                top: 2px;
+                display: inline-block;
+                margin-left: 15px;
+                color: red;
+                cursor: pointer;
+            }
+        }
+    }
+}

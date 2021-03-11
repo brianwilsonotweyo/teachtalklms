@@ -1,0 +1,20 @@
+@import "../components/colors";
+
+.stm_lms_type_slide {
+    .stm-lms-wrapper {
+        padding-bottom: 0;
+    }
+
+    .stm-lms-course__content_wrapper {
+        padding: 90px 0 50px;
+        background-color: #eef1f7;
+        iframe {
+            width: 100%;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+    }
+
+    .stm-lms-lesson_navigation {
+        margin-top: 0;
+    }
+}

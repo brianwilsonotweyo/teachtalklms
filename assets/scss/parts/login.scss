@@ -1,0 +1,155 @@
+@import "../components/colors";
+@import "../components/mixins";
+
+.stm-lms-wrapper__login {
+    margin-bottom: 50px;
+}
+
+.stm-lms-modal-login {
+    .nav {
+        margin-bottom: 0;
+    }
+    #stm-lms-login,
+    #stm-lms-register {
+        display: none;
+        &.active {
+            display: block;
+        }
+    }
+    #stm-lms-register {
+        margin-bottom: -70px;
+        > h3 {
+            display: none;
+        }
+    }
+}
+
+.stm_lms_login_wrapper {
+    padding: 40px 50px;
+    background-color: $main_color;
+    .form-group {
+        margin: 0 0 30px;
+        label {
+            margin: 0 0 7px;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: 600;
+            color: #fff;
+        }
+    }
+    &__actions {
+        display: flex;
+        align-items: center;
+        label {
+            margin-right: 15px;
+            color: #fff;
+        }
+        .btn {
+            background-color: $green !important;
+            margin-left: auto;
+        }
+    }
+    .lostpassword {
+        position: relative;
+        top: -1px;
+        color: #fff !important;
+        &:hover {
+            text-decoration: underline !important;
+        }
+    }
+
+    .lostpassword {
+        cursor: pointer;
+    }
+
+    .stm_lms_lost_password_form {
+        display: flex;
+        align-items: center;
+        padding: 30px 0 0;
+        .form-group {
+            flex-grow: 1;
+            margin-right: 30px;
+        }
+        .btn {
+            background-color: $green !important;
+            margin-left: auto;
+        }
+    }
+}
+
+.wp-social-login-widget {
+    float: right;
+    margin: 6px 0 0;
+    .wp-social-login-connect-with {
+        display: none;
+    }
+    .wp-social-login-provider-list {
+        margin: 0 -5px;
+        padding: 0;
+        a {
+            margin: 0 5px;
+        }
+    }
+}
+
+.stm_lms_log_in {
+    &.loading {
+        min-height: auto;
+        &:before {
+            top: -3px;
+        }
+        i, span {
+            opacity: 0;
+        }
+    }
+}
+.stm-lms-modal-login {
+    .modal-body {
+        padding: 0 0 70px;
+    }
+    .loading.btn {
+        margin-left: auto !important;
+    }
+    .stm_lms_login_wrapper {
+    }
+    .stm-lms-message {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .stm-lms-login__top {
+        position: absolute;
+        bottom: 19px;
+        left: 20px;
+        right: 20px;
+        h3 {
+            display: none;
+        }
+        .wp-social-login-widget {
+            float: none;
+            text-align: center;
+        }
+    }
+    .stm-lms-message {
+        padding: 0;
+        background-color: transparent;
+        color: #E53935;
+        &.success {
+            color: #66BB6A;
+        }
+    }
+}
+
+@include breakpoint(tabletunder) {
+    .stm-lms-login {
+        margin: 0 0 40px;
+    }
+}
+
+@include breakpoint(mobile) {
+    .stm_lms_login_wrapper__actions {
+        flex-wrap: wrap;
+        .btn {
+            margin: 15px 0 0 0;
+        }
+    }
+}

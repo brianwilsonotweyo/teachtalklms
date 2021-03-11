@@ -1,0 +1,454 @@
+@import "../components/colors";
+
+
+body {
+
+    .stm_lms_lesson_header__left {
+
+        .stm-lms-curriculum-trigger {
+            //display: none;
+        }
+
+    }
+
+    .stm-lms-wrapper {
+
+        padding: 0;
+
+        .stm-lms-course__sidebar_toggle {
+            display: none;
+        }
+
+        .stm_lms_stream_lesson {
+
+        }
+
+    }
+
+    .stm-lms-lesson_navigation {
+        margin-top: 0;
+    }
+
+    .stm_lms_stream_lesson {
+        display: flex;
+        height: calc(100vh - 130px - 131px - 99px);
+        min-height: 500px;
+
+        &.is-resizing {
+            iframe {
+                z-index: -1;
+            }
+        }
+
+        &__title {
+            padding: 25px 0 40px 110px;
+            margin: 0;
+            color: #fff;
+            font-size: 50px;
+            font-weight: 200;
+        }
+
+        .left {
+            width: 70%;
+            height: 100%;
+            //flex-grow: 1;
+        }
+
+        .right {
+            width: 30%;
+            flex-grow: 1;
+
+            &_inner {
+
+                display: flex;
+                flex-direction: column;
+
+                position: relative;
+                height: 100%;
+                padding-left: 11px;
+                border-top: 11px solid #3e4043;
+                border-bottom: 11px solid #3e4043;
+            }
+
+            &_scroller {
+                display: none;
+                position: absolute;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                width: 11px;
+                background-color: #3e4043;
+            }
+        }
+
+        .left {
+            position: relative;
+
+            iframe {
+                margin-right: 11px;
+                position: relative;
+            }
+
+            .ui-resizable-e {
+                position: absolute;
+                width: 11px;
+                background-color: #3e4043;
+                right: -11px;
+                top: 0;
+                bottom: 0;
+                cursor: move;
+
+                &:before,
+                &:after {
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    width: 7px;
+                    height: 14px;
+                    top: 50%;
+                    left: 2px;
+                    margin: -12px 0 0 0;
+                    border-left: 1px solid #000;
+                    border-right: 1px solid #000;
+                }
+
+                &:after {
+                    width: 3px;
+                    left: 4px;
+                }
+            }
+        }
+
+        &__video {
+            height: 100%;
+
+            iframe {
+                height: 100%;
+                width: 100%;
+                border: 0;
+            }
+        }
+
+        &__content {
+            position: relative;
+            height: 50%;
+
+            &_inner {
+                height: 100%;
+                padding: 30px;
+                overflow: auto;
+                box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, .4);
+            }
+
+            * {
+                color: #fff;
+            }
+
+            .ui-resizable-s {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 11px;
+                background-color: #3e4043;
+                cursor: move;
+
+                &:before,
+                &:after {
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    width: 14px;
+                    height: 7px;
+                    top: 2px;
+                    left: 50%;
+                    margin: 0 0 0 -7px;
+                    border-top: 1px solid #000;
+                    border-bottom: 1px solid #000;
+                }
+
+                &:after {
+                    height: 3px;
+                    top: 4px;
+                }
+            }
+        }
+
+        &__chat {
+            height: 50%;
+            flex-grow: 1;
+
+            iframe {
+                position: relative;
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        &.single_video {
+            .left {
+                width: 100%;
+                max-width: 1100px;
+                margin: 0 auto 50px;
+
+                .ui-resizable-handle {
+                    display: none !important;
+                }
+            }
+        }
+
+        &.no-chat {
+            .right {
+                .stm_lms_stream_lesson__content {
+                    height: 100%;
+
+                    .ui-resizable-handle {
+                        display: none !important;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.stream-starts-soon {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(100vh - 130px - 131px);
+    min-height: 500px;
+    padding: 70px 0 40px;
+    text-align: center;
+
+    h3 {
+        margin: 0 0 50px;
+        width: 100%;
+        color: #fff;
+        font-size: 35px;
+        font-weight: 300;
+    }
+}
+
+.stream-cannot-be-completed {
+    opacity: 0.5;
+
+    a {
+        cursor: not-allowed;
+
+        &:after {
+            display: none !important;
+        }
+    }
+}
+
+html {
+    body {
+        background: url('../../img/video_bg.jpg') no-repeat 50% 0;
+        background-color: #15181c;
+        color: #fff;
+
+        #stm-lms-lessons,
+        .stm_lms_lesson_header {
+            h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,
+            .nav-tabs > li > a, .heading_font,
+            table, .widget_categories ul li a,
+            .sidebar-area .widget ul li a,
+            .select2-selection__rendered,
+            a,
+            blockquote,
+            .stm_lms_lesson_header__center a,
+            .select2-chosen,
+            .vc_tta-tabs.vc_tta-tabs-position-top .vc_tta-tabs-container,
+            .vc_tta-tabs-list li.vc_tta-tab a,
+            .vc_tta-tabs.vc_tta-tabs-position-left .vc_tta-tabs-container .vc_tta-tabs-list li.vc_tta-tab a {
+                color: #fff;
+            }
+        }
+
+        .stm_lms_lesson_header {
+            border-bottom: 1px solid rgba(255, 255, 255, .2);
+
+            .stm_lms_account_dropdown {
+                .dropdown button {
+                    background-color: transparent;
+                    border: 1px solid rgba(255, 255, 255, .2);
+
+                    i {
+                        color: #fff;
+                    }
+                }
+
+                ul {
+                    li {
+                        a {
+                            color: #000;
+                            opacity: 0.9;
+
+                            &:hover {
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+
+            h5 > a {
+                opacity: 1;
+            }
+        }
+
+        .stm_lms_lesson_header__right {
+            a {
+                color: #fff;
+                opacity: 0.5;
+
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+
+        .stm-lms-curriculum-trigger {
+            background-color: $main_color;
+
+            i {
+                color: #fff;
+            }
+
+            &:hover {
+                i {
+                    color: $main_color;
+                }
+            }
+        }
+
+        .stm-lms-course__lesson-content__top {
+            margin: 0 0 80px;
+            text-align: center;
+
+            h3 {
+                font-weight: 200;
+            }
+        }
+
+        iframe {
+            width: 100%;
+        }
+
+        .stm-lms-lesson_navigation {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+            &.uncompleted {
+                .stm-lms-lesson_navigation_side {
+                    a {
+                        i {
+                            border: 2px solid rgba(255, 255, 255, 0.5);
+                            color: rgba(255, 255, 255, 0.5);
+                        }
+
+                        span {
+                            color: rgba(255, 255, 255, 0.5);
+                        }
+                    }
+
+                    &:hover {
+                        i {
+                            background-color: #195ec8;
+                            border-color: #195ec8 !important;
+                            color: #fff !important;
+                        }
+
+                        span {
+                            color: #fff !important;
+                        }
+                    }
+                }
+            }
+
+            &.completed {
+                .stm-lms-lesson_navigation_side {
+                    &:hover {
+                        i {
+                            background-color: #195ec8;
+                            border-color: #195ec8 !important;
+                            color: #fff !important;
+                        }
+
+                        span {
+                            color: #fff !important;
+                        }
+                    }
+                }
+            }
+        }
+
+        .stm-curriculum-section__info span {
+            color: #273044;
+        }
+
+        .stm-lms-lesson_navigation_side {
+            > a {
+                span {
+                    transition: .3s ease;
+                }
+
+                &:not(.uncompleted):hover {
+                    i {
+                        background-color: #195ec8;
+                        border-color: #195ec8 !important;
+                        color: $main_color !important;
+                    }
+
+                    span {
+                        color: #fff !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    body {
+
+        .stm_lms_stream_lesson {
+            flex-wrap: wrap;
+            height: auto;
+            align-items: flex-start;
+
+            &__title {
+                padding: 30px;
+            }
+
+            .left,
+            .right {
+                width: 100%;
+            }
+
+            .left {
+                iframe {
+                    height: 400px;
+                    vertical-align: top;
+                }
+            }
+
+            .right {
+                .right_inner {
+                    padding: 0;
+
+                    iframe {
+                        height: 300px;
+                        vertical-align: top;
+                    }
+                }
+            }
+
+            .ui-resizable-handle {
+                display: none !important;
+            }
+        }
+    }
+}

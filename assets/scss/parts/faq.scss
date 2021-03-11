@@ -1,0 +1,89 @@
+@import "../components/colors";
+
+#stm_lms_faq {
+    .panel.panel-default {
+        position: relative;
+        margin: 0 0 15px;
+        border: 1px solid #e1e2e4;
+        box-shadow: none;
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: -4px;
+            left: -1px;
+            right: -1px;
+            height: 3px;
+            background-color: $main_color;
+            opacity: 0;
+            transition: .3s ease;
+        }
+        .panel-heading {
+            background-color: white !important;
+            .panel-title {
+                a {
+                    position: relative;
+                    padding: 32px 50px;
+                    text-decoration: none !important;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 18px;
+                    z-index: 30;
+                    i {
+                        position: absolute;
+                        top: 37px;
+                        left: 25px;
+                        width: 7px;
+                        height: 7px;
+                        border-right: 1px solid $main_color;
+                        border-bottom: 1px solid $main_color;
+                        transform: rotate(-45deg);
+                        color: $main_color;
+                        transition: .3s ease;
+                        &:before {
+                            content: '';
+                        }
+                    }
+                    &.collapsed {
+                        i {
+                            top: 35px;
+                            transform: rotate(45deg);
+                        }
+                    }
+                }
+            }
+        }
+        .panel-body {
+            position: relative;
+            padding: 0 50px 37px;
+            z-index: 30;
+        }
+        .panel-collapse {
+            &:before {
+                content: '';
+                position: absolute;
+                top: -4px;
+                left: -1px;
+                right: -1px;
+                bottom: -1px;
+                border-top: 3px solid $main_color;
+                box-shadow: 0 5px 10px rgba(0,0,0,0.18);
+                opacity: 0;
+                transition: 0s ease;
+                z-index: 20;
+            }
+            &.in {
+                &:before {
+                    opacity: 1;
+                    transition: .3s ease;
+                }
+            }
+        }
+        &:hover {
+            box-shadow: 0 5px 10px rgba(0,0,0,0.18);
+            &:before {
+                opacity: 1;
+            }
+        }
+    }
+}

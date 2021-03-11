@@ -1,0 +1,166 @@
+@import "../components/colors";
+@import "../components/mixins";
+
+.stm-curriculum {
+    &-item {
+        display: flex;
+        padding: 13px;
+        margin: 0 0 2px;
+        background-color: $secondary_color;
+        transition: .3s ease;
+        flex-wrap: wrap;
+        border-top: 2px solid transparent;
+        &.has-excerpt {
+            cursor: pointer;
+        }
+        &.opened {
+            position: relative;
+            border-top-color: $main_color;
+            background-color: #fff;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.18);
+            z-index: 99;
+            .stm-curriculum-item__toggle {
+                border-width: 0 4.5px 5px 4.5px;
+                border-color: transparent transparent $grey-text transparent;
+            }
+        }
+        &:hover {
+            background-color: #fff;
+            .stm-curriculum-item__title {
+                .heading_font {
+                    color: $main_color;
+                }
+            }
+        }
+        > * {
+            margin-right: 15px;
+        }
+        &__num {
+            font-size: 14px;
+            color: $grey-text;
+        }
+        &__title {
+            position: relative;
+            top: -1px;
+            font-size: 15px;
+            font-weight: 600;
+        }
+        &__meta {
+            margin-left: auto;
+            i {
+                position: relative;
+                margin: 0 5px 0 0;
+                font-size: 15px;
+                color: #aaaaaa;
+            }
+        }
+        &__toggle {
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0 0 0 10px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 5px 4.5px 0 4.5px;
+            border-color: $main_color transparent transparent transparent;
+            transition: .3s ease;
+        }
+        &__excerpt {
+            display: none;
+            width: 100%;
+            padding: 20px 20px 0 53px;
+        }
+        &__icon {
+            min-width: 16px;
+            font-size: 16px;
+            color: $main_color;
+            .stmlms-slides-css {
+                position: relative;
+                top: 7px;
+                display: block;
+                content: '';
+                width: 14px;
+                height: 10px;
+                border: 2px solid $main_color;
+                &:before,
+                &:after {
+                    position: absolute;
+                    top: -5px;
+                    left: 0;
+                    content: '';
+                    width: 100%;
+                    border-radius: 2px;
+                    height: 2px;
+                    background-color: $main_color;
+                }
+                &:before {
+                    left: 2px;
+                    top: -8px;
+                    width: calc(100% - 4px);
+                }
+            }
+        }
+        &__preview {
+            a {
+                padding: 3px 7px;
+                margin-left: 15px;
+                border-radius: 4px;
+                background-color: #4ed7a8;
+                color: #fff;
+                &:hover {
+                    color: #fff !important;
+                }
+            }
+        }
+    }
+    &-section {
+        h3 {
+            margin: 45px 0 21px;
+        }
+    }
+}
+
+.stm-lms-course__curriculum .stream .stm-curriculum-item__icon {
+    i {
+        font-family: "Font Awesome 5 Brands" !important;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+
+        &:before {
+            content: "\f167";
+        }
+    }
+}
+
+@include breakpoint(mobile) {
+    .stm-curriculum {
+        &-item {
+            &__num,
+            &__icon,
+            &__toggle {
+                display: none;
+            }
+            &__title {
+                margin: 0 0 15px 0;
+                width: 100%;
+            }
+            &__preview {
+                margin-right: 0;
+                a {
+                    margin-left: 0;
+                    margin-right: 10px;
+                }
+            }
+            &__meta {
+                margin-left: 0;
+            }
+            &__excerpt {
+                padding-left: 0;
+            }
+        }
+    }
+}

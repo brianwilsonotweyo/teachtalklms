@@ -1,0 +1,67 @@
+@import "../components/colors";
+
+.stm_lms_bi_wrapper {
+    padding: 40px 50px;
+    background-color: $main_color;
+    .form-group {
+        margin: 0 0 30px;
+        label {
+            margin: 0 0 7px;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: 600;
+            color: #fff;
+        }
+        &.error {
+            input {
+                border-color: #E53935;
+            }
+        }
+    }
+}
+
+.stm_lms_log_in {
+    &.loading {
+        min-height: auto;
+        &:before {
+            top: -3px;
+        }
+        i, span {
+            opacity: 0;
+        }
+    }
+}
+.stm-lms-modal-become-instructor {
+    .modal-body {
+        padding: 0;
+    }
+    .btn {
+        margin-left: auto !important;
+        background-color: $green !important;;
+    }
+    .stm-lms-message {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .stm-lms-login__top {
+        position: absolute;
+        bottom: 19px;
+        left: 20px;
+        right: 20px;
+        h3 {
+            display: none;
+        }
+        .wp-social-login-widget {
+            float: none;
+            text-align: center;
+        }
+    }
+    .stm-lms-message {
+        padding: 0;
+        background-color: transparent;
+        color: #E53935;
+        &.success {
+            color: #66BB6A;
+        }
+    }
+}

@@ -1,0 +1,454 @@
+body {
+    @media (min-width: 992px) {
+        .stm-lms-wrapper {
+            .col-md-3 {
+                width: 28.3%;
+                padding-right: 7.5px;
+            }
+            .col-md-9 {
+                width: 71.7%;
+                padding-left: 7.5px;
+            }
+        }
+        .widget {
+            padding-left: 20px !important;
+            padding-right: 20px !important;
+        }
+    }
+    .stm_lms_classic_title {
+        .inner {
+            display: flex;
+            flex-wrap: wrap;
+            .title {
+                padding-right: 30px;
+                width: 66.666%;
+                h1 {
+                    margin-bottom: 50px;
+                }
+            }
+            .price {
+                margin-top: 4px;
+                margin-left: auto;
+                width: 33.3333%;
+                text-align: right;
+            }
+        }
+    }
+    .stm-lms-course__sidebar {
+        margin-top: 0;
+    }
+    .stm-lms-course-info {
+        padding: 10px;
+        margin-top: 0;
+        background-color: #f0f2f5;
+        &__single {
+            padding: 26px 10px 26px 12px;
+            border-bottom-color: rgba(163, 163, 163, 0.3);
+            &:last-child {
+                border-bottom: 0;
+            }
+            &_icon {
+                order: -1;
+                margin-left: 0;
+                margin-right: 20px;
+            }
+            &_label {
+                > * {
+                    font-weight: 500;
+                    font-size: 16px;
+                }
+            }
+            .fa-icon-stm_icon_clock,
+            .fa-icon-stm_icon_bullhorn,
+            .fa-icon-stm_icon_film-play,
+            .lnr-sort-amount-asc,
+            .fa-icon-stm_icon_users {
+                font-family: 'stmlms' !important;
+                speak: none;
+                font-style: normal;
+                font-weight: normal;
+                font-variant: normal;
+                text-transform: none;
+                line-height: 1;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+
+            }
+            .fa-icon-stm_icon_users:before {
+                content: "\e90e";
+                color: #2fbe40;
+            }
+            .fa-icon-stm_icon_clock:before {
+                content: '\e90f';
+                color: #2c75e4;
+            }
+            .fa-icon-stm_icon_bullhorn:before {
+                content: '\e910';
+                color: #21c0b7;
+            }
+            .fa-icon-stm_icon_film-play:before {
+                content: '\e911';
+                color: #f35151;
+            }
+            .lnr-sort-amount-asc:before {
+                content: '\e912';
+                color: #eab830;
+            }
+        }
+    }
+    .stm-lms-dynamic_sidebar {
+        padding: 0;
+        border: 0;
+        > .multiseparator {
+            &:first-child {
+                margin-top: 19px;
+            }
+            + .widget {
+                padding-top: 0;
+            }
+        }
+        .widgettitle,
+        .widget_title > * {
+            margin-bottom: 30px;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 34px;
+        }
+
+        div.multiseparator {
+            &:after {
+                width: 100%;
+            }
+            &:before {
+                display: none;
+            }
+        }
+    }
+    .stm_lms_course__image {
+        margin-bottom: 19px;
+    }
+    .nav.nav-tabs {
+        margin-bottom: 0;
+        > li a {
+            padding-top: 20px;
+            background-color: #273044;
+            color: #fff !important;
+            border-top: 0 !important;
+        }
+    }
+    .tab-content {
+        > .tab-pane {
+            padding: 40px 50px;
+            background-color: #f5f5f9;
+        }
+        .stm_lms_course__content {
+            > .vc_row {
+                margin-bottom: 0;
+            }
+        }
+    }
+    .stm-lms-wrapper {
+        padding-bottom: 100px;
+    }
+    #faq {
+        padding: 0;
+    }
+    #stm_lms_faq {
+        margin-top: 12px;
+        &.panel-group {
+
+        }
+        .panel.panel-default {
+            margin-bottom: -1px;
+            box-shadow: none !important;
+            .panel-collapse:before,
+            &:before {
+                display: none !important;
+            }
+            .panel-title {
+                a {
+                    padding: 32px 60px !important;
+                    //background-color: #f4f6f8;
+                }
+            }
+            .fa-angle-down {
+                position: relative;
+                top: 32px !important;
+                width: 17px !important;
+                height: 17px !important;
+                background-color: #2fbe5b;
+                border: 0 !important;
+                transform: none !important;
+                border-radius: 50%;
+                &:before {
+                    display: none;
+                }
+                &:after {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    content: '';
+                    width: 5px;
+                    height: 5px;
+                    border-right: 1px solid #fff;
+                    border-bottom: 1px solid #fff;
+                    transform-origin: center center;
+                    margin: -3px 0 0 -3px !important;
+                    transform: rotate(45deg);
+                }
+            }
+            .collapsed {
+                background-color: #f4f6f8;
+                .fa-angle-down {
+                    &:after {
+                        margin: -2px 0 0 -4px !important;
+                        transform: rotate(-45deg);
+
+                    }
+                }
+            }
+        }
+    }
+    .stm_lms_announcement h3 {
+        font-size: 22px;
+        font-weight: 600;
+    }
+    #reviews {
+        .stm_lms_average__rating {
+            padding-top: 30px;
+        }
+        .average_rating_unit {
+            background-color: #fff;
+            border-radius: 0;
+            border: 0;
+        }
+        .detailed_rating {
+            .detail_rating_unit {
+                tr td {
+                    &.key {
+                        font-weight: 600;
+                        font-size: 14px;
+                    }
+                    &.value {
+                        color: #a3a3a3;
+                    }
+                    &.bar {
+                        .full_bar {
+                            border-radius: 3px;
+                            background-color: #fff;
+                            border-color: #fff;
+                            .bar_filler {
+                                border-radius: 3px;
+                            }
+                        }
+                    }
+                }
+            }
+            .rating_sub_title {
+                font-weight: 600;
+                font-size: 18px;
+            }
+        }
+    }
+    .single_product_after_title {
+        margin-bottom: 20px;
+        .meta-unit {
+            &.categories {
+                margin-right: 30px;
+            }
+            .value {
+                font-weight: 600;
+                font-size: 15px;
+            }
+        }
+    }
+    .far.fa-heart {
+        font-weight: 600;
+        background-color: #d6d6d6;
+        border-color: #d6d6d6;
+        color: #fff;
+    }
+    .fa.fa-heart {
+        font-weight: 600;
+        color: #ff1f59;
+    }
+    .average-rating-stars {
+        > * {
+            display: inline-block;
+            vertical-align: top;
+        }
+        &__av {
+            margin-right: 5px;
+            font-size: 15px;
+            font-weight: 600;
+        }
+        &__reviews {
+            color: #273044;
+        }
+    }
+    .stm-lms-buy-buttons .btn.btn_big {
+        margin-bottom: 18px;
+    }
+    .stm_lms_course__content {
+        font-size: 15px;
+        p {
+            margin-bottom: 40px;
+            line-height: 28px;
+        }
+    }
+    #curriculum {
+        padding-top: 42px;
+        padding-left: 0;
+        padding-right: 0;
+        .stm-curriculum {
+            .stm-curriculum-section {
+                margin-right: 31px;
+                margin-left: 31px;
+                h3 {
+                    margin-top: 23px;
+                    margin-bottom: 18px;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+                &:first-child {
+                    h3 {
+                        margin-top: 0;
+                    }
+                }
+            }
+            &-item {
+                position: relative;
+                padding-left: 0;
+                padding-right: 0;
+                margin-right: 31px;
+                margin-left: 31px;
+                border-top: 1px solid #e1e2e4;
+                background-color: transparent;
+                box-shadow: none !important;
+                &:before {
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    top: -1px;
+                    bottom: -3px;
+                    right: -31px;
+                    left: -31px;
+                    background-color: #fff;
+                    opacity: 0;
+                    border-right: 3px solid #f5f5f9;
+                    border-left: 3px solid #f5f5f9;
+                    visibility: hidden;
+                    transition: .3s ease;
+                    z-index: 100;
+                }
+                > *:not(.tooltip) {
+                    position: relative;
+                    z-index: 200;
+                }
+                &.opened {
+                    z-index: 9999;
+                    &:before {
+                        opacity: 1;
+                        visibility: visible;
+                    }
+                }
+                &__icon {
+                    text-align: center;
+                }
+                .stmlms-slides {
+                    color: #e42cd9;
+                    &:before {
+                        font-family: "Font Awesome 5 Free";
+                        content: "\f144";
+                    }
+                }
+                .stmlms-quiz {
+                    color: #f35151;
+                    &:before {
+                        font-weight: 900;
+                        font-family: "Font Awesome 5 Free";
+                        content: "\f059";
+                    }
+                }
+                .stmlms-slides-css {
+                    left: 0 !important;
+                    top: 2px !important;
+                    color: #f19837;
+                    border: 0 !important;
+                    &:before {
+                        left: 0 !important;
+                        top: 0 !important;
+                        background-color: transparent !important;
+                        font-weight: 900;
+                        font-family: "Font Awesome 5 Free";
+                        content: "\f108";
+                    }
+                    &:after {
+                        display: none;
+                    }
+                }
+                .stmlms-text {
+                    color: #21c0b7;
+                    &:before {
+                        font-family: "Font Awesome 5 Free";
+                        content: "\f15b";
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    body {
+        .stm_lms_classic_title {
+            margin-bottom: 30px;
+            .inner {
+                .price,
+                .title {
+                    width: 100%;
+                    margin-left: 0;
+                    text-align: left;
+                    .stm-lms-buy-buttons,
+                    .stm_lms_mixed_button {
+                        margin-left: 0;
+                    }
+                    .stm_lms_course__title {
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        .stm-lms-buy-buttons {
+            display: block;
+        }
+        .tab-content > .tab-pane {
+            padding: 15px 20px;
+        }
+        .detailed_rating .detail_rating_unit tr td {
+            &.key {
+                white-space: nowrap;
+            }
+            &.bar {
+                .full_bar {
+                    max-width: 130px;
+                }
+            }
+        }
+        .stm_lms_average__rating {
+            padding-bottom: 0;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+body.online-light {
+    .nav.nav-tabs>li.active a {
+        color: #273044 !important;
+    }
+}

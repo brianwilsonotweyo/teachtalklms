@@ -1,0 +1,212 @@
+@import "../components/colors";
+@import "../components/animation";
+@import "../components/mixins";
+
+.stm_lms_chat_page {
+    background-color: #eef1f7;
+    #wrapper {
+        background-color: #eef1f7;
+    }
+}
+
+#stm_lms_chat {
+    h1 {
+        margin: 0 0 40px;
+    }
+}
+
+.stm_lms_chat__conversations {
+    h3 {
+        margin: 0 0 30px;
+    }
+    .stm_lms_chat__conversation {
+        position: relative;
+        display: flex;
+        margin: 0 0 2px;
+        padding: 20px 25px;
+        padding-right: 50px;
+        align-items: center;
+        background-color: #fff;
+        border-top: 3px solid transparent;
+        cursor: pointer;
+        transition: .3s ease;
+        &__image {
+            max-width: 40px;
+            margin: 0 15px 0 0;
+        }
+        &__title {
+            h5 {
+                margin: 0;
+                font-weight: 300;
+                font-size: 15px;
+            }
+        }
+        &__date {
+            color: #aaaaaa;
+        }
+        &__messages_num {
+            position: absolute;
+            right: 13px;
+            top: 50%;
+            margin: -10px 0 0;
+            min-width: 20px;
+            padding: 0 4px;
+            height: 20px;
+            background-color: #868585;
+            color: #fff;
+            text-align: center;
+            line-height: 20px;
+            border-radius: 10px;
+            font-size: 11px;
+            &.has_new {
+                background-color: $main_color;
+            }
+        }
+        &.active,
+        &:hover {
+            box-shadow: 0 5px 10px rgba(0,0,0,0.18);
+            border-top: 3px solid $main_color;
+            z-index: 10;
+        }
+    }
+}
+
+.stm_lms_chat_companion {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0 50px 0 0;
+    margin: 0 0 35px;
+    &__image {
+        max-width: 80px;
+        margin: 0 15px 0 0;
+        img {
+            border-radius: 50%;
+        }
+    }
+    .lnr-sync {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        margin-top: -25px;
+        font-size: 30px;
+        cursor: pointer;
+        background-color: #fff;
+        color: $main_color;
+        border-radius: 50%;
+        &.active {
+            animation: 2s rotating infinite;
+        }
+    }
+}
+
+.stm_lms_chat_messages {
+    height: 600px;
+    margin: 0 0 30px;
+    padding: 40px 30px;
+    overflow-y: auto;
+    background-color: #e0e3e8;
+    &__single {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 0 30px;
+        &_message {
+            position: relative;
+            padding: 15px 20px;
+            margin: 0 0 30px;
+            max-width: 80%;
+            border-radius: 4px;
+            background-color: #fff;
+            &:after {
+                content: '';
+                position: absolute;
+                bottom: -7px;
+                left: 20px;
+                width: 15px;
+                height: 15px;
+                transform: rotate(45deg);
+                background-color: #fff;
+            }
+        }
+        &_user {
+            width: 100%;
+            .stm_lms_chat_companion {
+                border: 0;
+                margin: 0;
+                padding: 0;
+                &__title {
+                    h5 {
+                        margin: 0;
+                        font-size: 15px;
+                    }
+                    label {
+                        display: block;
+                        font-weight: 400;
+                    }
+                }
+                &__image {
+                    width: 80px;
+                    img {
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+        &.companion_message {
+            .stm_lms_chat_messages__single {
+                &_message {
+                    background-color: $main_color;
+                    color: #fff;
+                    &:after {
+                        background-color: $main_color;
+                    }
+                }
+            }
+        }
+        &.owner_message {
+            justify-content: flex-end;
+            .stm_lms_chat_messages__single {
+                &_user {
+                    text-align: right;
+                    .stm_lms_chat_companion {
+                        justify-content: flex-end;
+                    }
+                }
+                &_message {
+                    border: 1px solid #dddddd;
+                    &:after {
+                        left: auto;
+                        right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.stm_lms_chat_messages__send {
+    margin: 0 0 30px;
+    h4 {
+        margin: 20px 0 15px;
+        span {
+            color: $main_color;
+            font-weight: 300;
+        }
+    }
+    textarea {
+        padding: 20px !important;
+        margin: 0 0 15px;
+        border: 1px solid #dddddd;
+        background-color: #fff;
+    }
+}
+
+@include breakpoint(tabletonly) {
+    .stm_lms_chat__conversations {
+        margin-bottom: 30px;
+    }
+}

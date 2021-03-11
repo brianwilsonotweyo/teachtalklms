@@ -1,0 +1,87 @@
+.stm-lms-addons {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 35px -15px;
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(255,255,255,0.5);
+        transition: .3s ease;
+        opacity: 0;
+        visibility: hidden;
+    }
+    &.loading {
+        &:before {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+    .stm-lms-addon {
+        width: calc(25% - 30px);
+        margin: 0 15px 30px;
+        border: 1px solid rgba(0,0,0,0.05);
+        transition: .3s ease;
+        &.active {
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            .stm-lms-addon-enable {
+                span {
+                    color: red;
+                }
+            }
+        }
+        &__image {
+            position: relative;
+            margin: -1px;
+            img {
+                width: 100%;
+                height: auto;
+            }
+            a {
+                display: block;
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                color: #fff !important;
+                background: rgba(0,0,0,0.5);
+                padding: 10px;
+                font-size: 24px;
+                line-height: 35px;
+                border-radius: 5px;
+                transition: .3s ease;
+                i {
+                    display: block;
+                }
+                &:hover {
+                    background: rgba(0,0,0,0.8);
+                    i {
+                        animation: spin 2s infinite;
+                    }
+                }
+            }
+        }
+        &__install {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 10px 10px 15px;
+            align-items: center;
+            h4 {
+                max-width: 75%;
+                order: -1;
+                font-size: 16px;
+                margin-bottom: 0;
+                letter-spacing: 0;
+            }
+            a {
+                margin-left: auto;
+                box-shadow: none !important;
+                span {
+                    color: #69af39;
+                }
+            }
+        }
+    }
+}

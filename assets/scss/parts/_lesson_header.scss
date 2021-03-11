@@ -1,0 +1,110 @@
+.stm_lms_lesson_header {
+    padding: 40px 0 35px;
+    border-bottom: 1px solid #ddd;
+    &__left {
+        padding-left: 15px;
+    }
+    &__center {
+        h5 {
+            font-size: 15px;
+            margin: 5px 0 5px;
+        }
+        a {
+            font-weight: 300;
+            color: #273044;
+            opacity: .5;
+            i {
+                position: relative;
+                top: 1px;
+                margin: 0 5px 0 0;
+            }
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+    &__right {
+        padding-right: 15px;
+        display: flex;
+        justify-content: space-between;
+        text-align: right;
+        align-items: center;
+        > * {
+            display: inline-block;
+            margin: 0 15px 0 0;
+            vertical-align: top;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+.stm_lms_wishlist_button,
+.stm_lms_settings_button {
+    i {
+        font-size: 25px;
+    }
+}
+.stm_lms_account_dropdown {
+    .dropdown {
+        button {
+            padding: 15px 13px;
+            background-color: $secondary_color;
+            border: 1px solid $secondary_color;
+            font-size: 14px;
+            border-radius: 23px;
+            outline: none !important;
+            transition: .3s ease;
+            i {
+                position: relative;
+                top: 1px;
+                color: $main_color;
+            }
+        }
+        &-menu {
+            display: block;
+            padding: 0;
+            width: 100%;
+            min-width: 100px;
+            transform: translateY(-10px);
+            margin: 0;
+            border: 0;
+            background-color: $secondary_color;
+            border-radius: 0;
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0,0,0,.175);
+            opacity: 0;
+            visibility: hidden;
+            overflow: hidden;
+            transition: .3s ease;
+            li {
+                margin: 0;
+                a {
+                    padding: 7px 15px;
+                    font-size: 14px;
+                    &:hover {
+                        background-color: $main_color;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        &.open {
+            button {
+                border-bottom-right-radius: 0;
+                border-bottom-left-radius: 0;
+                border-top-right-radius: 10px;
+                border-top-left-radius: 10px;
+                box-shadow: 0 6px 12px rgba(0,0,0,.175);
+            }
+            .dropdown-menu {
+                transform: translateY(0);
+                top: 100%;
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+}

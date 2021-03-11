@@ -1,0 +1,24 @@
+@import "../components/colors";
+
+.stm-lms-course-info {
+    margin: 15px 0 0;
+    &__single {
+        display: flex;
+        padding: 25px 10px 24px 12px;
+        flex-wrap: nowrap;
+        align-items: center;
+        border-bottom: 1px solid #e1e2e4;
+        &_label {
+            > * {
+                display: inline-block;
+                vertical-align: top;
+                font-size: 15px;
+            }
+        }
+        &_icon {
+            margin-left: auto;
+            color: $main_color;
+            font-size: 28px;
+        }
+    }
+}

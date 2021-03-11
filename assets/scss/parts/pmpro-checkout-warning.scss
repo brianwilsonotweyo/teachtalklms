@@ -1,0 +1,47 @@
+.stm_lms_subscription_warning {
+    margin-bottom: 70px;
+    h3 {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+    td {
+        padding: 5px 15px;
+    }
+    &__course {
+        .title {
+
+        }
+        .date {
+            font-size: 13px;
+            color: #aaa;
+        }
+        .delete {
+            float: right;
+            padding: 5px 15px;
+            background-color: #ccc;
+            color: #fff;
+            border-radius: 5px;
+            font-size: 11px;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: .3s ease;
+            &.loading {
+                min-height: auto;
+                background-color: transparent;
+                &:before {
+                    top: 1px;
+                }
+            }
+            &:hover {
+                background-color: #e64f4f;
+            }
+        }
+    }
+}
+
+.pmpro_form {
+    display: none;
+    &.active {
+        display: block;
+    }
+}

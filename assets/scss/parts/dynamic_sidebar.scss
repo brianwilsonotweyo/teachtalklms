@@ -1,0 +1,44 @@
+@import "../components/mixins";
+
+.stm-lms-dynamic_sidebar {
+    padding: 0 0 0 30px;
+    margin-bottom: 30px;
+    border-left: 1px solid #e1e2e4;
+    .widget {
+        padding: 40px 0 0 0;
+        .widgettitle {
+            text-transform: none;
+        }
+    }
+
+    .widget_stm_lms_popular_courses {
+        .stm_product_list_widget.widget_woo_stm_style_2 li a .meta {
+            .stm_featured_product_price .price {
+                margin-bottom: 0;
+            }
+            .expert {
+                text-transform: none;
+            }
+        }
+    }
+
+    .multiseparator {
+        margin: 50px 0 20px;
+        &:last-child {
+            display: none;
+        }
+    }
+}
+
+@include breakpoint(tablet) {
+    .stm-lms-dynamic_sidebar {
+        padding-left: 0;
+        border-left: 0;
+    }
+}
+
+@include breakpoint(tabletonly) {
+    .stm-lms-dynamic_sidebar {
+        display: none;
+    }
+}

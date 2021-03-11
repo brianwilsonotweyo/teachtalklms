@@ -1,0 +1,22 @@
+.stm_lms_announcement {
+    h3 {
+        font-weight: 300;
+        margin-bottom: 1px;
+    }
+    p {
+        span {
+            font-size: 13px;
+            opacity: 0.6;
+        }
+    }
+    ol {
+        li {
+            padding-left: 12px;
+            margin: 0 0 17px;
+            strong {
+                display: block;
+                margin: 0 0 5px;
+            }
+        }
+    }
+}

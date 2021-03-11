@@ -1,0 +1,128 @@
+.stm_lms_question_item_keywords {
+
+    position: relative;
+
+    .flying_word {
+        display: block;
+        position: absolute;
+        top: 5px;
+        left: 14px;
+        transition: .5s ease;
+        opacity: 0;
+        visibility: hidden;
+        &.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
+    input.stm_lms_question_item_keywords__input {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 1px;
+        border: 0;
+        padding: 0!important;
+        background: 0 0;
+        box-shadow: none;
+        opacity: 0;
+        margin: -11px 0 0 !important;
+        z-index: -1;
+    }
+
+    .enter_keyword_to_fill {
+        width: 100%;
+        background-color: #fff;
+    }
+
+    &__answers {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 30px 0 0;
+    }
+
+    .stm-lms-single-answer__hint {
+        top: 15px;
+        right: 40px;
+        &_text {
+            left: auto;
+            right: 100%;
+            white-space: normal;
+            margin-left: 0;
+            margin-right: 40px;
+            &:before {
+                left: auto;
+                right: -50px;
+            }
+            &:after {
+                left: auto;
+                right: -12.5px;
+            }
+        }
+    }
+
+    &__answer {
+        width: calc(50% - 15px);
+        margin: 0 0 20px;
+        &:nth-child(even) {
+            margin-left: auto;
+        }
+        .label_keyword {
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+        .value {
+            display: block;
+            padding: 5px 15px;
+            border: 1px dashed #d4d1d1;
+            min-height: 52px;
+            line-height: 40px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        &.correct,
+        &.incorrect {
+            .value {
+                position: relative;
+                padding-right: 60px;
+                overflow: visible;
+                span {
+                    display: block;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
+                }
+
+                &:before {
+                    font-family: "Font Awesome 5 Free";
+                    position: absolute;
+                    top: 13px;
+                    right: 10px;
+                    font-weight: 900;
+                    font-size: 10px;
+                    width: 21px;
+                    height: 21px;
+                    line-height: 21px;
+                    color: #fff;
+                    border-radius: 50%;
+                    text-align: center;
+                }
+            }
+        }
+        &.correct .value {
+            &:before {
+                content: "\f00c";
+                background-color: #17d292;
+            }
+        }
+
+        &.incorrect .value {
+            &:before {
+                content: "\f00d";
+                background-color: #ff1f3e;
+            }
+        }
+    }
+
+}

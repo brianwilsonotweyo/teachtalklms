@@ -1,0 +1,227 @@
+@import "../components/colors";
+@import "../components/mixins";
+
+.stm_lms_cart {
+    margin: 60px 0 0;
+    border-top: 5px solid #f0f4fa;
+    &__item {
+        display: flex;
+        padding: 20px 15px 21px;
+        margin: 0 0 8px;
+        flex-wrap: nowrap;
+        align-items: center;
+        border: 1px solid #d1d1d1;
+        & > * {
+            margin-right: 30px;
+        }
+        &_delete {
+            position: relative;
+            left: 8px;
+            width: 43px;
+            text-align: center;
+            i {
+                display: inline-block;
+                width: 28px;
+                height: 28px;
+                line-height: 26px;
+                vertical-align: top;
+                border-radius: 50%;
+                font-size: 14px;
+                cursor: pointer;
+                transition: .3s ease;
+                &.loading {
+                    border: 0;
+                    &:before {
+                        margin: -2px 0 0 -2px;
+                    }
+                }
+            }
+            &:hover {
+                i {
+                    border-color: #EF5350;
+                    color: #EF5350;
+                }
+            }
+        }
+        &_image {
+            width: 12%;
+        }
+        &_title {
+            width: 50%;
+            h4 {
+                margin-bottom: 0;
+                a {
+                    color: $dark;
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+            }
+            .terms {
+                .h6 {
+                    margin: 6px 0 3px;
+                    a {
+                        color: #aaa;
+                    }
+                }
+            }
+            .enterprise-course-added {
+                label {
+                    border-radius: 5px;
+                    background-color: #aaa;
+                    color: #fff;
+                    padding: 0px 10px;
+                    font-size: 12px;
+                }
+            }
+        }
+        &_price {
+            margin-left: auto;
+            width: 10%;
+            font-weight: 600;
+            font-size: 15px;
+        }
+        &_head {
+            padding: 20px 15px 15px 90px;
+            border: 0;
+            font-weight: 400;
+            .stm_lms_cart__item_price {
+                width: 11%;
+            }
+            .stm_lms_cart__item_price,
+            .stm_lms_cart__item_title {
+                font-weight: 700;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.stm_lms_checkout__payment {
+    margin: 30px 0;
+    h3 {
+        margin: 15px 45px 45px 0;
+        font-weight: 300;
+        font-size: 24px;
+    }
+}
+
+.stm-lms-payment-methods {
+    margin: 30px 0;
+    border: 1px solid #e1e2e4;
+    border-bottom: 0;
+    text-align: left;
+    .stm-lms-payment-method {
+        padding: 15px 30px 5px 30px;
+        border-bottom: 1px solid #e1e2e4;
+        transition: .3s ease;
+        &.active {
+            background-color: #f6f8fb;
+            h4 {
+                color: $main_color;
+            }
+        }
+        &__name {
+            margin: 0 0 10px;
+            label {
+                width: 100%;
+                font-weight: 400;
+                color: #000;
+                input {
+                    margin: 16px 10px 0 0;
+                }
+                h4 {
+                    display: inline-block;
+                    margin: 0;
+                    vertical-align: middle;
+                    font-size: 16px;
+                }
+            }
+        }
+        &__fields {
+            max-width: 80%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding-left: 35px;
+            color: $dark;
+            .stm-lms-payment-method__field {
+                margin-right: 15px;
+                &_label {
+                    margin: 0 0 3px;
+                }
+                &_value {
+                    margin: 0 0 5px;
+                    font-weight: 700;
+                    &:last-child {
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+            #stm-lms-stripe {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.stm_lms_pay_button {
+    margin: 13px 0 30px;
+}
+
+.StripeElement {
+    background-color: white;
+    height: 40px;
+    margin: 15px 0 30px;
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: 1px solid #e1e2e4;
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+    border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+}
+
+@include breakpoint(mobile) {
+    .stm_lms_cart {
+        border: 0;
+        &__item {
+            flex-wrap: wrap;
+            &_head {
+                display: none;
+            }
+            &_title {
+                h4 {
+                    margin-bottom: 0;
+                }
+            }
+            &_image {
+                display: none;
+            }
+            &_delete {
+                margin: 0 0 15px;
+                text-align: left;
+                i {
+                    text-align: center;
+                }
+            }
+            & > * {
+                width: 100%;
+            }
+        }
+    }
+    .stm-lms-payment-methods .stm-lms-payment-method__fields {
+        padding-left: 0;
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,26 @@
+.stm_lms_instructors_grid_wrapper {
+    margin-top: 50px;
+}
+
+.stm_lms_instructors__grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 50px;
+    .stm_lms_instructors__single {
+        display: block;
+        padding: 32px 15px 15px;
+        border-radius: 9px;
+        width: 25%;
+        .stm_lms_user_side {
+            max-width: 215px;
+            padding: 0;
+            margin: 0 auto;
+            .stm-lms-user_avatar {
+                margin-bottom: 20px;
+            }
+        }
+        &:hover {
+            box-shadow: 0 10px 17.8px 2.2px rgba(0, 0, 0, 0.18);
+        }
+    }
+}

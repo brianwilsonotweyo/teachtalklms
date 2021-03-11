@@ -1,0 +1,99 @@
+.stm-lms-settings_page_stm-lms-udemy-settings {
+    .stm-lms-settings {
+        max-width: 900px;
+    }
+}
+
+.stm_metaboxes_grid .stm_metaboxes_grid__inner {
+    .stm_lms_udemy_search {
+        &.loading {
+            opacity: 0.5;
+        }
+        table {
+            list-style: none !important;
+            tr {
+                padding-bottom: 15px;
+                margin-bottom: 15px;
+                align-items: center;
+                border-bottom: 1px solid #bfbfbf;
+                &.loading {
+                    opacity: 0.5;
+                }
+                a {
+                    display: inline-block;
+                    vertical-align: top;
+                    max-width: 300px;
+                }
+                span {
+                    label {
+                        position: relative;
+                        top: 2px;
+                        display: inline-block !important;
+                        font-size: 13px;
+                        line-height: 12px;
+                    }
+                }
+            }
+            .stm_lms_actions {
+                text-align: right;
+                width: 350px;
+                .stm_lms_udemy_import_course {
+                    display: inline-block;
+                    text-align: center;
+                    padding: 4px 15px 5px;
+                    background-color: #195ec8;
+                    color: #fff;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    transition: .3s ease;
+                    span {
+                        padding-left: 2px;
+                    }
+                    &.loading {
+                        background-color: #FFA726;
+                        .lnr-sync {
+                            position: relative;
+                            top: 1px;
+                            display: inline-block;
+                            animation: spin 2s infinite;
+                        }
+                    }
+                    &.publish {
+                        background: #7CB342;
+                    }
+                    &.edit {
+                        background: #00BCD4;
+                    }
+                    &:hover {
+                        box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+                        transform: translateY(-1px);
+                    }
+                }
+
+            }
+            .stm_lms_action__edit {
+                .stm_lms_udemy_import_course {
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}
+
+.stm_lms_guide {
+    max-width: 500px;
+    margin: 50px 0 50px;
+    padding: 15px 30px;
+    border-left: 5px solid #195ec8;
+    background: #fff;
+    h4 {
+        margin: 0 0 15px;
+        font-size: 20px;
+        color: #195ec8;
+        i {
+            margin-right: 10px;
+            color: #195ec8;
+        }
+    }
+}
+

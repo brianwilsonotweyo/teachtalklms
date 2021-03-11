@@ -1,0 +1,137 @@
+@import "../components/colors";
+@import "../components/mixins";
+
+.stm-lms-user-orders {
+    margin: 0 0 45px;
+    h3 {
+        margin: 0 0 30px;
+    }
+    .stm-lms-user-order {
+        display: flex;
+        position: relative;
+        padding: 30px 20px 30px 50px;
+        margin: 0 0 10px;
+        border: 1px solid #e1e2e4;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        & > * {
+            padding: 0 15px;
+        }
+        &__status {
+            padding-right: 0;
+            &.completed {
+                color: $green;
+            }
+            &.on-hold,
+            &.processing {
+                color: #eab830;
+            }
+            &.pending {
+                color: $grey-text;
+            }
+            &.refunded,
+            &.failed,
+            &.cancelled {
+                color: $red;
+            }
+        }
+        &__title {
+            padding-left: 0;
+            margin: 0;
+            color: $main_color;
+        }
+        &__more {
+            position: absolute;
+            top: 33px;
+            left: 20px;
+            padding: 0;
+            cursor: pointer;
+            color: $main_color;
+            font-size: 12px;
+        }
+        &__advanced {
+            width: 100%;
+            padding: 20px 0 0 0;
+            table {
+                margin: 0;
+                tr {
+                    border: 0;
+                    td {
+                        padding-bottom: 20px;
+                        padding-top: 20px;
+                        border-bottom: 1px solid #e1e2e4;
+                        &.image {
+                            padding-left: 0;
+                            width: 155px;
+                        }
+                        &.name {
+                            span {
+                                display: block;
+                                font-size: 13px;
+                                color: #aaa;
+                            }
+                            a {
+                                color: $dark;
+                                font-weight: 700;
+
+                            }
+                        }
+                        &.price {
+                            color: #aaa;
+                            padding-right: 0;
+                            text-align: right;
+                            strong {
+                                display: block;
+                                color: $dark;
+                            }
+                        }
+                    }
+                    &:last-child {
+                        td {
+                            border-bottom: 0;
+                            padding-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include breakpoint(mobile) {
+    .stm-lms-user-orders {
+        .stm-lms-user-order {
+            > * {
+                padding: 0;
+            }
+            &__title {
+                margin-bottom: 15px;
+            }
+            &__advanced {
+                padding-top: 0;
+                table {
+                    tr {
+                        td {
+                            display: block;
+                            padding: 10px 0;
+                            text-align: left !important;
+                            border-bottom: 0;
+                            &.image {
+                                display: none;
+                            }
+                            &.price {
+                                padding-bottom: 20px;
+                                border-bottom: 1px solid #e1e2e4;
+                            }
+                        }
+                        &:last-child {
+                            td.price {
+                                border-bottom: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

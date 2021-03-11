@@ -1,0 +1,113 @@
+@import "../components/colors";
+
+html.stm_lms_type_video {
+    body {
+        background: url('../../img/video_bg.jpg') no-repeat 50% 0;
+        background-color: #15181c;
+        color: #fff;
+        #stm-lms-lessons,
+        .stm_lms_lesson_header {
+            h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,
+            .nav-tabs > li > a, .heading_font,
+            table, .widget_categories ul li a,
+            .sidebar-area .widget ul li a,
+            .select2-selection__rendered,
+            a,
+            blockquote,
+            .stm_lms_lesson_header__center a,
+            .select2-chosen,
+            .vc_tta-tabs.vc_tta-tabs-position-top .vc_tta-tabs-container,
+            .vc_tta-tabs-list li.vc_tta-tab a,
+            .vc_tta-tabs.vc_tta-tabs-position-left .vc_tta-tabs-container .vc_tta-tabs-list li.vc_tta-tab a {
+                color: #fff;
+            }
+        }
+        .stm_lms_lesson_header {
+            border-bottom: 1px solid rgba(255, 255, 255, .2);
+            .stm_lms_account_dropdown {
+                .dropdown button {
+                    background-color: transparent;
+                    border: 1px solid rgba(255, 255, 255, .2);
+                    i {
+                        color: #fff;
+                    }
+                }
+                ul {
+                    li {
+                        a {
+                            color: #000;
+                            opacity: 0.9;
+                            &:hover {
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+            h5 > a {
+                opacity: 1;
+            }
+        }
+        .stm_lms_lesson_header__right {
+            a {
+                color: #fff;
+                opacity: 0.5;
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+        .stm-lms-curriculum-trigger {
+            background-color: $main_color;
+            i {
+                color: #fff;
+            }
+        }
+        .stm-lms-course__lesson-content__top {
+            margin: 0 0 80px;
+            text-align: center;
+            h3 {
+                font-weight: 200;
+            }
+        }
+        iframe {
+            width: 100%;
+        }
+        .stm-lms-lesson_navigation {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            &.uncompleted {
+                .stm-lms-lesson_navigation_side {
+                    a {
+                        i {
+                            border: 2px solid rgba(255, 255, 255, 0.5);
+                            color: rgba(255, 255, 255, 0.5);
+                        }
+                        span {
+                            color: rgba(255, 255, 255, 0.5);
+                        }
+                    }
+                }
+            }
+        }
+        .stm-curriculum-section__info span {
+            color: #273044;
+        }
+        .stm-lms-lesson_navigation_side {
+            > a {
+                span {
+                    transition: .3s ease;
+                }
+                &:hover {
+                    i {
+                        background-color: #195ec8;
+                        border-color: #195ec8 !important;
+                        color: #fff !important;
+                    }
+                    span {
+                        color: #fff !important;
+                    }
+                }
+            }
+        }
+    }
+}

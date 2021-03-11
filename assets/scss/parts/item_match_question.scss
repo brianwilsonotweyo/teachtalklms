@@ -1,0 +1,119 @@
+.stm_lms_question_item_match {
+
+    .stm_lms_question_item_match_row {
+        display: flex;
+        flex-wrap: wrap;
+        //margin: 0 -60px;
+        .stm_lms_question_item_match_col {
+            position: relative;
+            width: calc(50% - 30px);
+            &:nth-child(2) {
+                margin-left: 60px;
+            }
+        }
+    }
+
+    .stm-lms-single-answer__hint {
+        right: 10px;
+        top: 14px;
+    }
+
+    .stm_lms_question_item_match__input {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 1px;
+        border: 0;
+        padding: 0!important;
+        background: 0 0;
+        box-shadow: none;
+        opacity: 0;
+        margin: -11px 0 0 !important;
+        z-index: -1;
+    }
+
+    &__answer,
+    &__single {
+        padding: 5px 15px;
+        min-height: 48px;
+        margin: 0 0 10px;
+        border: 1px dashed #ccc;
+        text-align: center;
+
+        &.correct,
+        &.incorrect {
+            position: relative;
+            padding-right: 30px;
+            &:before {
+                font-family: "Font Awesome 5 Free";
+                position: absolute;
+                top: 13px;
+                left: -42px;
+                font-weight: 900;
+                font-size: 10px;
+                width: 21px;
+                height: 21px;
+                line-height: 21px;
+                color: #fff;
+                border-radius: 50%;
+            }
+        }
+
+
+        &.correct {
+            &:before {
+                content: "\f00c";
+                background-color: #17d292;
+            }
+        }
+
+        &.incorrect {
+            &:before {
+                content: "\f00d";
+                background-color: #ff1f3e;
+            }
+        }
+    }
+
+    &__matches {
+        margin: 30px 0 0;
+    }
+
+    &__match {
+        display: inline-block;
+        vertical-align: top;
+        padding: 10px 15px;
+        margin-right: 15px;
+        background-color: #385bce;
+        color: #fff;
+        font-size: 16px;
+        line-height: 15px;
+        cursor: move;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &__answers {
+        min-height: 50px;
+
+        .stm_lms_question_item_match__match {
+            display: block;
+            padding: 0;
+            line-height: 36px;
+            background-color: transparent;
+            color: #273044;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+
+}
+
+.stm_lms_question_item_match__match.ui-sortable-helper {
+    background-color: transparent;
+    height: 30px !important;
+    color: #000;
+}
